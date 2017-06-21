@@ -2,7 +2,7 @@
 <html> 
   <head> 
     <title> 
-    robert pless - washington university - computer vision 
+    robert pless - george washington university - computer vision 
     </title> 
     <meta name="keywords" content="robert pless, computer vision, webcams, generalized cameras structure from motion""> 
      <link rel="STYLESHEET" href="./mystyle.css" type="text/css">   
