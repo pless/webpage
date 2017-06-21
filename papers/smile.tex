@@ -1,0 +1,775 @@
+%Multi-sensor Networks: Eyes from Eyes, submitted to the Workshop on
+%Omnidirectional Vision, June 2000, deadline: Feb 22 2000
+%\documentclass[10pt,twocolumn,draft]{article} 
+\documentclass[10pt,twocolumn]{article} 
+\usepackage{latex8}
+\usepackage{times}
+\usepackage{epsf,graphicx,../url}
+\input{../commands}
+\setcounter{topnumber}{2}
+\setcounter{bottomnumber}{1}
+\setcounter{totalnumber}{3}
+\renewcommand{\topfraction}{.90}
+\renewcommand{\bottomfraction}{.90}
+\renewcommand{\textfraction}{.10}
+\renewcommand{\floatpagefraction}{.9}
+%------------------------------------------------------------------------- 
+
+% take the % away on next line to produce the final camera-ready version 
+
+%\pagestyle{empty}
+
+%------------------------------------------------------------------------- 
+
+\begin{document}
+\title{Camera Networks for Building Shape Models from Video}
+\author{???\\
+%Cornelia Ferm\"uller and Yiannis Aloimonos\\
+Computer Vision Laboratory\\
+%Center for Automation Research\\
+%Institute for Advanced Computer Studies\\
+%Computer Science Department\\
+University of Maryland\\
+College Park, MD  20742-3275\\
+\email{\{???\}@cfar.umd.edu}}
+%\{fer,yiannis\}@cfar.umd.edu}
+\maketitle
+
+% take the % away on next line to produce the final camera-ready version 
+
+%\thispagestyle{empty}
+
+
+
+\begin{abstract}
+
+   Fundamental discoveries do not necessarily rely on exploring new
+landscapes but on employing new eyes---thus indicated Marcel Proust,
+and the wisdom of his metaphor regarding the power of new eyes is
+strongly reflected in ancient Greek mythology. Recall Argus, the
+hundred-eyed guardian of Hera, the goddess of Olympus, who alone
+defeated a whole army of Cyclopes, one-eyed giants. Similar ideas
+appear in this paper which shows how to use existing cameras in various ways to create new
+cameras---new ways to see the world.
+Autonomous or semi-autonomous intelligent systems, in order to
+function appropriately, need to create models of their environment,
+i.e., models of space-time. These are descriptions of objects and
+scenes and descriptions of changes of space over time, that is, events
+and actions. 
+Despite the large amount of research on this problem, as a community
+we are still far from developing robust descriptions of a system's
+spatiotemporal environment using video input (image sequences).
+Undoubtedly, some progress has been made regarding the understanding
+of estimating the structure of visual space, but it has not led to
+solutions to specific applications.
+There is, however, an alternative approach which is in line with
+today's ``zeitgeist.'' The vision of artificial systems can be
+enhanced by providing them with new eyes. If conventional video
+cameras are put together in various configurations, new sensors can be
+constructed that have much more power and the way they ``see'' the
+world makes it much easier to solve problems of vision. This research
+is motivated by examining the wide variety of eye design in the
+biological world and obtaining inspiration for an ensemble of
+computational studies that relate how a system sees to what that
+system does (i.e., relating perception to action). This, coupled with
+the geometry of multiple views that has flourished in terms of
+theoretical results in the past few years, points to new ways of
+constructing powerful imaging devices which suit particular tasks in
+robotics, visualization, video processing, virtual reality and various
+computer vision applications, better than conventional cameras. This
+paper presents a new sensor that we built using common
+video cameras and shows its superiority 
+with regard to developing models of space from long video sequences.
+\end{abstract}
+
+
+
+
+
+
+
+%------------------------------------------------------------------------- 
+
+\Section{Introduction: Models of space-time}
+
+Technological advances make it possible to arrange video cameras in
+some space, connect them with a high-speed network and collect
+synchronized video. Such developments open new avenues in many areas,
+making it possible to address, for the first time, a variety of
+applications in surveillance and monitoring, graphics and
+visualization, robotics and augmented reality. But as the need for
+applications grows, there does not yet exist a clear idea on how to
+put together many cameras for solving a variety of problems. That is,
+the mathematics of multiple-view vision is not yet understood in a way
+that relates the configuration of the camera network to the task under
+consideration. Existing approaches treat almost all problems as
+multiple stereo problems, thus missing important information hidden in
+the multiple videos. The goal of this paper is to provide the first
+steps in filling the gap described above. We consider a multi-camera
+network as a new eye and we perform a comparative analysis of these
+new eyes with traditional video cameras. To achieve this we
+concentrate here on developing models of space. The exposition is such that it motivates the new
+eyes, by first describing the problems of developing models of shape
+using a common video camera and pointing out inherent difficulties.
+
+%\Section{Models of space-time}
+Images, for a standard pinhole camera, are formed by central
+projection on a plane (Figure~\ref{fig:imageformation}a). The focal
+length is $f$ and the coordinate system~$OXYZ$ is attached to the
+camera, with~$Z$ being the optical axis, perpendicular to the image
+plane.
+
+%\begin{figure*}[htbp]
+%  \centering
+%  \begin{tabular}{cc}
+%    \includegraphics[width=0.6\textwidth]{../design/imageformation.eps}
+%&
+%    \includegraphics[width=0.32\textwidth]{../design/sphere_with_plane2.eps} 
+%\\[-1ex] (a)
+%    & (b)
+%  \end{tabular}
+%  \caption{Image formation on the plane (a) and on the sphere (b). The
+%  system moves with a rigid motion with translational velocity $\bt$
+%  and rotational velocity $\bo$. Scene points $\bR$ project onto image
+%  points $\br$ and the 3D velocity $\dotR$ of a scene point is observed
+%  in the image as image velocity $\dotr$.}
+%  \label{fig:imageformation}
+%\end{figure*}
+
+Image points are represented as vectors $\br = [x, y, f]\T$, where~$x$
+and~$y$ are the image coordinates of the point in the coordinate
+system $oxy$, with $ox\|OX$, $oy\|OY$ and $O$ the intersection of the
+axis $OZ$ with the image plane, and~$f$ is the focal
+length in pixels. A scene point~$\bR$ is projected onto the image point
+\begin{equation}
+\br = f\,\frac{\bR}{\bR\cdot\bhz}
+\label{eq:calib-proj}
+\end{equation}
+where~$\bhz$ is the unit vector in the direction of the~$Z$
+axis. 
+
+In
+general, when a scene is viewed from two positions, there are two
+concepts of interest:
+%\begin{enumerate}\setlength{\parsep}{0ex plus0ex minus0.5ex}
+%\setlength{\itemsep}{0ex plus0ex minus0.5ex}
+%\setlength{\topsep}{0ex plus0ex minus0.5ex}
+%\renewcommand{\labelenumi}{(\alph{enumi})}
+(a) The 3D transformation relating the two viewpoints. This is a
+  rigid motion transformation, consisting of a translation and a
+  rotation (six degrees of freedom). When the viewpoints are close
+  together, this transformation is modeled by the 3D motion of the eye
+  (or camera).
+(b) The 2D transformation relating the pixels in the two images,
+  i.e., a transformation that given a point in the first image maps it
+  onto its corresponding one in the second image (that is, these two
+  points are the projections of the same scene point). When the
+  viewpoints are close together, this transformation amounts to a
+  vector field denoting the velocity of each pixel, called an image
+  motion field.
+%\end{enumerate}
+Perfect knowledge of both transformations described above leads to
+perfect knowledge of models of space. Since knowing exactly how the two
+viewpoints and the images are related provides the exact position of
+each scene point in space. 
+Thus, a key to the basic problem of building models of space is
+the recovery of the two transformations described before and any
+difficulty in building such models can be traced to the difficulty of
+estimating these two transformations. What are the limitations in
+achieving this task?
+
+\Section{Inherent limitations: Image motion and 3D motion}\label{imagemotionfields}
+If $\br$ is an image point $(x, y, f)$, the projection of the motion
+vector $\dotr$ on the gradient $\bn$ at this point is the well known
+normal flow $u_n$, with 
+\begin{equation}
+  \label{des3}
+  u_n = \dotr \cdot \bn.
+\end{equation}
+where $\bn$ is a unit vector at an image point denoting the
+orientation of the gradient at that point. The normal flow is a robust
+measurement from a moving image and can be computed locally and in
+parallel. To compute then the values of the flow, one would need to
+utilize the normal flow values along with additional constraints.
+
+All approaches start with the normal flow measurements and then fit
+some parametric model for the flow or employ a regularization
+scheme. In both cases there are problems because of the unknown
+location of depth discontinuities.
+If we knew where the discontinuities are,
+estimating flow would be easy, but to know where the discontinuities
+are we need first to find 3D motion and use it to find depth---but to
+do that we need to know the values of the flow! The whole problem is
+clearly a chicken/egg problem. 
+
+There exists an additional reason causing incorrect flow estimates
+that only recently was understood~\cite{ouchi-vr}, and is related to
+the image texture. It has to do with the statistical difficulty of
+integrating local, 1D motion signals into 2D image velocity
+measurements. Any procedure for estimating image motion has to start
+with normal flow measurements, that is, the image motion component
+perpendicular to local edges. It has been shown \cite{ouchi-vr} that
+when these local measurements are combined in a neighborhood to
+produce image motion, an estimate of flow is obtained which is biased.
+The estimated value depends on the distribution of image gradients,
+the actual flow and the error in the normal flow. This is strikingly
+observed in the Ouchi illusion (Figure \ref{fig:ouchi}). The pattern
+in Figure \ref{fig:ouchi} has the surprising property that small
+motions can cause illusory relative motion between the inset and
+background regions.\footnote{The effect can be attained with small
+retinal motions or a slight jiggling of the paper and is robust over
+large changes in the patterns, frequencies and boundary shapes.} The
+reason for this illusion is that for the particular spatial gradient
+distributions of the Ouchi pattern, the bias in the estimation of flow
+is highly pronounced, giving rise to a large difference in the
+velocity estimates in the two regions. Situations like this occur too
+often in real imagery (neighboring textures of different orientation).
+Thus, there are two basic problems with the estimation of
+correspondence, i.e., the motion field. One is geometric, related to
+scene discontinuities, and the other is statistical, related to how the
+image texture looks.
+
+\begin{figure*}[htbp]
+  \centering
+  \begin{minipage}[b]{\textwidth}
+    \begin{minipage}[b]{0.65\textwidth}
+  \centering
+  \begin{tabular}[b]{cc}
+    \includegraphics[width=0.6\textwidth]{../design/imageformation.eps}
+&
+    \includegraphics[width=0.32\textwidth]{../design/sphere_with_plane2.eps} 
+\\ %[-1ex] 
+(a) & (b)
+  \end{tabular}
+    \end{minipage}\hfill%
+    \begin{minipage}[b]{0.32\textwidth}
+  \vspace*{-1.5cm}
+  \centerline{\epsfysize=6.5cm\epsfbox{../ouchi/standard_ouchi.ps}}
+    \end{minipage}\\
+    \begin{minipage}[t]{0.65\textwidth}
+  \caption{Image formation on the plane (a) and on the sphere (b). The
+  system moves with a rigid motion with translational velocity $\bt$
+  and rotational velocity $\bo$. Scene points $\bR$ project onto image
+  points $\br$ and the 3D velocity $\dotR$ of a scene point is
+  observed in the image as image velocity~$\dotr$.}
+  \label{fig:imageformation}
+    \end{minipage}\hspace*{0.05\textwidth}%\hfill%
+    \begin{minipage}[t]{0.32\textwidth}
+  \caption{A pattern similar to one by Ouchi.}
+  \label{fig:ouchi}
+    \end{minipage}%\hfill
+  \end{minipage}
+\end{figure*}
+%\begin{figure}[htbp]
+%  \vspace*{-1.5cm}
+%  \centerline{\epsfysize=7cm\epsfbox{../ouchi/standard_ouchi.ps}}
+%  \vspace*{2ex}
+%  \caption{A pattern similar to one by Ouchi.}
+%  \label{fig:ouchi}
+%\end{figure}
+
+%\SubSection{3D motion}\label{seg:3dmotion}
+Regarding 3D motion estimation, there exists a veritable cornucopia of techniques for finding 3D
+motion from a video sequence. Almost all techniques are based on the so-called epipolar
+constraint, which shows how the motion of image points is related to
+3D rigid motion and the scene. This constraint, at each image point
+$\br$, is written as $(\bt \times \br ) \cdot (\dotr + \bo \times \br
+) = 0$ \cite{Kosta96}.
+
+One is interested in the estimates of translation $\bth$ and rotation
+$\boh$ which best satisfy the epipolar constraint at every point $\br$
+according to some criteria of deviation. Usually the Euclidean norm is
+considered leading to the minimization of function.
+\begin{equation}
+  \label{des6}
+  E_{ep} = \ii{\rm image} \left[\left(\bth \times \br\right) \cdot
+  \left(\dotr + \boh \times \br\right)\right]^2 d\br
+\end{equation}
+The reason for the large amount of literature is that the problem is
+very difficult. One main reason for this has to do with the apparent
+confusion between translation and rotation in the motion field. This
+is easy to understand at an intuitive level. If we look straight ahead
+at a shallow scene, whether we rotate around our vertical axis or
+translate parallel to the scene, the motion field at the center of the
+image is very similar in the two cases. Thus, for example, translation
+along the $x$ axis is confused with rotation around the $y$ axis.  The
+basic understanding of this confusion has attracted few investigators
+over the years \cite{Dani92,Kosta96}. In \cite{proofijcv,feraloi98a} a
+geometrical statistical analysis of the problem has been conducted. On
+the basis of (\ref{des6}) the expected value of $\Eep$ has been
+formulated as a five-dimensional function of the motion parameters
+(two dimensions for $\bt/|\bt|$ and three for $\bo$). Independent of
+specific estimators the topographic structure of the surface defined
+by this function explains the behavior of 3D-motion estimation.
+Intuitively speaking, it turns out that the minima of this function
+lie in a valley. This is a cause for inherent instability because, in
+a real situation, any point on that valley or flat area could serve as
+the minimum, thus introducing errors in the computation.
+
+In particular, the result obtained can be formulated as follows:
+Denote the five unknown motion parameters as $(x_0, y_0)$ (direction
+of translation) and $(\alpha, \beta, \gamma)$ (rotation). Then,
+\emph{no matter how 3D motion is estimated from the motion field}, the
+expected solution will contain errors $(\xze, \yze)$, $(\alpha\ep, \beta\ep,
+\gamma\ep)$ that satisfy two constraints:
+\begin{enumerate} %\setlength{\parsep}{0ex plus0ex minus0.5ex}
+%\setlength{\parskip}{0ex plus0ex minus0.5ex}
+%\setlength{\itemsep}{0ex plus0ex minus0.5ex}
+%\setlength{\topsep}{0ex plus0ex minus0.5ex}
+\renewcommand{\labelenumi}{(\alph{enumi})}
+\item The orthogonality constraint: 
+$\displaystyle
+    \frac{\xze}{\yze} = -\frac{\beta\ep}{\alpha\ep}
+$
+\item The line constraint:
+$\displaystyle
+    \frac{x_0}{y_0} = \frac{\xze}{\yze}
+$
+\end{enumerate}
+In addition, we must also have $\gamma\ep = 0$. The result states that
+the solution contains errors that are mingled and create a confusion
+between rotation and translation that cannot be cleared up, with the
+exception of the rotation around the optical axis ($\gamma$). The
+errors may be small or large, but their expected value will always
+satisfy the above conditions. Although the 3D-motion estimation
+approaches described above may provide answers that could be
+sufficient for various navigation tasks, they cannot be used for
+deriving object models because the depth $Z$ that is computed will be distorted \cite{cheongetal97}.
+
+\Section{Looking at the world}
+We are interested in space and action descriptions that
+can be extracted from visual data. This requires that there exists an
+eye or device imaging the scene. All along we took it for granted that
+our basic device was a camera-type eye, that is, a common video camera
+whose basic principle is the pinhole model, but there was no
+particular reason to make this assumption.
+
+An examination of the design of eyes in the biological world reveals a
+very wide variety. The mechanisms organisms have evolved for
+collecting photons and forming images that they use to perform various
+actions in their environment depend on a number of factors. Chief
+among these are the individual organism's computational capacity and
+the tasks that the organism performs. Michael Land, a prominent
+British zoologist and the world's foremost expert on the science of
+eyes, has provided a landscape of eye evolution. Considering evolution
+as a mountain, with the lower hills representing the earlier steps in
+the evolutionary ladder, and the highest peaks representing the later
+stages of evolution, the situation is pictured in
+Figure~\ref{mountimprob} \cite{dawkins}.  It has been estimated that
+eyes have evolved no fewer than forty times, independently, in diverse
+parts of the animal kingdom. In some cases, these eyes use radically
+different principles and the ``eye landscape'' of Figure
+\ref{mountimprob} shows nine basic types of eyes. Eyes low in the
+hierarchy (such as the nautilus' pinhole eye or the marine snail eye)
+make very crude images of the world, but at higher levels of evolution
+we find different types of compound eyes and camera-type eyes (like
+the ones we use) such as the corneal eyes of land vertebrates and
+fish~eyes.
+
+\begin{figure}[htbp]
+%  \centering
+%  \begin{minipage}[b]{0.49\textwidth}
+%  \begin{minipage}[b]{\textwidth}
+  \centering\includegraphics[width=\linewidth]{/homes/larson/proposals/Alcatech/alca1e.eps}
+  \caption{Michael Land's landscape of eye evolution.}
+  \label{mountimprob}
+\end{figure}
+
+Inspiration for our work has come from the compound eyes of insects
+which are particularly intriguing, especially in view of the fact that
+insects compute excellently 3D motion. Their lives depend on their
+ability to fly with precision through cluttered environments, avoid
+obstacles and land on demand on surfaces oriented in various ways. In
+addition, they perform these tasks with minimal memory and
+computational capacity, much less than an average personal computer of
+today. Could it be possible that much of their success emanates from
+the special construction of their eyes?\footnote{Compound eyes exist
+in several varieties, and can be classified in two categories, the
+\emph{apposition} and \emph{superposition} ones. The apposition eye is
+built as a dense cluster of long, straight tubes radiating out in all
+directions as from the roof of a dome. Each tube is like a gun sight
+which sees only a small part of the world in its own direct line of
+fire. Thus, rays coming from other parts of the wall are prevented by
+the walls of the tube and the backing of the dome from hitting the
+back of the tube where the photocells are (Figure \ref{apposition}).
+In practice, each of the little tube eyes called ommatidia, is a bit
+more than a tube.  It has its own private lens and its own private
+retina of about half a dozen photocells. The ommatidium works like a
+long, poor quality, camera eye. Superposition compound eyes, on the
+other hand, do not trap rays in tubes. They allow rays that pass
+through the lens of one ommatidium to be picked up by a neighboring
+ommatidium's photocells. There is an empty, transparent zone shared by
+all ommatidia. The lenses of all ommatidia conspire to form a single
+image on a shared retina which is put together from the
+light-sensitive cells of all the ommatidia.}
+
+\begin{figure}[htbp]
+%  \end{minipage}\\
+%  \centering
+%\begin{minipage}[b]{\textwidth}
+  \centering\includegraphics[width=0.4\linewidth]{/homes/larson/proposals/Alcatech/alca3c-trim.eps}
+  \caption{(Adapted from \cite{dawkins}.) Example of the principle of
+  the apposition compound eye, forming the image of a dolphin.  The
+  arrows don't represent rays (which would be bent by the lenses) but
+  mappings from the points of the object in view (a dolphin) to points
+  in the bottoms of the tubes. }
+  \label{apposition}
+\end{figure}
+
+%\begin{figure}[htbp]
+%%  \end{minipage}
+%%  \end{minipage}\hfill%
+%%  \centering
+%%  \begin{minipage}[b]{0.49\textwidth}
+%  \centering\includegraphics[width=0.5\linewidth]{/homes/larson/proposals/Alcatech/alca4e.eps}
+%%  \centering\rotatebox{-90}{\includegraphics[height=10cm]{alca4e.eps}}
+%  \caption{(Adapted from \cite{dawkins}.) The ingenious principle of
+%  the ``wired-up superposition'' compound eye. Parts of the images
+%  acquired by neighboring ommatidia are related. This possibly
+%  facilitates the problem of motion segmentation by a moving observer,
+%  a very hard problem when ordinary cameras are used.}
+%  \label{superposition}
+%%  \end{minipage}
+%\end{figure}
+
+\Section{New eyes}\label{spherical-vs-planar}
+Why is it that biological systems that need to fly and thus require
+good estimates of 3D motion (insects, birds)
+have panoramic vision implemented either as a compound eye or by
+placing camera-type eyes on opposite sides of the head? This is a
+fascinating question that has remained open since the time of the
+pioneer investigator, Sigmund Exner, at the beginning of this century.
+The obvious answer is, of course, that flying systems should perceive
+the whole space around them---thus panoramic vision emerged. There is,
+however, a deeper mathematical reason  and it has to with the ability of a system
+to estimate 3D motion when it analyzes panoramic images, as shown in
+this section. Put simply, a
+spherical eye (360 degree field of view) is superior to a planar
+eye (restricted field) with regard to 3D motion estimation. Recall
+from Section \ref{imagemotionfields}
+%was \ref{seg:3dmotion}
+%was \ref{worldlooking}
+that, given a sequence of images, 3D motion is estimated by minimizing
+function $E$ that represents deviation from the epipolar constraint.
+It was shown that in the case of images captured by a planar eye
+(e.g., a common video camera), this function has a special topography
+which is such that the errors in the motion are mingled, causing
+confusion between rotation and translation and thus producing a wrong
+result. If, however, the field of view goes to 360 degrees, the
+topography of the surface drastically changes with the minimum clearly
+standing out in most cases. Panoramic vision is modeled by projecting
+onto a sphere, with the sphere's center as the center of projection
+(Figure \ref{fig:imageformation}b). In this case, the image $\br$ of
+any point $\bR$ is $\br = \frac{\bR f}{|\bR |}$, with $R$ being the
+norm of $\bR$ (the range), and the image motion is
+\begin{equation}
+  \label{des2}
+  \dotr = \frac{1}{|\bR | f} \left(\left(\bt \cdot \br\right)\br -
+  \bt\right) - \bo \times \br = \frac{1}{R}\,\bu\tr(\bt) + \bu\rot
+  (\bo).
+\end{equation}
+The function $\Eep$ representing deviation from the epipolar
+constraint on the sphere has the exact same form as in the plane for
+our nomenclature. We integrate over the range $R$ within an interval
+bounded by $\Rn$ and $\Rx$ and obtain
+\begin{displaymath}
+  \begin{array}{rcl}
+E_{ep} & = & 
+\displaystyle \int\limits^{\Rx}_{\Rn}\ii{\rm
+  sphere}\Bigg\{\left(\frac{\br \times (\br \times \bt)}{R} -
+  \left(\oep \times \br\right)\right) 
+\\
+& & 
+\displaystyle {}\cdot \left(\bth \times
+    \br\right)\Bigg\}^2 dA\,dR
+  \end{array}
+\end{displaymath}
+%\begin{displaymath}
+%E_{ep} = \int\limits^{\Rx}_{\Rn}\ii{\rm
+%  sphere}\left\{\left(\frac{\br \times (\br \times \bt)}{R} -
+%  \left(\oep \times \br\right)\right) \cdot \left(\bth \times
+%    \br\right)\right\}^2 dA\,dR
+%\end{displaymath}
+where $A$ refers to a surface element. Due to the sphere's symmetry,
+for each point $\br$ on the sphere, there exists a point with
+coordinates $-\br$. Since $\bu\tr (\br) = \bu\tr (-\br)$ and $\bu\rot
+(\br) = -\bu\rot (-\br)$, when the integrand is expanded the product
+terms integrated over the sphere vanish. Thus
+\begin{displaymath}
+  \begin{array}{rcl}
+\displaystyle E_{ep} & = &
+\displaystyle \int\limits^{\Rx}_{\Rn}\ii{\rm sphere}
+\Bigg\{
+  \frac{\left(\left(\bt \times \bth\right) \cdot \br\right)^2}{{R}^2}
+\\
+& &
+  {}+ \left(\left(\oep \times \br\right) \cdot \left(\bth \times
+  \br\right)\right)^2\Bigg\} dA\,dR
+  \end{array}
+\end{displaymath}
+%\begin{displaymath}
+%E_{ep} = \int\limits^{\Rx}_{\Rn}\ii{\rm sphere}\left\{
+%  \frac{\left(\left(\bt \times \bth\right) \cdot \br\right)^2}{{R}^2}
+%  + \left(\left(\oep \times \br\right) \cdot \left(\bth \times
+%  \br\right)\right)^2\right\} dA\,dR
+%\end{displaymath}
+
+\paragraph{(a)}
+Assuming that translation $\bth$ has been estimated, the $\oep$ that
+minimizes $E_{ep}$ is $\oep = 0$, since the resulting function is
+non-negative quadratic in $\oep$ (minimum at zero). The difference
+between sphere and plane is already clear. In the spherical case, as
+shown here, if an error in the translation is made we do not need to
+compensate for it by making an error in the rotation $(\oep = 0)$,
+while in the planar case we need to compensate to ensure that the
+orthogonality constraint is satisfied!
+
+\paragraph{(b)}
+Assuming that rotation has been estimated with an error $\oep$, what
+is the translation $\bth$ that minimizes $E_{ep}$? Since $R$ is
+assumed to be uniformly distributed, integrating over $R$ does not
+alter the form of the error in the optimization. Thus, $E_{ep}$
+consists of the sum of two terms:
+\begin{eqnarray*}
+  K & = & K_1\ii{\rm sphere}\left(\left(\bt \times \bth\right) \cdot
+  \br\right)^2 dA \quad\mbox{and}\\
+L & = & L_1\ii{\rm sphere}
+  \left(\left(\oep \times \br\right) \cdot \left(\bth \times
+    \br\right)\right)^2 dA,
+\end{eqnarray*}
+%\begin{displaymath}
+%  K = K_1\ii{\rm sphere}\left(\left(\bt \times \bth\right) \cdot
+%  \br\right)^2 dA \;\mbox{and}\; L = L_1\ii{\rm sphere}
+%  \left(\left(\oep \times \br\right) \cdot \left(\bth \times
+%    \br\right)\right)^2 dA,
+%\end{displaymath}
+where $K_1, L_1$ are multiplicative factors depending only on $\Rn$
+and $\Rx$. For angles between $\bt, \bth$ and $\bth, \oep$ in the
+range of 0 to $\pi/2$, $K$ and $L$ are monotonic functions. $K$
+attains its minimum when $\bt = \bth$ and $L$ when $\bth \perp \oep$.
+Fix the distance between $\bt$ and $\bth$ leading to a
+certain value $K$, and change the position of $\bth$. $L$ takes its
+minimum when $(\bt \times \bth) \cdot \oep = 0$, as follows from the
+cosine theorem.  Thus $E_{ep}$ achieves its minimum when $\bth$ lies
+on the great circle passing through $\bt$ and $\oep$, with the exact
+position depending on $|\oep |$ and the scene in view.
+
+\paragraph{(c)}
+For the general case where no information about rotation or
+translation is available, we study the subspaces where $E_{ep}$
+changes the least at its absolute minimum, i.e., we are again
+interested in the direction of the smallest second derivative at 0.
+For points defined by this direction we calculate, using Maple, $\bt =
+\bth$ and $\oep \perp \bt$.
+
+\Section{What if correspondence is not available?}
+The preceding sections investigated the differences between
+camera-type eyes (restricted field of view) and spherical eyes (full
+field of view) with regard to 3D motion estimation, when an estimate
+of correspondence or flow was available. One may wonder how this
+comparative analysis becomes when correspondence is not available, but
+all we have at our disposal is the normal flow. This case is harder to
+analyze and we provide here results from proofs that appeared recently
+\cite{proofijcv,tr:design}.
+
+If normal flow is given, the
+only available constraint is scalar equation (\ref{des3}), along with the
+inequality $Z > 0$ which states that since the surface in view is in
+front of the eye its depth must be positive. Substituting
+(\ref{des2}) into (\ref{des3}) and solving
+for the estimated depth $\Zh$ or range $\Rh$, we obtain for a given
+estimate $\bth, \boh$ at each point $\br$:
+\begin{equation}
+  \label{des7}
+  \Zh (\mbox{or}\, \Rh ) = \frac{\bu\tr (\bth ) \cdot \bn}{\left(\dotr
+  - \bu\rot (\boh )\right) \cdot \bn}.
+\end{equation}
+Substituting into
+(\ref{des7}) the value of $\dotr$ from (\ref{des2}) gives
+\begin{displaymath}
+  \Zh (\mbox{or}\, \Rh) = \frac{\bu\tr(\bth) \cdot
+  \bn}{\left(\frac{\bu\tr(\bt)}{Z(\mbox{or}\, R)} -
+  \bu\rot(\oep)\right) \cdot \bn}
+\end{displaymath}
+with $\oep = \bo - \boh$. This equation shows that for every $\bn$ and $\br$ a range of values
+for $Z$ (or $R$) is obtained which result in negative estimates of
+$\Zh$ (or $\Rh$). Thus for each direction $\bn$, considering all
+image points $\br$, we obtain a volume in space corresponding to
+negative depth estimates. The sum of all these volumes for all directions is
+termed the ``negative depth'' volume, and calculating 3D motion in this
+case amounts to minimizing this volume.  Minimization of this volume
+provides conditions for the errors in the motion parameters.
+
+Applying this analysis to the plane and the sphere provides results
+that are shown in Table \ref{eyetable} along with a summary of the
+epipolar minimization case.
+
+\begin{table*}[htbp]
+\caption{Summary of results}
+\centering  
+\begin{tabular}{p{5cm}p{5.5cm}p{5.5cm}}
+%\begin{tabular}{p{4.5cm}p{5cm}p{5cm}}
+%  \begin{tabular}{p{3.5cm}p{4.5cm}p{4.5cm}}
+%this doesn't work%\begin{tabular}{p{4.5cm}@{\extracolsep\fill}p{5cm}p{5cm}}
+%\multicolumn{3}{c}{Table 1: Summary of results}\\
+%    \multicolumn{1}{c}{} & \multicolumn{1}{c}{} &
+%    \multicolumn{1}{c}{}\\[1.25ex] 
+%\multicolumn{1}{c}{}&
+%    \multicolumn{1}{c}{I} & \multicolumn{1}{c}{II}\\\cline{2-3}
+    \multicolumn{1}{c}{}& \multicolumn{1}{c}{Spherical Eye} &
+    \multicolumn{1}{c}{Camera-type Eye}\\\cline{1-3}
+    \begin{description}
+    \item Epipolar minimization, given optic flow
+    \end{description} & 
+    \begin{enumerate}\renewcommand{\labelenumi}{{\small (\alph{enumi})}}
+    \item Given a translational error $\bt\ep$, the rotational error $\oep
+      = 0$.
+    \item Without any prior information, $\bt\ep = 0$ and $\oep \perp
+      \bt$.
+    \end{enumerate}
+    & 
+    \begin{enumerate}\renewcommand{\labelenumi}{{\small (\alph{enumi})}}
+    \item For a fixed translational error $(\xze, \yze)$, the
+      rotational error $(\alpha\ep, \beta\ep, \gamma\ep)$ is of the
+      form $\gamma\ep = 0$, ${\alpha\ep}/{\beta\ep} = {-\xze}/{\yze}$
+    \item Without any a priori information about the motion, the
+      errors satisfy $\gamma\ep = 0$, ${\alpha\ep}/{\beta\ep} =
+      {-\xze}/{\yze}$, ${x_0}/{y_0} = {\xze}/{\yze}$
+    \end{enumerate}\\\cline{1-3}
+    \begin{description}
+    \item Minimization of negative depth volume, given normal flow
+    \end{description} & 
+    \begin{enumerate}\renewcommand{\labelenumi}{{\small (\alph{enumi})}}
+    \item Given a rotational error $\oep$, the translational error $\bt\ep
+      = 0$.
+    \item Without any prior information, $\bt\ep = 0$ and $\oep \perp
+      \bt$.
+    \end{enumerate}
+    & \begin{enumerate}\renewcommand{\labelenumi}{{\small (\alph{enumi})}}
+  \item Given a rotational error, the translational error is
+    of the form ${-\xze}/{\yze} = {\alpha\ep}/{\beta\ep}$
+  \item Without any error information, the errors satisfy $\gamma\ep =
+    0$, ${\alpha\ep}/{\beta\ep} = {-\xze}/{\yze}$, ${x_0}/{y_0} =
+    {\xze}/{\yze}$
+  \end{enumerate}\\\cline{1-3}
+\end{tabular}
+\label{eyetable}
+\end{table*}
+
+\Section{Eyes from eyes}\label{eyesfromeyes}
+The preceding results demonstrate the advantages of spherical eyes for
+the process of 3D motion estimation. Table 1 lists the
+eight out of ten cases which lead to clearly defined error
+configurations. It shows that 3D motion can be estimated more
+accurately with spherical eyes. Depending on the estimation procedure
+used---and systems might use different procedures for different
+tasks---either the translation or the rotation can be estimated very
+accurately. For planar eyes, this is not the case, as for all possible
+procedures there exists confusion between the translation and
+rotation. The error configurations also allow systems with inertial
+sensors to use more efficient estimation procedures. If a system
+utilizes a gyrosensor which provides an approximate estimate of its
+rotation, it can employ a simple algorithm based on the negative depth
+constraint for only translational motion fields to derive its
+translation and obtain a very accurate estimate. Such algorithms are
+much easier to implement than algorithms designed for completely
+unknown rigid motions, as they amount to searches in 2D as opposed to
+5D spaces \cite{science95}. Similarly, there exist computational
+advantages for systems with translational inertial sensors in
+estimating the remaining unknown rotation.
+
+Since it turns out that spherical eyes such as the ones of insects,
+or, in general, panoramic vision provides much better capability for
+3D motion estimation, and since our problem of building accurate space
+and action descriptions depends on accurate 3D motion computation, it
+makes sense to reconsider what the eye for our problem should be.
+There are a few ways to create panoramic vision cameras, and the
+recent literature is rich in alternative approaches, but there is a
+way to take advantage of both the panoramic vision of flying systems
+and the high resolution vision of primates. An eye like the one in
+Figure~\ref{fig:eye}, assembled from a few video cameras arranged on
+the surface of a sphere,\footnote{Like a compound eye with video
+cameras replacing ommatidia} can easily estimate 3D motion since,
+while it is moving, it is sampling a spherical motion field!
+
+\begin{figure}[htbp]
+\centering\includegraphics{../design/tmp.eye2.ps}
+%\centering\includegraphics[width=0.4\textwidth]{../design/tmp.eye2.ps}
+  \caption{A compound-like eye composed of conventional video cameras.}
+  \label{fig:eye}
+\end{figure}
+
+An eye like the one in Figure~\ref{fig:eye} not only has panoramic
+properties, eliminating the rotation/translation confusion, but it has
+the unexpected benefit of making it easy to estimate image motion with
+high accuracy. Any two cameras with overlapping fields of view also
+provide high-resolution stereo vision, and this collection of stereo
+systems makes it possible to locate a large number of depth
+discontinuities. It is well known that, given scene discontinuities,
+image motion can be estimated very accurately. As a consequence, the
+eye in Figure~\ref{fig:eye} is very well suited to developing accurate
+models of the world.
+
+There is a very large number of ways in which one can utilize multiple
+videos like the ones captured by the cameras of the sensor in
+Figure~\ref{fig:eye} for recovering 3D structure and motion. The
+obvious ones include: (a) treat the flow fields close to the center of
+each camera approximately as parts of a spherical motion field and
+apply algorithms such as those in \cite{proofijcv}; (b) perform
+epipolar minimization in each video while enforcing the constraints
+relating the motions of different cameras comprising the sensor.  The
+results of Table \ref{eyetable} can serve as a guide for choosing
+particular algorithmic procedures, e.g., should rotation or
+translation be estimated first, or should all parameters be estimated
+simultaneously, depending on whether epipolar or negative depth
+minimization is used, depending on whether inertial sensors are
+available, etc.
+
+To summarize, a full visual field provides 3D motion very accurately,
+and thus very good models of the world. Existing sensors for capturing
+panoramic images (such as \cite{nayar97}) are not adequate for this problem
+due to low resolution. One would need a high-resolution spherical
+field of view. As this is currently technologically impossible, we
+resort to sampling the whole visual field with high resolution. See,
+for example, the sensor in Figure~\ref{fig:2ndargus} (called the Argus
+eye), built in our laboratory,
+consisting of six cameras looking in different directions. If all
+cameras shared a common nodal point, then the cameras would sample
+parts of a sphere. When this is not true, a calibration is
+required.\footnote{Due to lack of space, we do not describe the
+calibration step.} Knowledge of the rigid transformations relating the
+difference camera coordinate systems, allows 3D motion and structure
+estimation through the use of all videos. 
+
+\begin{figure}[htbp]
+%  \centering\includegraphics[height=0.6\textwidth]{}
+  \caption{The Argus eye.}
+  \label{fig:2ndargus}
+\end{figure}
+
+A new algorithm we developed for the eye in Figure \ref{fig:2ndargus}
+is based on the analysis presented in Section
+\ref{imagemotionfields}. Recall that when 3D motion is estimated using
+a common video camera, the expected errors $\xze, \yze$ in translation
+and $\alpha\ep, \beta\ep,
+\gamma\ep$ in rotation satisfy the orthogonality and line constraints
+and the constraint $\gamma\ep = 0$. Consider the six videos collected
+as the Argus eye moves in some space. Recall that the rotational
+velocity is the same for all cameras (only the translation
+differs). The algorithm proceeds by finding all motion parameters in
+each video and keeping only the value of $\gamma$. Thus we have the
+projection of the rotational vector on the optical axis of each
+camera. From this, the rotation is computed and subsequently
+estimation of the translation is easy. Using the estimated 3D motion
+the shape of the scene can be estimated. Remarkable results are
+obtained and described in [REF].
+
+
+\bibliographystyle{latex8}
+\bibliography{../references}
+
+
+\end{document}
+
+
+

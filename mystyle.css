@@ -1,0 +1,141 @@
+BODY    
+{
+/* font-family: 'Lucida', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif; */
+  font-family     :       Arial,Helvetica,Lucida;
+  /*background:#333333 url(bg.jpg) 0 0 no-repeat fixed;*/
+  color : #001;
+  background-color : #AAAAAA;
+}
+A:link
+{
+text-decoration :       none;
+color           :       #337755;
+}
+A:active
+{
+text-decoration :       none;
+color           :       #550055;
+}
+A:visited 
+{
+text-decoration :       none; 
+color           :       #005500; 
+}               
+A:hover 
+{ 
+text-decoration :       none; 
+color           :       #440044;
+}
+
+.sidebar { 
+  float: left;
+  padding: 0px 0px 0px 0px;
+  margin: 10px 10px 0px 0px; 
+  width: 200px;
+  /*background:#333333 url(bg2.jpg) 0 0 no-repeat fixed;*/
+}
+.sidebar2 { 
+  font-size: 0.7em;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 0px 10px 0px; 
+  background:#CCCCCC;
+  /*background:#5e5e5e url(bg2.jpg) 0 0 no-repeat fixed;*/
+}
+.sidebar3 { 
+  padding: 10px 10px 10px 10px;
+  margin: 0px 0px 10px 0px; 
+  background:#CCCCCC;
+  /*background:#5e5e5e url(bg2.jpg) 0 0 no-repeat fixed;*/
+}
+.content {
+  float: left;
+  padding: 10px 10px 40px 20px;
+  margin: 10px 10px 0px 0px;
+  width: 65%;
+  background:#CCCCCC;
+  /*background: #9eb0b2 url(sail.jpg) 0 0 no-repeat;*/
+}
+.content2 {
+  float: left;
+  padding: 10px 10px 40px 20px;
+  margin: 10px 10px 0px 0px;
+  width: 65%;
+  background:#AAAAAA;
+  /*background: #9eb0b2 url(sail.jpg) 0 0 no-repeat;*/
+}
+
+
+.content h3  {
+  margin-top       : 0px;
+  margin-bottom    : 2px;
+  padding-bottom   : 2px;
+  border-bottom       : 2px solid #777;
+  font-weight      : bold;
+}
+.content h4  {
+  margin-top       : 1px;
+  margin-bottom    : 2px;
+  padding-bottom   : 2px;
+  border-top       : 4px solid #550;
+  color            : #558;
+  font-weight      : bold;
+}
+.content h5  {
+  margin-top       : 1px;
+  margin-bottom    : 1px;
+  padding-bottom   : 1px;
+  color            : #448;
+  font-weight      : bold;
+}
+
+/* title */
+.bibtitle { font-weight:bold;color:#445555 }
+/* author */
+.bibauthor { font-weight:bold; /* nothing by default */ }
+/* booktitle (e.g. proceedings title, journal name, etc )*/
+.bibbooktitle { font-style:italic;font-weight:bold; }
+/* publisher */
+.bibpublisher { /* nothing by default */ }
+
+.title {
+  color: #DDDDDD;
+  font-size: large;
+  text-align: right;
+}
+ 
+/* HEADER FOR EACH YEAR */
+.header {
+  padding: 1px 2px 1px 2px;
+}
+ 
+.rheader {
+  font-weight: bold;
+  color: #128;
+  padding: 0px;
+  margin-bottom: 10px;
+  border-bottom: #909090 2px solid;
+ 
+}
+.menu {
+  font-size: x-small;
+  background-color: #103356;
+  padding: 0px;
+  border: 1px solid #000000;
+  margin: 0px;
+}
+.menu a {
+  text-decoration: none;
+  color: #00CCAA;
+}
+.menu a:hover {
+  color: #00CCAA;
+}
+ 
+/* ITEM NUMBER [XX] */
+.bibref {
+  padding:1px;
+  padding-left:15px;
+  vertical-align:text-top;
+/*  vertical-align:top;  */
+}
+

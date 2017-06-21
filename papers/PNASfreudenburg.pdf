@@ -1,0 +1,119 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html
+      xmlns="http://www.w3.org/1999/xhtml"
+      xml:lang="en"
+      lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>Fast-scale network dynamics in human cortex have specific spectral covariance patterns </title>
+      <meta name="googlebot" content="NOODP" />
+      <meta content="/pnas/111/12/4602.atom" name="HW.identifier" />
+      <meta name="DC.Format" content="text/html" />
+      <meta name="DC.Language" content="en" />
+      <meta content="Fast-scale network dynamics in human cortex have specific spectral covariance patterns"
+            name="DC.Title" />
+      <meta content="10.1073/pnas.1311716111" name="DC.Identifier" />
+      <meta content="2014-03-25" name="DC.Date" />
+      <meta content="National Academy of Sciences" name="DC.Publisher" />
+      <meta content="Zachary V. Freudenburg" name="DC.Contributor" />
+      <meta content="Charles M. Gaona" name="DC.Contributor" />
+      <meta content="Mohit Sharma" name="DC.Contributor" />
+      <meta content="David T. Bundy" name="DC.Contributor" />
+      <meta content="Jonathan D. Breshears" name="DC.Contributor" />
+      <meta content="Robert B. Pless" name="DC.Contributor" />
+      <meta content="Eric C. Leuthardt" name="DC.Contributor" />
+      <meta content="Proceedings of the National Academy of Sciences"
+            name="citation_journal_title" />
+      <meta content="PNAS" name="citation_journal_abbrev" />
+      <meta content="National Acad Sciences" name="citation_publisher" />
+      <meta content="0027-8424" name="citation_issn" />
+      <meta content="1091-6490" name="citation_issn" />
+      <meta name="citation_author" content="Zachary V. Freudenburg" />
+      <meta name="citation_author_institution"
+            content="aDepartments of Neurology and Neurosurgery, University Medical Center Utrecht-Rudolf Magnus Institute, 3584 CX, Utrecht, The Netherlands; and" />
+      <meta name="citation_author_institution" content="Departments of bComputer Science," />
+      <meta name="citation_author" content="Charles M. Gaona" />
+      <meta name="citation_author_institution" content="cBiomedical Engineering, and" />
+      <meta name="citation_author" content="Mohit Sharma" />
+      <meta name="citation_author_institution" content="cBiomedical Engineering, and" />
+      <meta name="citation_author" content="David T. Bundy" />
+      <meta name="citation_author_institution" content="cBiomedical Engineering, and" />
+      <meta name="citation_author" content="Jonathan D. Breshears" />
+      <meta name="citation_author_institution"
+            content="dNeurological Surgery, Washington University, St. Louis, MO, 63130" />
+      <meta name="citation_author" content="Robert B. Pless" />
+      <meta name="citation_author_institution" content="Departments of bComputer Science," />
+      <meta name="citation_author" content="Eric C. Leuthardt" />
+      <meta name="citation_author_institution" content="cBiomedical Engineering, and" />
+      <meta name="citation_author_institution"
+            content="dNeurological Surgery, Washington University, St. Louis, MO, 63130" />
+      <meta name="citation_author_email" content="LeuthardtE@wudosis.wustl.edu" />
+      <meta content="Fast-scale network dynamics in human cortex have specific spectral covariance patterns"
+            name="citation_title" />
+      <meta content="03/25/2014" name="citation_date" />
+      <meta content="111" name="citation_volume" />
+      <meta content="12" name="citation_issue" />
+      <meta content="4602" name="citation_firstpage" />
+      <meta content="4607" name="citation_lastpage" />
+      <meta content="111/12/4602" name="citation_id" />
+      <meta content="111/12/4602" name="citation_id_from_sass_path" />
+      <meta content="pnas;111/12/4602" name="citation_mjid" />
+      <meta content="10.1073/pnas.1311716111" name="citation_doi" />
+      <meta content="http://www.pnas.org/content/111/12/4602.abstract"
+            name="citation_abstract_html_url" />
+      <meta content="http://www.pnas.org/content/111/12/4602.full"
+            name="citation_fulltext_html_url" />
+      <meta content="http://www.pnas.org/content/111/12/4602.full.pdf"
+            name="citation_pdf_url" />
+      <meta content="/content/111/12.cover.gif" name="issue_cover_image" />
+      <meta content="http://www.pnas.org/content/111/12/4602" name="citation_public_url" />
+      <meta content="24616527" name="citation_pmid" />
+      <meta name="citation_access" content="all" />
+      <meta name="citation_fulltext_world_readable" content="" />
+      <meta name="citation_section" content="Neuroscience" />
+      <meta name="robots" content="noarchive,nofollow" />
+      <meta name="googlebot" content="noarchive" />
+      <link href="/content/111/12/4596.short" rel="prev" />
+      <link href="/content/111/12/4608.short" rel="next" />
+      <link rel="stylesheet" type="text/css" href="/shared/css/hw-global.css" />
+      <link rel="stylesheet" type="text/css"
+            href="/shared/css/standard-designs/design25/main.css" />
+      <link rel="stylesheet" type="text/css" href="/local/css/hw-local-global.css" />
+      <link rel="stylesheet" type="text/css"
+            href="/local/css/hw-local-global-overrides.css" />
+      <link rel="stylesheet" type="text/css" href="/local/css/hw-local-global-pages.css" />
+      <link rel="stylesheet" type="text/css"
+            href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,600" />
+      <link rel="stylesheet" type="text/css"
+            href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700" />
+      <link rel="stylesheet" type="text/css" href="/local/css/hw-local-sidebar.css" />
+      <link rel="stylesheet" type="text/css"
+            href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />
+      <link rel="stylesheet" type="text/css"
+            href="http://pnas-movie.glencoesoftware.com/static/video-js.min.css" />
+      <link rel="stylesheet" type="text/css" href="/shared/css/hw-print.css" />
+      <link rel="stylesheet" type="text/css" href="/shared/css/hw-page-content.css" />
+      <link rel="stylesheet" type="text/css" href="/shared/css/jquery.fancybox-1.3.4.css" />
+      <link rel="stylesheet" type="text/css" href="/local/css/hw-local-content.css" />
+      <link rel="stylesheet" type="text/css" href="/local/css/hw-tab-redesign.css" /><script type="text/javascript" src="/local/js/jquery-1.7.2.min.js"></script><script type="text/javascript" src="/local/js/jquery.ui.widget.min.js"></script><script type="text/javascript" src="/local/js/modernizr.js"></script><script type="text/javascript" src="/shared/js/fingerprint.js"></script><script type="text/javascript" src="/shared/js/hw-shared.js"></script><script type="text/javascript" src="/local/js/hw-local-js-settings.js"></script><script type="text/javascript" src="/local/js/jquery.tabify.js"></script><script type="text/javascript" src="/local/js/hw-local-global.js"></script><script type="text/javascript" src="/local/js/expand.js"></script><script type="text/javascript" src="/local/js/script.js"></script><script type="text/javascript" src="/shared/js/design/hw-design1.js"></script><script type="text/javascript"
+              src="http://pnas-movie.glencoesoftware.com/static/video_inline.min.js"></script><script type="text/javascript" src="/shared/js/pages/hw-content.js"></script><script type="text/javascript" src="/shared/js/fancybox/jquery.fancybox-1.3.4.js"></script><script type="text/javascript" src="/shared/js/fancybox/jquery.easing-1.3.pack.js"></script><script type="text/javascript"
+              src="/shared/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script><script type="text/javascript"
+              src="http://admin.brightcove.com/js/BrightcoveExperiences_all.js"></script><script type="text/javascript" src="/shared/js/util/hw-view-specific-access-check.js"></script><script type="text/javascript" src="/shared/js/util/hw-access-check.js"></script><script type="text/javascript" src="/local/js/article-dynamic-elements.js"></script><script type="text/javascript" src="/local/js/hw-local-content.js"></script><script type="text/javascript" src="/shared/js/util/hw-floatabs.js"></script><script type="text/javascript" src="/local/js/hw-local-tabbed.js"></script></head>
+   <frameset rows="253,*">
+      <frame src="/content/111/12/4602.full.pdf+html?frame=header" name="HeaderLinks"
+             title="Header Links Frame"
+             scrolling="auto" />
+      <frameset cols="780,*">
+         <frame src="/content/111/12/4602.full.pdf?with-ds=yes#page=1&amp;view=FitH"
+                name="ContentsPage"
+                title="Contents Frame" />
+         <frame src="/content/111/12/4602.full.pdf+html?frame=sidebar&amp;with-ds=yes"
+                name="SidebarLinks"
+                title="Sidebar Links Frame" />
+      </frameset>
+      <noframes>
+         <body></body>
+      </noframes>
+   </frameset>
+</html>

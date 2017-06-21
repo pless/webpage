@@ -1,0 +1,31 @@
+<!-- ******************************  included from file navbar.html  -->
+<div class="sidebar"> 
+<div class="sidebar2"> 
+<!-- Left side top  -->
+<center> 
+<a href="http://research.engineering.wustl.edu/~pless/images/me.jpg"> 
+<img width=140 src="http://research.engineering.wustl.edu/~pless/images/me_small.jpg" alt="mugshot"></a></center> 
+<h3 align=right>robert pless</h3> 
+Deparment Chair &<br> 
+Patrick and Donna Martin Endowed Professor<br>
+Computer Science<br> 
+George Washington University<br>
+Suite 4000c, SEH Building<br> 
+pless@gwu.edu<br> 
+<a href="http://pless.youcanbook.me">appointments (e.g. advising)</a><br>
+</tr>
+</table>
+</div> 
+<div class="sidebar2"> 
+  <!-- Left side MENU  -->
+  <a href="index.php">home</a><br> 
+  <a href="people.php">students</a><br> 
+  <a href="teaching.php">teaching</a><br> 
+  <a href="publications.php">publications</a><br> 
+  <a href="awards.php">awards/press</a><br> 
+  <a href="opportunities.php">join my group</a><br> 
+  <a href="code.php">code</a><br>
+  <a href="http://research.engineering.wustl.edu/~pless/longCVbibtex.pdf">CV</a>
+</div> 
+</div> 
+<!-- ********************************   End of file navbar.html  -->

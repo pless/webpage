@@ -1,0 +1,1542 @@
+%*******************************************
+% ABBREVIATIONS FOR CONFERENCE PROCEEDINGS *
+%*******************************************
+@string{CG = "Proc. ACM Symposium on Computational Geometry"}
+@string{STOC = "Proc. ACM Symposium on Theory of Computing"}
+@string{SODA = "Proc. ACM Symposium on Discrete Algorithms"}
+@string{ACMMM = "Proc. ACM SIGMM International Conference on Multimedia (ACMMM)"}
+@STRING{ECCV = "Proc. European Conference on Computer Vision (ECCV)"}
+@string{FOCS = "Proc. IEEE Conference Foundations of Computer Science"}
+@string{IUW = "Proc. IEEE Image Understanding Workshop"}
+@string{RA = "Proc. IEEE Conference on Robotics and Automation (ICRA)"}
+@string{IROS = "Proc. IEEE International Conference on Intelligent Robots and Systems (IROS)"}
+@string{AAAI = "Proc. National Conference on Artificial Intelligence"}
+@string{ICIP = "Proc. International Conference on Image Processing (ICIP)"}
+@string{ICCP = "Proc. International Conference on Computational Photography (ICCP)"}
+@string{ICPR = "Proc. International Conference on Pattern Recognition (ICPR)"}
+@string{IJCAI = "Proc. International Joint Conference on Artificial Intelligence"}
+@string{CVPR ="Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"}
+@string{ICCV = "Proc. International Conference on Computer Vision (ICCV)"}
+@string{MW = "Proc. IEEE Workshop on Visual Motion"}
+@string{3DV = "Proc. IEEE International Conference on 3D Vision (3DV)"}
+@string{SMILE = "Proc. Workshop on 3D Structure from Multiple Images"}
+@string{WACV = "Proc. IEEE Workshop on Applications of Computer Vision"}
+@string{WACV2 = "IEEE Winter Conference on Computer Vision (WACV)"},
+@string{VISN = "Proc. IEEE Workshop on Video/Image Sensor Networks"} 
+
+%***********************************
+% ABBREVIATIONS FOR JOURNAL PAPERS *
+%***********************************
+@string{PNAS = "Proceedings of the National Academy of Sciences"}
+@string{JA = "Journal of Algorithms"}
+@string{A = "Algorithmica"}
+@string{IJRR = "International Journal of Robotics Research"}
+@string{SIAM = "SIAM Journal on Computing"}
+@string{T-RA = "IEEE Transactions on Robotics and Automation"}
+@string{PRTA = "Pattern Recognition Theory and Applications"}
+@string{AI = "Artificial Intelligence"}
+@string{CVGIP = "Computer Vision, Graphics, and Image Processing"}
+@string{CVIU = "Computer Vision and Image Understanding"}
+@string{IPL = "Information Processing Letters"}
+@string{T-PAMI = "IEEE Transactions on Pattern Analysis and Machine 
+			Intelligence"}
+@string{SMC = "IEEE Transactions on Systems, Man and Cybernetics"}
+@string{P-IEEE = "Proceeding of the IEEE"}
+@string{TCS = "Theoretical Computer Science"}
+@string{IJCV = "International Journal of Computer Vision"}
+@string{JOSA = "Journal of the Optical Society of America"}
+@string{JOSAA = "Journal of the Optical Society of America A"}
+@string{PRSLA = "Proc. Royal Society, London A"}
+@string{PRSLB = "Proc. Royal Society, London B"}
+%***********************************
+% ABBREVIATIONS FOR INSTITUTIONS *
+%***********************************
+@STRING{CfAR = "Center for Automation Research"}
+%% 2017
+
+@Inbook{Hipp2017,
+author="Hipp, J. Aaron
+and Adlakha, Deepti
+and Eyler, Amy A.
+and Gernes, Rebecca
+and Kargol, Agata
+and Stylianou, Abigail H.
+and Pless, Robert",
+title="[Chapter] Learning from Outdoor Webcams: Surveillance of Physical Activity Across Environments",
+bookTitle="Seeing Cities Through Big Data: Research, Methods and Applications in Urban Informatics",
+year="2017",
+publisher="Springer International Publishing",
+pages="471--490",
+isbn="978-3-319-40902-3",
+doi="10.1007/978-3-319-40902-3_26",
+url="http://dx.doi.org/10.1007/978-3-319-40902-3_26",
+annote={webcams}
+}
+
+%% 2016
+@inproceedings{stylianouGlitter2016,
+  title={SparkleGeometry: Glitter Imaging for 3D Point Tracking},
+  author={Abby Stylianou and Robert Pless},
+  booktitle={IEEE Workshop on Computational Cameras and Displays},
+  year={2016},
+  annote={geometry},
+url={http://www.cv-foundation.org/openaccess/content_cvpr_2016_workshops/w16/papers/Stylianou_SparkleGeometry_Glitter_Imaging_CVPR_2016_paper.pdf}
+}
+
+@inproceedings{schillebeeckx2016CVPR,
+  title={Single Image Camera Calibration with Lenticular Arrays for Augmented Reality},
+  author={Ian Schillebeeckx and Robert Pless},
+  booktitle=CVPR,
+  year={2016},
+  url={http://www.cse.wustl.edu/~pless/papers/schillebeeckxCVPR2016.pdf},
+  annote={geometry,selected}
+}
+
+@Article{frontiers2016,
+  author = 	 {J. Aaron Hipp,  Alicia Manteiga, Amanda Burgess, Abby Stylianou and Robert Pless},
+  title = 	 {Webcams, crowdsourcing, and enhanced crosswalks: Developing a novel method to analyze active transportation},
+  journal = 	 {Frontiers in Public Health},
+  year = 	 {2016},
+  doi = {doi: 10.3389/fpubh.2016.00097},
+  volume = 	 {published online},
+  annote={selected},
+  url = {http://journal.frontiersin.org/article/10.3389/fpubh.2016.00097/abstract}
+}
+
+@inproceedings{schillebeeckx2016VR,
+  title={Using Chromo-coded Light Fields for Virtual Reality},
+  author={Ian Schillebeeckx and Robert Pless},
+  booktitle={IEEE Virtual Reality (poster)},
+  year={2016},
+  url={http://www.cse.wustl.edu/~pless/papers/ieeeVRposter.pdf},
+  annote={geometry}}
+}
+
+%% 2015
+@article{tinkum2015fasting,
+  title={Fasting protects mice from lethal DNA damage by promoting small intestinal epithelial stem cell survival},
+  author={Tinkum, Kelsey L and Stemler, Kristina M and White, Lynn S and Loza, Andrew J and Jeter-Jones, Sabrina and Michalski, Basia M and Kuzmicki, Catherine and Pless, Robert and Stappenbeck, Thaddeus S and Piwnica-Worms, David and others},
+  journal={Proceedings of the National Academy of Sciences},
+  volume={112},
+  number={51},
+  pages={E7148--E7154},
+  year={2015},
+  publisher={National Acad Sciences},
+  url={http://www.pnas.org/content/112/51/E7148.abstract}
+}
+
+@inproceedings{murdock2015cloudMap,
+  title={Building Dynamic Cloud Maps from the Ground Up},
+  author={Calvin Murdock and Nathan Jacobs and Robert Pless},
+  booktitle= ICCV,
+  pages={},
+  year={2015},
+  organization={IEEE},
+  url="http://www.cse.wustl.edu/~pless/papers/iccv2015clouds_final.pdf",
+  annote={webcams,ugrad,selected,ML}}
+
+
+@inproceedings{schillebeeckx,
+  title={The Geometry of Colorful, Lenticular Fiducial Markers},
+  author={Ian Schillebeeckx and Joshua Little and Robert Pless},
+  booktitle=3DV,
+  year={2015},
+  organization={IEEE},
+  url="http://www.cse.wustl.edu/~pless/papers/3DVlenticular.pdf",
+annote={sensorFusion,geometry}
+}
+
+@inproceedings{stylianou2015characterizing,
+  title={Characterizing Feature Matching Performance over Long Time Periods},
+  author={Stylianou, Abby and Abrams, Austin and Pless, Robert},
+  booktitle= WACV2,
+  pages={892--898},
+  year={2015},
+  organization={IEEE},
+  url="http://www.cse.wustl.edu/~astylianou/papers/featuresOverTime.pdf",
+annote={webcams}
+}
+
+@inproceedings{schillebeeckxPlessICCP2014,
+title={Structured Light Field Design for Correspondence Free Rotation Estimation},
+author={Ian Schillebeeckx and Robert Pless},
+booktitle=ICCP,
+year=2015,
+url="http://www.cse.wustl.edu/~pless/papers/ICCP2015_lightField.pdf",
+annote={sensorFusion,geometry,ICCP,selected}
+}
+
+@inproceedings{stylianou2015AIPR,
+  title={Indexing Open Imagery to Create Tools to Fight Sex Trafficking},
+  author={Abby Stylianou and Abigail Norling-Ruggles and Richard Souvenir and Robert Pless}, 
+  booktitle={Applied Imagery Pattern Recognition Workshop (AIPR)},
+  year={2015},
+  annote={ugrad, social},
+  url={http://research.engineering.wustl.edu/~pless/pdfs/AIPRSexTraffickingFinal.pdf},
+}
+
+@inproceedings{wirelessHealth2015,
+  title={Cameras and crowds in transportation tracking},
+  author={J. Aaron Hipp and Alicia Manteiga and Amanda Burgess and Abby Stylianou and Robert Pless},
+  booktitle={International Conference on Wireless, Connected and Mobile Health Research},
+  year={2015},
+  annote={ugrad, webcams, social},
+doi={2811780.2811941},
+  url={http://dl.acm.org/citation.cfm?id=2811941&CFID=562586363&CFTOKEN=60745233},
+}
+
+
+%% 2014
+@InProceedings{abramsICCP2014,
+ author = 	 {Austin Abrams and Ian Schillebeeckx and Robert Pless},
+  title = 	 {Structure from Shadow Motion},
+  booktitle =	 ICCP,
+  year =	 2014,
+  pages     = {1-8},
+  url = "http://www.cse.wustl.edu/~pless/pdfs/iccp2014shadowtracking.pdf",
+annote = "webcams,selected,geometry"
+}
+@inproceedings{stylianou2014AIPR,
+  title={Images Don't Forget: Online Photogrammetry to Find Lost Graves},
+  author={Abby Stylianou and Joseph O'Sullivan and Robert Pless}, 
+  booktitle={Applied Imagery Pattern Recognition Workshop (AIPR)},
+  year={2014},
+  annote={webcams,ugrad, social,geometry},
+  url={http://research.engineering.wustl.edu/~pless/papers/ImagesDontForget.pdf},
+}
+
+@inproceedings{osullivan2014AIPR,
+  title={Democratizing the Visualization of 500 million webcam images},
+  author={Joseph O'Sullivan and Abby Stylianou and Robert Pless}, 
+  booktitle={Applied Imagery Pattern Recognition Workshop (AIPR)},
+  year={2014},
+  annote={webcams,ugrad,ML,social},
+  url={http://research.engineering.wustl.edu/~pless/papers/AIPR_democratizingFinal.pdf},
+}
+
+@article{boyle2014simple,
+  title={Simple and accurate methods for quantifying deformation, disruption, and development in biological tissues},
+  author={Boyle, John J and Kume, Maiko and Wyczalkowski, Matthew A and Taber, Larry A and Pless, Robert B and Xia, Younan and Genin, Guy M and Thomopoulos, Stavros},
+  journal={Journal of The Royal Society Interface},
+  volume={11},
+  number={100},
+  year={2014},
+  publisher={The Royal Society},
+  annote={biological,selected},
+ URL = {http://rsif.royalsocietypublishing.org/content/11/100/20140685}
+}
+
+@article{freudenburg2014fast,
+  title={Fast-scale network dynamics in human cortex have specific spectral covariance patterns},
+  author={Freudenburg, Zachary V and Gaona, Charles M and Sharma, Mohit and Bundy, David T and Breshears, Jonathan D and Pless, Robert B and Leuthardt, Eric C},
+  journal={Proceedings of the National Academy of Sciences},
+  volume={111},
+  number={12},
+  pages={4602--4607},
+  year={2014},
+  publisher={National Acad Sciences},
+  annote={biological,selected,ML},
+URL="http://www.pnas.org/content/111/12/4602.short"
+}
+
+@inproceedings{urbanWebcams14,
+  title={Learning from Outdoor Webcams: Surveillance of Physical Activity Across Environments},
+  author={J. Aaron Hipp and Deepti Adlakha and Amy A. Eyler and Rebecca Gernes and Agata Kargol and Abigail H. Stylianou and Robert Pless},
+  booktitle={NSF Workshop on Big Data and Urban Informatics},
+  year={2014},
+  annote={webcams,ML,social},
+  url={http://research.engineering.wustl.edu/~pless/papers/AIPR_democratizingFinal.pdf},
+}
+
+%% 2013
+@inproceedings{stylianou2013finding,
+  title={Finding Jane Doe: a forensic application of 2D image calibration},
+  author={Stylianou, Abby and Abrams, Austin and Pless, Robert},
+  year={2013},
+  publisher={IET Digital Library},
+  booktitle={5th International Conference on Imagining for Crime Detection and Prevention (ICDP)},
+  pages={97-102},
+  note={Best Paper Award},
+  annote={social,geometry,selected},
+  URL={http://www.cse.wustl.edu/~astylianou/papers/Finding_Jane_Doe.pdf}
+}
+
+@inproceedings{stark2013ng2,
+  title={NG2 (+) pericytes support interstitial migration and effector function of myeloid leukocytes during sterile inflammation},
+  author={Stark, K and Eckart, A and Haidari, S and Tirniceriu, A and Lorenz, M and von Bruehl, M-L and Gaertner, F and Khandoga, AG and Legate, KR and Pless, R and others},
+  booktitle={EUROPEAN JOURNAL OF CLINICAL INVESTIGATION},
+  volume={43},
+  pages={3--3},
+  annotation={biological},
+  year={2013},
+  organization={WILEY-BLACKWELL 111 RIVER ST, HOBOKEN 07030-5774, NJ USA}
+}
+@misc{bookout2013detecting,
+  title={DETECTING OPTICAL DEFECTS IN TRANSPARENCIES},
+  author={Bookout, Ronald L and Gleason, Michael P and Thomas, Matthew M and Dixon, Michael S and Pless, Robert and Smart, William D},
+  year={2013},
+  month=feb # "~6",
+  note={EP Patent 2,553,658},
+  annotations={geometry}
+}
+
+@article{abrams2013shadow,
+  title={Shadow Estimation Method for" The Episolar Constraint: Monocular Shape from Shadow Correspondence"},
+  author={Abrams, Austin and Hawley, Chris and Miskell, Kylia and Stoica, Adina and Jacobs, Nathan and Pless, Robert},
+  journal={arXiv preprint arXiv:1304.4112},
+  annotation={webcams, ugrad, clouds},
+  year={2013}
+}
+
+@inproceedings{west2013collaborativeImaging,
+  title={Collaborative imaging of urban forest dynamics: augmenting re-photography to visualize changes over time},
+  author={West, Ruth and Halley, Abby and O Neil-Dunne, Jarlath and Gordon, Daniel and Pless, Robert},
+  booktitle={IS\&T/SPIE Electronic Imaging},
+  pages={86490L--86490L},
+  year={2013},
+  annotation={ugrad, citizenScience,social},
+  organization={International Society for Optics and Photonics},
+URL={http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=1660820}
+}
+
+@inproceedings{west2013collaborative,
+  title={Collaborative rephotography},
+  author={West, Ruth and Halley, Abby and Gordon, Daniel and O'Neil-Dunne, Jarlath and Pless, Robert},
+  booktitle={ACM SIGGRAPH 2013 Studio Talks},
+  pages={20},
+  year={2013},
+  annotation={webcams, ugrad,social},
+  organization={ACM}
+}
+
+@article{jacobs2013two,
+  title={Two Cloud-Based Cues for Estimating Scene Structure and Camera Calibration},
+  author={Jacobs, Nathan and Abrams, Austin and Pless, Robert},
+  journal=T-PAMI,
+  pages={1},
+  year={2013},
+  annotation={webcams, selected,geometry},
+  publisher={IEEE},
+  url={http://research.engineering.wustl.edu/~pless/papers/twoCloudsPAMI.pdf},
+}
+@article{Abrams:2013:WGI:2422956.2422964,
+ author = {Abrams, Austin and Pless, Robert},
+ title = {Web-accessible geographic integration and calibration of webcams},
+ journal = {ACM Trans. Multimedia Comput. Commun. Appl.},
+ issue_date = {February 2013},
+ volume = {9},
+ number = {1},
+ month = feb,
+ year = {2013},
+ pages = {8:1--8:20},
+ url = {http://research.engineering.wustl.edu/~pless/papers/tomccap2012.pdf},
+ doi = {10.1145/2422956.2422964},
+ acmid = {2422964},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ annotation={webcams,ML,social},
+ keywords = {Camera calibration, geospatial Web services, pan-tilt-zoom cameras, participatory GIS, social computing, voluntary geographic information, webcams}
+} 
+
+@InProceedings{abrams2013episolar,
+  author =       {Austin Abrams and Kylia Miskell and Robert Pless},
+  title =        {The Episolar Constraint: Monocular Shape from Shadow Correspondence},
+  annote={webcams,selected},
+  booktitle = CVPR,
+  year =      2013,
+  annotation={timelapse,clouds,webcams,geometry},
+  url = {http://research.engineering.wustl.edu/~pless/papers/cvpr2013episolar.pdf}
+}
+
+@article{stark2013capillary,
+  title={Capillary and arteriolar pericytes attract innate leukocytes exiting through venules and'instruct'them with pattern-recognition and motility programs},
+  author={Stark, K. and Eckart, A. and Haidari, S. and Tirniceriu, A. and Lorenz, M. and von Br{\"u}hl, M.L. and G{\"a}rtner, F. and Khandoga, A.G. and Legate, K.R. and Pless, R. and Ingrid Hepper and Kirsten Lauber and Barbara Walzog and Steffen Massberg},
+  journal={Nature Immunology},
+  volume={14},
+  number={1},
+  pages={41--51},
+  year={2013},
+  publisher={Nature Publishing Group},
+  annote={biological,selected},
+  url={http://www.nature.com/ni/journal/v14/n1/full/ni.2489.html}
+}
+
+@inproceedings{murdock13clouds,
+  author={Calvin Murdock and Nathan Jacobs and Robert
+    Pless},
+  title={Webcam2Satellite: Estimating Cloud Maps from Webcam Imagery},
+  year=2013,
+  booktitle=WACV,
+  annotation={workshop,timelapse,clouds,webcams,ugrad,ML},
+  url={http://research.engineering.wustl.edu/~pless/papers/wacv2013Clouds.pdf},
+}
+
+@Article{hippPless2013,
+  author = 	 {J Aaron Hipp and Deepti Adlakha and Amy A Eyler and Bill Chang and Robert Pless},
+  title = 	 {Emerging technologies: webcams and crowd-sourcing to identify active transportation},
+  journal = 	 {American Journal of Preventitive Medicine},
+  year = 	 2013,
+  volume = 	 44,
+  number = 	 1,
+  pages = 	 {96-97},
+  month = 	 {Jan},
+  annote = 	 {webcams,biological,ML,social},
+ url = {http://openscholarship.wustl.edu/cgi/viewcontent.cgi?article=1002&context=brown_facpubs}
+}
+
+%% 2012
+@article{hipp2012can,
+  title={Can publicly available webcameras and mechanical Turk be used to evaluate physical activity policy and built environment change?},
+  author={Hipp, J. and Pless, R. and Adlakha, D. and Chang, B. and Eyler, A.},
+  journal={Journal of Science and Medicine in Sport},
+  volume={15},
+  pages={S33},
+  year={2012},
+annote={ML,social},
+  publisher={Elsevier}
+}
+
+@article{geninPLoS20112,
+    author = {Sheng-Lin Lee and Ali Nekouzadeh and Boyd Butler and Kenneth M. Pryse and  William B. McConnaughey and Adam C. Nathan and Wesley R. Legant and Pascal M. Schaefer and Robert B. Pless and Elliot L. Elson and Guy M. Genin},
+    journal = {PLoS ONE},
+    publisher = {Public Library of Science},
+    title = {Physically-Induced Cytoskeleton Remodeling of Cells in Three-Dimensional Culture},
+    year = {2012},
+    month = {Dec},
+    volume = {7},
+    pages = {e45512},
+    number = {12},
+    annote={biological},
+    url={http://dx.plos.org/10.1371/journal.pone.0045512}
+}        
+
+
+@inproceedings{abrams12eccv,
+  author={Austin Abrams and Christopher Hawley and Robert Pless},
+  title={Heliometric Stereo: Shape from Sun Position},
+  year={2012},
+  booktitle=ECCV,
+  url={http://research.engineering.wustl.edu/~pless/papers/AbramsHeliometricEccv2012.pdf},
+  annote={webcams,ugrad,selected}
+}
+
+@inproceedings{abrams12lost,
+  author={Austin Abrams and Jim Tucek and Nathan Jacobs and Robert
+    Pless},
+  title={LOST: Longterm Observation of Scenes (with Tracks)},
+  year={2012},
+  booktitle=WACV,
+  url={http://research.engineering.wustl.edu/~pless/papers/wacv2012lost.pdf},
+  annote={webcams,ugrad,surveillance,ML,social},
+  note={(oral presentation)}
+}
+
+@inproceedings{little12,
+  author={Joshua Little and Austin Abrams and Robert Pless},
+  title={Tools for Richer Crowd Source Image Annotations},
+  year={2012},
+  booktitle=WACV,
+  url={http://research.engineering.wustl.edu/~pless/papers/wacv2012lost.pdf},
+  annote={webcams,ugrad,ML,social},
+  note={(oral presentation)}
+}
+
+
+
+%% 2011
+
+@article{PLoS2011,
+    author = {Abney, Teresa M. AND Feng, Yuan AND Pless, Robert AND Okamoto, Ruth J. AND Genin, Guy M. AND Bayly, Philip V.},
+    journal = {PLoS ONE},
+    publisher = {Public Library of Science},
+    title = {Principal Component Analysis of Dynamic Relative Displacement Fields Estimated from {MR} Images},
+    year = {2011},
+    month = {July},
+    volume = {6},
+    pages = {e22063},
+    number = {7},
+    annote={biological,ML},
+doi={doi:10.1371/journal.pone.0022063}
+}        
+
+@article{baylyPropulsion,
+title = "Propulsive Forces on the Flagellum during Locomotion of Chlamydomonas reinhardtii",
+journal = "Biophysical Journal",
+volume = "100",
+number = "11",
+pages = "2716 - 2725",
+year = "2011",
+note = "",
+issn = "0006-3495",
+doi = "DOI: 10.1016/j.bpj.2011.05.001",
+url = "http://www.sciencedirect.com/science/article/pii/S0006349511005571",
+author = "P.V. Bayly and B.L. Lewis and E.C. Ranz and R.J. Okamoto and R.B. Pless and S.K. Dutcher",
+url={http://research.engineering.wustl.edu/~pless/papers/bayly2011.pdf},
+annote={biological,ML}
+}
+
+@InProceedings{dixonCVPR2011,
+  author = 	 {Michael Dixon and Austin Abrams and Nathan Jacobs and Robert Pless},
+  title = 	 {On analyzing video with very small motions},
+  booktitle = 	 CVPR,
+  url={http://research.engineering.wustl.edu/~pless/papers/plessCVPR2011smallMotions.pdf},
+  project={http://research.engineering.wustl.edu/~abramsa/projects/motionPCA/},
+  year =	 2011,
+  annote = "surveillance,webcams,selected,geometry"
+}
+
+
+@inproceedings{jacobs11geolocate, 
+  author={Nathan Jacobs and Kylia Miskell and Robert Pless}, 
+  title={Webcam Geo-localization using Aggregate Light Levels}, 
+  year=2011, 
+  booktitle=WACV,
+pages={132-138},
+  pubtype={oral presentation}, 
+  url={http://research.engineering.wustl.edu/~pless/papers/webcamLightLevels.pdf},
+  annote={webcams,ugrad},
+  project={http://cs.uky.edu/~jacobs/research/geolocate/}
+}
+
+@inproceedings{abrams11subsetPCA, 
+  author={Austin Abrams and Emily Feder and Robert Pless},
+  title={Exploratory Analysis of Time-Lapse Imagery with Fast Subset PCA},
+  year=2011, 
+  booktitle=WACV,
+pages={336-343},
+  pubtype={oral presentation}, 
+annote={webcams,ugrad,ML},
+  url={http://research.engineering.wustl.edu/~pless/papers/fspca.pdf}
+}
+
+%% 2010
+@article{FengBrain2010,
+author = {Feng, Y. and Abney, T. M. and Okamoto, R. J. and Pless, R. B. and Genin, G. M. and Bayly, P. V.}, 
+title = {Relative brain displacement and deformation during constrained mild frontal head impact}, 
+journal = {Journal of The Royal Society Interface},
+doi = {10.1098/rsif.2010.0210}, 
+volume=7,
+number=6,
+year=2010,
+pages={1677-1688},
+URL = {http://rsif.royalsocietypublishing.org/content/early/2010/05/25/rsif.2010.0210.abstract}, 
+eprint = {http://rsif.royalsocietypublishing.org/content/early/2010/05/25/rsif.2010.0210.full.pdf+html}, 
+annote={biological}
+}
+
+
+@article{Kreisel,
+author = {Kreisel, Daniel and Nava, Ruben G. and Li, Wenjun and Zinselmeyer, Bernd H. and Wang, Baomei and Lai, Jiaming and Pless, Robert and Gelman, Andrew E. and Krupnick, Alexander S. and Miller, Mark J.}, 
+title = {{In vivo two-photon imaging reveals monocyte-dependent neutrophil extravasation during pulmonary inflammation}}, 
+journal = PNAS,
+year=2010,
+volume=107,
+number=42,
+pages={18073-18078},
+doi = {10.1073/pnas.1008737107}, 
+abstract ={Immune-mediated pulmonary diseases are a significant public health concern. Analysis of leukocyte behavior in the lung is essential for understanding cellular mechanisms that contribute to normal and diseased states. Here, we used two-photon imaging to study neutrophil extravasation from pulmonary vessels and subsequent interstitial migration. We found that the lungs contained a significant pool of tissue-resident neutrophils in the steady state. In response to inflammation produced by bacterial challenge or transplant-mediated, ischemia-reperfusion injury, neutrophils were rapidly recruited from the circulation and patrolled the interstitium and airspaces of the lung. Motile neutrophils often aggregated in dynamic clusters that formed and dispersed over tens of minutes. These clusters were associated with CD115+ F4/80+ Ly6C+ cells that had recently entered the lung. The depletion of blood monocytes with clodronate liposomes reduced neutrophil clustering in the lung, but acted by inhibiting neutrophil transendothelial migration upstream of interstitial migration. Our results suggest that a subset of monocytes serve as key regulators of neutrophil extravasation in the lung and may be an attractive target for the treatment of inflammatory pulmonary diseases.}, 
+URL = {http://www.pnas.org/content/early/2010/10/04/1008737107.abstract}, 
+eprint = {http://www.pnas.org/content/early/2010/10/04/1008737107.full.pdf+html}, 
+annote={biological,selected}
+}
+
+
+%%%% Vision, Manifold Learning
+
+%%%%%%%%%%%%%%%%%%%%%%%% 2009
+@inproceedings{mdlCluster,
+ author = {Po-Hsiang Lai and Joseph A. O'Sullivan and Robert Pless},
+ title = {Minimum description length and clustering with exemplars},
+ booktitle = {Proceedings of the 2009 IEEE International Symposium on Information Theory (ISIT)},
+ year = 2009,
+ isbn = {978-1-4244-4312-3},
+ pages = {1318--1322},
+ location = {Coex, Seoul, Korea},
+ publisher = {IEEE Press},
+ address = {Piscataway, NJ, USA},
+ annote = {clustering,ML},
+URL="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5205937"
+ }
+@Article{plessCytoSkeleton2010,
+  author =       {Philip V Bayly and B. L. Lewis and P. S. Kemp and Robert Pless and S. K. Dutcher},
+  title =        {Efficient spatiotemporal analysis of the flagellar waveform of Chlamydomonas reinhardtii},
+  journal =      {Cytoskeleton},
+  year =         {2010},
+  volume=67,
+number=1,
+pages={56-69},
+  URL={http://www3.interscience.wiley.com/journal/123210660/abstract},
+  annote = {biological}
+}
+
+@article{plessSouvenirSurvey2009,
+  title={A Survey of Manifold Learning for Images},
+  author={Robert Pless and Richard Souvenir},
+  journal={IPSJ Transactions on Computer Vision and Applications},
+  volume={1},
+  pages={83-94},
+  year={2009},
+  annote={isomap,ML},
+  URL={http://www.jstage.jst.go.jp/article/ipsjtcva/1/0/83/_pdf},
+  abstract = {Many natural image sets are samples of a low-dimensional manifold in the space of all possible images. Understanding this manifold is a key first step in understanding many sets of images, and manifold learning approaches have recently been used within many application domains, including face recognition, medical image segmentation, gait recognition and hand-written character recognition. This paper attempts to characterize the special features of manifold learning on image data sets, and to highlight the value and limitations of these approaches.}
+}
+
+@inproceedings{georgCVPR2008,
+  author = {Manfred Georg and Richard Souvenir and Andrew Hope and Robert Pless},
+  title = {Simultaneous Data Volume Reconstruction and Pose Estimation from Slice Samples },
+  booktitle = {Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages = {1-6},
+  year = 2008,
+  annote={manifold,segmentation,selected},
+URL="http://research.engineering.wustl.edu/~pless/pdfs/georg2008cvpr.pdf"}
+}
+@inproceedings{georgMMBIA2008,
+  author = {Manfred Georg and Richard Souvenir and Andrew Hope and Robert Pless},
+  title = {Manifold Learning for 4D CT Reconstruction of the Lung},
+  booktitle = {Mathematical Methods in Biomedical Image Analysis},
+  year = {2008},
+pages={1-8},
+  abstract = {},
+  annote={biological,isomap,CT,ML},
+URL="http://research.engineering.wustl.edu/~pless/pdfs/breathMeasureFor4DCT.pdf"
+}
+                  
+%%%%%%%%%%%%%%%%%%%%%%%% 2007
+
+@article{souvenirPless07,
+  author    = {Richard Souvenir and
+               Robert Pless},
+  title     = {Image distance functions for manifold learning},
+  journal   = {Image and Vision Computing},
+  volume    = 25,
+  number    = 3,
+  year      = 2007,
+  pages     = {365-373},
+  url       = {http://dx.doi.org/10.1016/j.imavis.2006.01.016},
+abstract = {},
+annote = {manifold,selected,ML}
+}
+
+@InProceedings{georgICCR,
+  title         = {Applications of Manifold Learning Techniques in 4D-CT Reconstruction},
+  author        = {Andrew Hope and Manfred Georg and Jonathan Cannon and J Hubenschmidt and Wei Lu and Dan Low and Robert Pless},
+  year          = {2007},
+  month         = jun,
+  pages         = {1-5},
+  booktitle     = {International Conference on the Use of Computers in 
+    Radiation Therapy (ICCR)},
+   language      = {en},
+  url           = {http://liris.cnrs.fr/publis/?id=2877},
+ annote={biological,isomap,CT,ugrad,ML},
+ comment={Winner of the Reviewer's Choice Award}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%% 2006
+@InProceedings{qilongCVPR,
+  author = 	 {Qilong Zhang and Richard Souvenir and Robert Pless},
+  title = 	 {On Manifold Structure of Cardiac {MRI} Data: Application to Segmentation},
+  booktitle = 	 CVPR,
+  pages     = {1092-1098},
+  year =	 2006,
+  annote = {ML, isomap};
+url = "http://doi.ieeecomputersociety.org/10.1109/CVPR.2006.214",
+abstract = {biological,isomap,CT}
+}
+
+@InProceedings{manifoldInterpICIP,
+  author = 	 {Richard Souvenir and Qilong Zhang and Robert Pless},
+  title = 	 {Image Manifold Interpolation Using Free-Form Deformations},
+  booktitle = 	 ICIP,
+  pages = {1437-1440},
+  year =	 2006,
+  annote = {ML, isomap};
+url = "http://www.cs.wustl.edu/~pless/papers/ImageManifoldInterp.pdf"
+}
+
+@InProceedings{multiSegmentation,
+  author = 	 {Qilong Zhang and Robert Pless},
+  title = 	 {Segmenting Multiple Familiar Objects under Mutual Occlusion},
+  booktitle = 	 ICIP,
+  pages = {197-200},
+  year =	 2006,
+  annote = {ML, isomap},
+url = "http://www.cs.wustl.edu/~pless/papers/SegmentingMultiObjectsWithShapePriors.pdf",
+abstract = {}
+}
+
+@InProceedings{pocvCylinder,
+ author = {Michael Dixon and Nathan Jacobs and Robert Pless},
+ title = {Finding Minimal Parameterizations of Cylindrical Image Manifolds},
+ booktitle = {CVPRW '06: Proceedings of the 2006 Conference on Computer Vision and Pattern Recognition Workshop on Perceptual Organization in Computer Vision (POCV)},
+ year = 2006,
+ isbn = {0-7695-2646-2},
+ pages = {192-197},
+ doi = {http://dx.doi.org/10.1109/CVPRW.2006.82},
+ publisher = {IEEE Computer Society},
+ address = {Washington, DC, USA},
+  annote = {ML, isomap,graphTheory},
+  url = "http://www.cs.wustl.edu/~jacobsn/papers/dixon_POCV06.pdf",
+abstract = {}
+ }
+
+%%%%%%%%%%%%%%%%%%%%%%%% 2005 
+
+@InProceedings{qilongLevelSet,
+  author = 	 {Qilong Zhang and Robert Pless},
+  title = 	 {Segmenting Cardiopulmonary Images using Manifold
+Learning with Level Sets},
+  booktitle = 	 {IEEE Workshop on Computer Vision for Biomedical Image Applications (LNCS 3765)},
+  pages = {479-488},
+  year =	 2005,
+  annote = {ML, isomap}
+  url = "http://www.cs.wustl.edu/MediaAndMachines/publications/papers/zhang2005levelsets.pdf",
+abstract = {}
+}
+
+@InProceedings{qilongSnakes,
+  author = 	 {Qilong Zhang and Richard Souvenir and Robert Pless},
+  title = 	 {Segmentation informed by manifold learning},
+  booktitle = 	 {International Workshop on Energy Minimization Methods in Computer Vision and Pattern Recognition EMMCVPR (LNCS 3757)},
+  pages = {398-413},
+  year =	 2005,
+  annote = "isomap,segmentation,ML",
+  url = "http://www.cs.wustl.edu/~pless/papers/zhangEMMCVPR05.pdf"
+}
+
+
+@InProceedings{souvenirManifoldClustering,
+  author = 	 {Richard Souvenir and Robert Pless},
+  title = 	 {Manifold Clustering},
+  booktitle = 	 ICCV,
+  pages = {648-653},
+  year =	 2005,
+  annote = "isomap,clustering,selected,ML",
+  url = "http://www.cse.seas.wustl.edu/techreportfiles/getreport.asp?431",
+}
+
+@InProceedings{plessMotionIsomap,
+  author = 	 {Richard Souvenir and Robert Pless},
+  title = 	 {Isomap and non-parametric models of image deformation},
+  booktitle = 	 {Proceedings of the IEEE Workshop on Motion and Video Computing},
+  pages     = {195-200},
+  year =	 2005,
+  url = "http://www.cs.wustl.edu/~pless/papers/motionIsomap.pdf",
+  annote = "isomap,ML"
+}
+
+@InProceedings{plessANM,
+  author = 	 {Robert Pless},
+  title = 	 { Differential Structure in non-linear Image Embedding Functions},
+  booktitle = 	 { Proceedings of the IEEE Workshop on Articulated and non-rigid Motion},
+  pages =	 {10-17},
+  year =	 2004,
+  url = "http://www.cs.wustl.edu/~pless/papers/differentialStructure.pdf",
+  annote = "isomap,ML",
+abstract = {}
+}
+
+@InProceedings{plessICCV,
+  author = "Robert Pless",
+  title = "Using Isomap to Explore Video Sequences",
+  booktitle = 	 ICCV,
+  year =	 2003,
+  pages = {1433-1440},
+  url = "http://www.cse.wustl.edu/~pless/papers/imageSpaces.pdf",
+annote = "isomap,selected,ML"}
+
+@InProceedings{plessNonFlat,
+  author = 	 {Robert Pless and Ian Simon},
+  title = 	 {Embedding Images in non-Flat Spaces},
+  booktitle = 	 {Conference on Imaging Science Systems and Technology},
+  pages =        {182-188},
+  year = 	 {2002},
+  url = "http://www.cse.wustl.edu/~pless/papers/plessNonFlat.pdf",
+  annote = "isomap,ugrad,ML"
+}
+
+@InProceedings{plessThousands,
+  author = 	 {Robert Pless and Ian Simon},
+  title = 	 {Using thousands of images of an object},
+  booktitle = 	 {Proceedings of the 6th Joint Conference on Information Science, (CVPRIP)},
+  pages     = {684-687},
+  year = 	 {2002},
+  url = "http://www.cse.wustl.edu/~pless/papers/plessSimonThousandsCVPRIP.pdf",
+  annote = "isomap,ugrad,ML"
+}
+
+@Article{dixonTransparency2011,
+  author =       {Michael Dixon and Robert Glaubius and Philip Freeman and Robert Pless and Michael P. Gleason and Matthew M. Thomas and William D. Smart},
+  title =        {Measuring optical distortion in aircraft transparencies: a fully automated system for quantitative evaluation},
+  journal =      {Machine Vision and Applications},
+  pages =       {1-14},
+volume = 22,
+number = 5,
+  year =         {2011},
+  abstract = {We describe a complete system for quantitatively measuring the optical distortion in aircraft windshields and automatically classifying that distortion as acceptable or not. The system comprises two parts: The first uses digital imaging of a known grid pattern through the windshield of interest to create a distortion map of that windshield; the second uses the distortion maps created for 100 windshields (some acceptable and some not) and automatically learns a decision-tree-based classifier. We show results that highlight the robustness of this system, including a demonstration that the distortion map for a windshield is consistently measured over 3 years, and cross-validation study shows that we can effectively classify windshields based on the distortion maps.},
+annote = "applications",
+url="http://www.cs.wustl.edu/~msd2/publications/mvap2010.pdf"
+}
+
+@inproceedings{abrams10webcams,
+  author={Austin Abrams and Robert Pless},
+  title={Webcams in Context: Web Interfaces to Create Live 3D Environments},
+  year=2010,
+  month = {Jun},
+pages={331-340},
+  booktitle=ACMMM,
+URL="http://research.engineering.wustl.edu/~abramsa/papers/webcams_in_context.pdf",
+  annote="webcams,GIS,selected,social"
+}
+
+@inproceedings{jacobs10clouds,
+  author={Nathan Jacobs and Brian Bies and Robert Pless},
+  title={Using Cloud Shadows to Infer Scene Structure and Camera
+    Calibration},
+  year=2010,
+  month = "Jun",
+pages={1102-1109},
+  booktitle=CVPR,
+URL={http://cs.uky.edu/~jacobs/papers/jacobs2010depthfromclouds.pdf},
+  annote="webcams,compressive,selected,ugrad"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2009
+
+@Article{plessMiller2009,
+  author =       {Bernd H Zinselmeyer and John Dempster and David L Wokosin and Jonathan Cannon and Robert Pless and Ian Parker and Mark J Miller},
+  title =        {Two-photon microscopy and multidimensional analysis of cell dynamics},
+  journal =      {Methods in Enzymology},
+  year =         2009,
+  volume =    461,
+  pages =     {349-378},
+  abstract= {Two-photon (2P) microscopy is a high-resolution imaging technique that was initially applied by neurobiologists and developmental cell biologists but has subsequently been broadly adapted by immunologists. The value of 2P microscopy is that it affords an unparalleled view of single-cell spatiotemporal dynamics deep within intact tissues and organs. As the technology develops and new transgenic mice and fluorescent probes become available, 2P microscopy will serve as an increasingly valuable tool for assessing cell function and probing molecular mechanisms. Here we discuss the technical aspects related to 2P microscope design, explain in detail various tissue imaging preparations, and walk the reader through the often daunting process of analyzing multidimensional data sets and presenting the experimental results.},
+  url={http://www.ncbi.nlm.nih.gov/pubmed/19480927},
+  annote="applications,biological,ugrad"
+}
+
+@inproceedings{jacobs09webcamgis,
+  author={Nathan Jacobs and Walker Burgin and Nick Fridrich and Austin
+    Abrams and Kylia Miskell and Bobby H. Braswell and Andrew D.
+      Richardson and Robert Pless},
+  title={The Global Network of Outdoor Webcams: Properties and
+    Applications},
+  year=2009,
+  pages={111-120},
+  month=nov,
+  booktitle={ACM International Conference on Advances in Geographic
+    Information Systems (SIGSPATIAL GIS)},
+  URL="http://research.engineering.wustl.edu/~pless/papers/jacobsPless09.pdf",
+  annote="webcam,GIS,selected,ugrad,ML,social"
+}
+
+@inproceedings{pless09trackingAIPR,
+  title={Persistence and Tracking: Putting Vehicles and Trajectories in Context},
+  author={Robert Pless and Nathan Jacobs and Michael Dixon and Ralph
+    Hartley and Patrick Baker and Derek Brock and Nick Cassimatis and
+      Dennis Perzanowski}, 
+  booktitle={Applied Imagery Pattern Recognition Workshop (AIPR)},
+  year={2009},
+pages={1-8},
+  annote={surveillance,tracking}
+}
+
+@inproceedings{jacobs09webcamAIPR,
+  title={The Global Webcam Imaging Network},
+  author={Nathan Jacobs and Richard Souvenir and Robert Pless},
+  booktitle={Applied Imagery Pattern Recognition Workshop (AIPR)},
+  year={2009},
+pages={1-8},
+  annote={webcams},
+ comment={Winner of the Best Student Paper award}
+}
+
+@inproceedings{jacobs09sheet,
+  author={Nathan Jacobs and Michael Dixon and Scott Satkin and Robert Pless},
+  title={Efficient Tracking of Many Objects in Structured Environments}, 
+  pages={1-8},
+year=2009,
+  month=oct,
+  booktitle={IEEE ICCV Workshop on Visual Surveillance},
+  annote={surveillance,tracking},
+url={http://cse.wustl.edu/Research/Lists/Technical%20Reports/Attachments/859/sheet_tracking_tr.pdf}
+}
+
+@inproceedings{jacobs09phdforum,
+  author={Nathan Jacobs and Robert Pless},
+  title={Calibrating and using the Global Network of Outdoor Webcams
+    ({W}inner {P}hD {F}orum {P}rize)}, 
+  year=2009,
+  month=Sep,
+  booktitle={ACM/IEEE International Conference on Distrubted Smart
+    Cameras (ICDSC)},
+  annote={webcams},
+URL="http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=5289404"
+}
+
+@inproceedings{jacobs09multicam,
+  author={Michael Dixon and Nathan Jacobs and Robert Pless},
+  title={An Efficient System for Vehicle Tracking in Multi-Camera Networks}, 
+pages={1-8},
+  year=2009,
+  month=Sep,
+  booktitle={ACM/IEEE International Conference on Distrubted Smart
+   Cameras (ICDSC)},
+  URL="http://research.engineering.wustl.edu/~mdixon/publications/icdsc2009.pdf",
+annote="surveillance,tracking"
+}
+
+@inproceedings{jacobs09webcamdata,
+  author={Nathan Jacobs and Walker Burgin and Richard Speyer and David
+    Ross and Robert Pless},
+  title={Adventures in Archiving and Using Three Years of Webcam
+    Images},
+  year=2009,
+pages={39-46},
+  month=jun,
+  booktitle={IEEE CVPR Workshop on Internet Vision},
+  URL={http://www.cse.wustl.edu/~jacobsn/papers/iv_2009/jacobs09webcamdata.pdf},
+annote={webcams,ugrad,ML,social}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%% 2008
+@article{timeScales,
+  author = {Nathan Jacobs and Robert Pless},
+  title = {Time Scales in Video Surveillance},
+  journal = {IEEE Transactions on Circuits and Systems for Video Technology},
+  volume = 18,
+  year = 2008,
+  number = 8,
+  month = {August},
+  pages = {1106-1113},
+  url={http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=4559593},
+  annote={surveillance,tracking},
+  abstract={ Events in surveillance video occur over many time scales,
+                  but common approaches to background subtraction and
+                  video representation are implicitly based on a
+                  single temporal scale. In this work, we derive a set
+                  of causal filters which define a temporal
+                  scale-space representation for the activity at each
+                  pixel. This scale-space can be maintained and
+                  continuously updated in real time and, for static
+                  cameras viewing dynamic scenes, has several
+                  interesting properties. In particular, it directly
+                  characterizes interesting temporal features and
+                  supports approximate reconstruction of the video
+                  history under challenging noise conditions. The
+                  temporal scale-space grounds novel approaches to
+                  several applications, including a natural
+                  visualization tool to summarize recent video
+                  behavior in a single image, and a tool to directly
+                  report how long the object has been present in a
+                  scene without reexamining any video data.  }
+}
+@inproceedings{roman2008,
+  author = {Nathaniel Roman and Robert Pless},
+  title = {A System for Rapid Interactive Training of Object Detectors},
+  booktitle = {Proc. International Symposium on Visual Computing},
+  year = {2008},
+  pages = {123-132},
+  series = {Lecture Notes in Computer Science},
+  volume = {5359},
+  URL={http://www.cse.wustl.edu/~pless/papers/romanPlessISVC.pdf},
+  annote={surveillance,interactive,ugrad,ML}
+}
+
+@inproceedings{jacobs08wacv,
+  author={Nathan Jacobs and Michael Dixon and Robert Pless},
+  title = {Location-Specific Transition Distributions for Tracking},
+  booktitle = WACV,
+pages={1-8},
+  year = 2008,
+ annote={surveillance,tracking},
+url={http://research.engineering.wustl.edu/~mdixon/publications/wmvc2008.pdf},
+}
+
+@InProceedings{jacobs08VISN,
+  author = 	 {Nathan Jacobs and Nathaniel Roman and Robert Pless},
+  title = 	 {Toward Fully Automatic Geo-Location and Geo-Orientation of Static Outdoor Cameras},
+  booktitle =	 VISN,
+pages={1-6},
+  year =	 2008,
+url={http://cs.engr.uky.edu/~jacobs/papers/wacv_2008/jacobs08geoorient.pdf},
+annote={webcams,calibration,ugrad}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%% 2007
+@inproceedings{jacobs07amos,
+  author={Nathan Jacobs and Nathaniel Roman and Robert Pless},
+  title={Consistent Temporal Variations in Many Outdoor Scenes},
+  year=2007,
+  month = Jun,
+  booktitle=CVPR,
+pages={1-6},
+  URL={http://www.cse.wustl.edu/\~{}jacobsn/papers/cvpr_2007/jacobs2007amos.pdf},
+  project={http://www.cse.wustl.edu/\~{}jacobsn/projects/webcam_dataset/},
+annote={webcams,ugrad,selected}
+}
+
+@inproceedings{jacobs07geolocate,
+  author={Nathan Jacobs and Scott Satkin and Nathaniel Roman and
+  Richard Speyer and Robert Pless},
+  title={Geolocating Static Cameras}, 
+  year=2007,
+  month=Oct,
+  pages={1-6},
+  address={Rio De Janiero, Brazil},
+  booktitle= ICCV,
+  URL={http://www.cse.wustl.edu/~pless/papers/jacobsICCV07.pdf},
+  annote="webcams,calibration,ugrad,selected"
+}
+
+@InProceedings{jacobsShapes,
+  author = 	 {Nathan Jacobs and Robert Pless},
+  title = 	 {Shape background modeling: The shape of things that came},
+  booktitle = 	 {Proceedings of the IEEE Workshop on Motion and Video Computing},
+  year =	 2007,
+pages={27-32},
+  annote = "surv",
+url = "http://www.cs.wustl.edu/~jacobsn/papers/wmvc_2007/jacobs_WMVC07.pdf",
+ annote="surveillance,tracking"
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% 2006
+
+@InProceedings{vssnModels,
+ author = {Nathan Jacobs and Robert Pless},
+ title = {Real-time constant memory visual summaries for surveillance},
+ booktitle = {VSSN '06: Proceedings of the 4th ACM international workshop on Video surveillance and sensor networks},
+ year = 2006,
+ isbn = {1-59593-496-0},
+ pages = {155--160},
+ location = {Santa Barbara, California, USA},
+ doi = {http://doi.acm.org/10.1145/1178782.1178805},
+ publisher = {ACM Press},
+ address = {New York, NY, USA},
+url="http://www.cse.wustl.edu/~jacobsn/papers/vssn_2006/jacobs_vssn06.pdf",
+annote="surveillance"
+}
+
+@article{plessGIS,
+  author    = {Robert Pless},
+  title     = {Detecting Roads in Stabilized Video with the Spatio-Temporal Structure Tensor},
+  journal = {Geoinformatica},
+  year      = {2006},
+  volume  = {10},
+number = {1},
+pages = {39-56},
+  annote = "surveillance",
+url="http://portal.acm.org/citation.cfm?id=1116041"
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% 2005 
+@Article{plessJASP,
+  author = 	 {Robert Pless},
+  title = 	 {Spatio-temporal background models for outdoor surveillance},
+  journal = 	 {Journal on Applied Signal Processing},
+  year = 	 2005,
+pages = {2281-2291},
+  volume = 	 14,
+  url = "http://www.cse.wustl.edu/~pless/papers/JASPpless.pdf",
+annote = "surveillance"
+}
+
+@InProceedings{plessPETS,
+  author = 	 {Richard Souvenir and John Wright and Robert Pless},
+  title = 	 {Spatio-Temporal Detection and Isolation: Results on the PETS2005 Datasets},
+  booktitle = 	 {Proceedings of the IEEE Workshop on Performance Evaluation in Tracking and Surveillance},
+  year =	 2005,
+pages={62-69},
+  url = "http://www.cs.wustl.edu/~pless/papers/souvenirWrightPless.pdf",
+  annote = "surveillance,ugrad"
+}
+
+@InProceedings{plessStructureTensor,
+  author = 	 {John Wright and Robert Pless},
+  title = 	 {Analysis of Persistent Motion Patterns Using the 3D Structure Tensor},
+  booktitle = 	 {Proceedings of the IEEE Workshop on Motion and Video Computing},
+  pages     = {14-19},
+  year =	 2005,
+  url = "http://www.cs.wustl.edu/~pless/papers/wright_j_tensor.pdf",
+  annote = "surveillance,ugrad"
+}
+
+
+@inproceedings{plessRoadExtraction,
+  author    = {Robert Pless and David Jurgens},
+  title     = {Road extraction from motion cues in aerial video},
+  booktitle = {Proceedings of the ACM Conference on Geographic Information Systems},
+  year      = {2004},
+  pages     = {31-38},
+  url = "http://www.cs.wustl.edu/~pless/papers/p94-pless.pdf",
+  annote = "surveillance,ugrad"
+}
+
+@inProceedings{plessOSHS,
+	TITLE	= "Better background models for visual surveillance",
+	AUTHOR	= "Robert Pless and Scott Siebers and Ben Westover",
+        booktitle = {Optical Society of America: Optical Sensing for Homeland Security},
+	YEAR	= 2003,
+        annote = "surveillance,workshop,ugrad"
+}
+
+@InProceedings{plessInd,
+  author = "Robert Pless and John Larson and Scott Siebers and Ben Westover",
+  title = "Evaluation of Local Models of Dynamic Backgrounds",
+  booktitle = 	 CVPR,
+  pages     = {73-78},
+  year =	 2003,
+url = "http://www.cse.wustl.edu/~pless/papers/cvprInd.pdf",
+annote = "surveillance,ugrad,selected"
+}
+
+@ARTICLE{plessPAMI,
+	TITLE	= "Detecting Independent Motion: The Statistics of Temporal Continuity ",
+	AUTHOR	= "Robert Pless and Tomas Brodsky and Yiannis Aloimonos ",
+	JOURNAL	= T-PAMI,
+	VOLUME	= 22,
+	NUMBER	= 8,
+	YEAR	= 2000,
+	PAGES	= "68-73",
+url = "http://csdl.computer.org/comp/trans/tp/2000/08/i0768abs.htm",
+annote = "surveillance"
+}
+
+@InProceedings{plessCVPR,
+  author = 	 {Robert Pless and  Tomas Brodsky and Yiannis Aloimonos},
+  title = 	 {Independent Motion: The Importance of History},
+  booktitle =	 CVPR,
+  pages     = {2092-2097},
+  year =	 1999,
+url = "http://www.cse.wustl.edu/~pless/papers/plessCVPR99.pdf",
+annote = "surveillance,selected"
+}
+
+%%%% Vision, 3D Geometry
+%%%%%%%%%%%%%%%%%%%%%%%% 2010
+@inproceedings{jacobs10integral,
+  author={Nathan Jacobs and Stephen Schuh and Robert Pless},
+  title={Compressive Sensing and Differential Image Motion Estimation},
+  year=2010,
+  month = Mar,
+  booktitle={IEEE International Conference on Acoustics, Speech, and
+    Signal Processing (ICASSP)},
+pages={718-721},
+URL={http://cs.uky.edu/~jacobs/papers/icassp_2010/jacobs2010csmotion.pdf},
+annote="compressive,sensorFusion,geometry",
+abstract="Compressive-sensing cameras are an important new class of sensors that have different design constraints than standard cameras. Surprisingly, little work has explored the relationship between compressive-sensing measurements and differential image motion. We show that, given modest constraints on the measurements and image motions, we can omit the computationally expensive compressive-sensing reconstruction step and obtain more accurate motion estimates with significantly less computation time. We also formulate a compressive-sensing reconstruction problem that incorporates known image motion and show that this method outperforms the state-of-the-art in compressive-sensing video reconstruction. "
+}
+
+% 2009
+
+@Proceedings{wmvc2009,
+  title = 	 {Proc. IEEE Workshop on Motion and Video Computing},
+  year = 	 {2009},
+  address =	 {Snowbird, Utah},
+  editor =	 {Robert Pless and James Davis and Stefano Soatto},
+  organization = {IEEE Computer Society}
+}
+
+
+% 2007
+@InProceedings{dixonIROS,
+  author = 	 {Michael Dixon and Frederick Heckel and Bill Smart and Robert Pless},
+  title = 	 {Faster and More Accurate Face Detection on Mobile Robots Using Geometric Constraints}, 
+  booktitle = 	 IROS,
+  year =	 2007,
+  url = "http://www.cse.wustl.edu/~msd2/publications/dixon2007iros.pdf",
+  annote = "sensorFusion,ML,social,geometry"
+}
+
+% 2004
+@InProceedings{zhangIROS,
+  author = 	 {Qilong Zhang and Robert Pless},
+  title = 	 { Extrinsic Calibration of a Camera and Laser Range Finder },
+  booktitle = 	 IROS,
+  pages = {2301-2306},
+  year =	 2004,
+  url = "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.80.7118&rep=rep1&type=pdf",
+  annote = "sensorFusion,sensorDesign,geometry"
+}
+
+@InProceedings{zhangICIP,
+  author = 	 {Qilong Zhang and Robert Pless},
+  title = 	 {Fusing Video and Sparse Depth Data in Structure from Motion},
+  booktitle = 	 {Proceedings of the IEEE International Conference on Image Processing (ICIP)},
+  year =	 2004,
+  pages     = {3403-3406},
+  url = "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.76.2399&rep=rep1&type=pdf",
+  annote = "sensorFusion,sensorDesign,geometry"
+}
+
+
+@InProceedings{zhang3DS,
+  author = 	 {Qilong Zhang and Robert Pless},
+  title = 	 {Constraints for Heterogeneous Sensor Auto-Calibration},
+  booktitle = 	 {IEEE Workshop on Realtime 3D Sensors and Their Use},
+  pages =	 {38-43},
+  year =	 2004,
+  url = "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.64.7864&rep=rep1&type=pdf",
+  annote = "sensorFusion,geometry"
+}
+
+
+@Article{plessRA,
+  author = 	 {Robert Pless},
+  title = 	 {Camera Cluster in Motion: Motion Estimation for Generalized Camera Designs},
+  journal = 	 {IEEE Robotics and Automation Magazine},
+  year = 	 2004,
+  volume =	 11,
+  number =	 4,
+  pages =	 {39-44},
+  url="http://ieeexplore.ieee.org/xpl/abs_free.jsp?arNumber=1371607",
+  annote = "sensorFusion,sensorDesign,geometry"
+}
+
+@InProceedings{larsonSPIE,
+  author = 	 {John Larson and Robert Pless},
+  title = 	 {Bayesian stereo: 3D vision designed for sensor fusion},
+  booktitle = 	 {SPIE: Intelligent Robots and Computer Vision XXII: Algorithms, Techniques, and Active Vision},
+  pages =	 {198-206},
+  year =	 2004,
+  volume =	 5608,
+  annote = "sensorFusion,workshop,ML",
+URL="http://spie.org/x648.html?product_id=571537"
+}
+
+@Proceedings{omnivis03,
+  title = 	 {Proc. IEEE Workshop on Omnidirectional Vision and Camera Networks},
+  year = 	 {2003},
+  address =	 {Madison Wisconsin},
+  editor =	 {Robert Pless and Jose Santos-Victor and Yasushi Yagi},
+  organization = {IEEE Computer Society},
+  url="http://www.cs.wustl.edu/~pless/omnivis2003/program.html",
+annote = "sensorFusion"
+}
+
+@InCollection{kostasChapter,
+  author =	 {Robert Pless},
+  booktitle = 	 {Imaging Beyong the Pinhole Camera},
+  title = 	 {Imaging Through Time: The advantages of sitting still},
+  publisher = 	 {Kluwer},
+pages = {345-363},
+  year = 	 {2006},
+  editor =      {Kostas Daniilidis and Reinhard Klette and Alex Leonardis},
+  URL = {http://www.springerlink.com/content/l43k866072713057/},
+  annote = "sensorFusion"}
+}
+
+@inproceedings{plessPlucker,
+        AUTHOR = {Robert Pless},
+        TITLE = {Using many cameras as one},
+        BOOKTITLE = CVPR,
+        YEAR = 2003,
+        PAGES = {II: 587-593},
+url = "http://www.cs.wustl.edu/~pless/papers/plessPlucker.pdf",
+annote = "sensorFusion,selected,sensorDesign,geometry"}
+
+@InProceedings{plessOmni,
+  author = 	 {Robert Pless},
+  title = 	 {Two View Discrete and Differential constraints for generalized imaging systems},
+  booktitle = 	 {Proc. of the IEEE Workshop on Omnidirectional Vision},
+  year = 	 2002,
+  pages = {53-59},
+url = "http://www.cse.wustl.edu/~pless/papers/pless_Omni.pdf",
+annote = "sensorFusion"
+}
+
+@InProceedings{sphericalEyeCVPR,
+author = {Patrick Baker and Cornelia Fermuller and Yiannis Aloimonos and Robert Pless},
+title = {A Spherical Eye from Multiple Camera (makes better models of the world)},
+year = 2001,
+  pages     = {576-583},
+booktitle = CVPR,
+annote = "sensorFusion,geometry",
+url = "http://www.cfar.umd.edu/~jneumann/Papers/bake01f.pdf"
+}
+
+@PhdThesis{plessphd,
+        author = "Robert Pless",
+        title  = "Video Linking",
+        school = "Department of Computer Science",
+        address = "University of Maryland", 
+        year   = 2000,
+url= {http://www.cse.wustl.edu/~pless/pdfs/VideoLinking2.pdf}
+}
+
+@InProceedings{argusBMCV,
+  author =       {Patrick Baker and Robert Pless and Cornelia Fermuller and Yiannis Aloimonos
+},
+title = {New Eyes for Shape and Motion Estimation},
+ booktitle = {BMVC '00: Proceedings of the First IEEE International Workshop on Biologically Motivated Computer Vision},
+ year = 2000,
+ isbn = {3-540-67560-4},
+ pages = {118--128},
+ publisher = {Springer-Verlag},
+url = {http://portal.acm.org/citation.cfm?id=648247.753974},
+annote = "sensorFusion"
+}
+
+@InProceedings{cameraNetworkSMILE,
+  author =       {Patrick Baker and Robert Pless and Cornelia Fermuller and Yiannis Aloimonos},
+  title =        {Camera Networks for Building Shape Models from Video},
+  year =         2000,
+  booktitle =    {Workshop on 3D Structure from Multiple Images of
+                  Large-scale Environments (SMILE)},
+  url = "http://www.cse.wustl.edu/~pless/papers/smile.pdf",
+annote = "sensorFusion"
+}
+
+%%%% Sensor Networks and Graph Theory
+%%%%%%%%%%%%%%%%%%%%%%%% 2009
+
+@Article{xingPless2010,
+  author =       {Guoliang Xing and Xiangmao Chang and Chenyang Lu and Jianping Wang
+and Robert Pless and Joseph A O'Sullivan},
+  title =        {Efficient Coverage Maintenance Based on Probabilistic Distributed Detection},
+  journal =      {IEEE Transactions on Mobile Computing},
+  year =         2010,
+  Volume = 9,
+  number = 9,
+  pages =     {1346-1360},
+annote = {sensorNetworks},
+  url={http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5456373}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%% 2007
+@Article{xingLuPless07,
+  author = { Guoliang Xing and Chenyang Lu and Ying Zhang and Qingfeng Huang and Robert Pless},
+  title = 	 {Minimum Power Configuration for Wireless Communication in Sensor Networks},
+  journal = 	 {ACM Transactions on Sensor Networks},
+  year = 	 2007,
+  volume = 3,
+  number = 2,
+  pages = 11,
+  url  =        {http://www.cse.wustl.edu/~lu/papers/tosn-mpc.pdf},
+annote = "sensorNetworks"
+}
+
+@inProceedings{xingLuPlessICCN07,
+  author = { Guoliang Xing and Chenyang Lu and Robert Pless},
+  title =  {Localized and Configurable Topology Control in Lossy Wireless Sensor Networks},
+  booktitle = 	 {International Conference on Computer Communications and Networks (ICCCN'07)},
+  year = 	 2007,
+pages = {75-80},
+url = {http://www.cse.wustl.edu/~lu/papers/icccn07.pdf},
+annote = "sensorNetworks"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%% 2006
+
+@Article{plessTPDP,
+  author = 	 {Guoliang Xing and Chenyang Lu and Robert Pless and Qingfeng Huang},
+  title = 	 {Impact of Sensing Coverage on Greedy Geographic Routing Algorithms},
+  journal = 	 {IEEE Transactions on Parallel and Distributed Systems, Special Issue on Localized Communication and Topology Protocols for Ad Hoc Networks},
+volume = {17},
+ number = {4},
+ year = {2006},
+ issn = {1045-9219},
+ pages = {348--360},
+  url = {http://www.cse.wustl.edu/~xing/docs/tpds05.pdf},
+  annote = "sensorNetworks,graphTheory"
+}
+%%%%%%%%%%%%%%%%%%%%%%%% 2006
+@article{plessTOSN,
+ author = {Guoliang Xing and Xiaorui Wang and Yuanfang Zhang and Chenyang Lu and Robert Pless and Christopher Gill},
+ title = {Integrated coverage and connectivity configuration for energy conservation in sensor networks},
+ journal = {ACM Transactions on Sensor Networks},
+ volume = {1},
+ number = {1},
+ year = {2005},
+ issn = {1550-4859},
+ pages = {36--72},
+url="http://www.cens.ucla.edu/sensys03/proceedings/p28-wang.pdf",
+ publisher = {ACM Press},
+ address = {New York, NY, USA},
+annote = {sensorNetworks}
+ }
+
+@InProceedings{mobihoc05,
+  author = 	 { Guoliang Xing and Chenyang Lu and Ying Zhang and Qingfeng Huang and Robert Pless},
+  title = 	 {Minimum Power Configuration in Wireless Sensor Networks},
+  booktitle = 	 {ACM International Symposium on Mobile Ad Hoc Networking and Computing (MobiHoc)},
+pages = {390-401},
+  year =	 2005,
+  address =	 {Urbana-Champaign, IL},
+  url={http://www.cse.wustl.edu/~xing/docs/f1568951884-xing.pdf},
+  annote = "sensorNetworks"}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2004
+
+
+@inproceedings{xingMobiHoc,
+ author = {Guoliang Xing and Chenyang Lu and Robert Pless and Qingfeng Huang},
+ title = {On greedy geographic routing algorithms in sensing-covered networks},
+  booktitle = 	 {ACM International Symposium on Mobile Ad Hoc Networking and Computing (MobiHoc)},
+ year = {2004},
+ isbn = {1-58113-849-0},
+ pages = {31--42},
+ location = {Roppongi Hills, Tokyo, Japan},
+ url = {http://www.cse.wustl.edu/~lu/papers/mobihoc04.pdf},
+ publisher = {ACM Press},
+ annote = "sensorNetworks"
+ }
+
+@inproceedings{XingIPSN,
+ author = {Guoliang Xing and Chenyang Lu and Robert Pless and Joseph A. O'Sullivan},
+ title = {Co-Grid: An Efficient Coverage Maintenance Protocol for Distributed Sensor Networks},
+ booktitle = {Proceedings of the International Symposium on Information Processing in Sensor Networks (IPSN)},
+ year = {2004},
+ isbn = {1-58113-846-6},
+ pages = {414--423},
+ location = {Berkeley, California, USA},
+ url = {http://www.cse.wustl.edu/~lu/papers/ipsn04.pdf},
+ publisher = {ACM Press},
+annote = "sensorNetworks"
+ }
+
+@inproceedings{WangSenys,
+ author = {Xiaorui Wang and Guoliang Xing and Yuanfang Zhang and Chenyang Lu and Robert Pless and Christopher Gill},
+ title = {Integrated coverage and connectivity configuration in wireless sensor networks},
+ booktitle = {Proceedings of the International Conference on Embedded Networked Sensor Systems (Sensys)},
+ year = {2003},
+ isbn = {1-58113-707-9},
+ pages = {28--39},
+ location = {Los Angeles, California, USA},
+ doi = {http://www.cse.wustl.edu/~lu/papers/sensys03_ccp.pdf},
+ publisher = {ACM Press},
+annote = "sensorNetworks,selected"
+ }
+
+@Article{plessSIAM,
+  author = 	 {Samir Khuller and Randeep Bhatia and Robert Pless},
+  title = 	 {On Local Search and Placement of Meters in Networks},
+  journal = 	 SIAM,
+  year = 	 2003,
+  volume =	 32,
+  number =	 2,
+  pages =	 {470-487},
+  url="http://www.cs.umd.edu/~samir/grant/kbp2000.ps",
+  annote = "sensorNetworks,graphTheory"
+}
+
+@Article{plessTCS,
+  author = 	 {Samir Khuller and Robert Pless and Yoram Sussman},
+  title = 	 {Fault Tolerant K-Center Problems},
+  journal = 	 {Theoretical Computer Science},
+  year = 	 2000,
+  volume =	 242,
+  pages =	 {237-245}, 
+  url="http://www.cs.umd.edu/~samir/grant/kps97.ps",
+  annote = "sensorNetworks,graphTheory"
+}
+
+@Article{plessFullDegree,
+  author = 	 {Randeep Bhatia and Samir Khuller and Yoram Sussman and Robert Pless},
+  title = 	 {The Full Degree Spanning Tree Problem},
+  journal = 	 {Networks},
+  year = 	 2000,
+  volume =	 36,
+  number =	 4,
+  pages =	 {203-209},
+  url="http://www.cs.umd.edu/~samir/grant/networksfdst.pdf",
+  annote = "sensorNetworks,graphTheory"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% MISC
+
+@InProceedings{jiMRI,
+  author = 	 {Sean Songbai Ji and Philip V. Bayly and Panagiotis G. Massouros and Robert B. Pless and Guy M. Genin.},
+  title = 	 {Optimal Evaluation of Strain Fields using Magnetic Resonance Imaging},
+  booktitle = 	 {ASME Mechanics and Materials Conference},
+  year =	 2003,
+  month =	 {June},
+annote = "biological"
+}
+
+@InProceedings{wangVI,
+  author = 	 {Lei Wang and Cindy Grimm and Robert Pless},
+  title = 	 { A 3D Pattern for Pose Estimation for Object Capture},
+  booktitle = 	 { Vision Interface},
+  pages = {395-401},
+  year =	 2003,
+  url = 	 {http://www.cs.wustl.edu/MediaAndMachines/publications/papers/VIObjCap2003.pdf},
+annote = "misc,sensorFusion"}
+
+
+@InProceedings{schroeringVI,
+  author = 	 {Mark Schroering and Cindy Grimm and Robert Pless},
+  title = 	 { A New Input Device for 3D Sketching },
+  booktitle = 	 { Vision Interface},
+pages = {311-318},
+  year =	 2003,
+  url = {http://www.cs.wustl.edu/MediaAndMachines/publications/papers/VIPaper2003.pdf},
+annote = "misc,sensorFusion"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2002 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2001 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2000 
+
+@Article{ouchiVis,
+  author = 	 {Cornelia Fermuller and Robert Pless},
+  title = 	 {The Ouchi Illusion as an artifact of biased flow estimation},
+  journal = 	 {Vision Research},
+  year = 	 2000,
+  volume =	 40,
+  number =	 1,
+  pages =	 {77-95},
+  url="http://citeseer.ist.psu.edu/64916.html",
+annote = "opticIllusions"
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 1999
+
+@InProceedings{ouchiCVPR,
+ author = 	 {Cornelia Fermuller and Robert Pless},
+  title = 	 {Statistical Biases in Optic Flow},
+  booktitle =	 CVPR,
+  year =	 1999,
+  pages     = {1561-1566},
+  url = "http://www.cse.wustl.edu/~pless/papers/statistical-biases-in-optic.pdf",
+annote = "opticIllusions,selected"
+}
+
+@InProceedings{ouchiOSA,
+ author = 	 {Robert Pless and Cornelia Fermuller},
+  title = 	 {Explaining the Ouchi Illusion},
+  booktitle =	 {Optical Society of America},
+  year =	 1999,
+annote = "opticIllusions"
+}
+
+
+@Article{plessIllusion,
+  author = 	 {Cornelia Fermuller and Robert Pless and Yiannis Aloimonos},
+  title = 	 {Families of stationary patterns producing illusory movement: {Insights} into the visual system},
+  journal = 	 PRSLB,
+  year = 	 1997,
+  volume =	 264,
+  pages =	 {795-806},
+url = "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1688435/pdf/9225476.pdf",
+annote = "opticIllusions"
+}
+
+@Article{plessJASA,
+  author = 	 {Ward L Johnson and Stephen J Norton and Felix Bendec and Robert Pless},
+  title = 	 {Ultrasonic spectroscopy of metallic spheres using electromagnetic-acoustic transduction},
+  journal = 	 {Journal of the Acoustical Society of America},
+  year = 	 1992,
+  volume =	 91,
+  number =	 5,
+  pages =	 {2637-2642},
+URL = "http://asadl.org/jasa/resource/1/jasman/v91/i5/p2637_s1?isAuthorized=no",
+  annote = "misc,ugrad"
+}
+
+
