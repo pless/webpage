@@ -12,15 +12,13 @@
 <div class="content"> 
 <h4>Updates:</h4>
 <ul>
-<li>Congratulations <a href="http://www.cse.wustl.edu/~schillebeeckxi/">Ian
-    Schillebeeckx</a>, new PhD!
-<li>Thank you Adobe for your gift in support of image matching research.
-<li>Best Paper award for
-<a href="http://www.cv-foundation.org//openaccess/content_cvpr_2016_workshops/w16/papers/Stylianou_SparkleGeometry_Glitter_Imaging_CVPR_2016_paper.pdf">SparkleGeometry:
-  Glitter Imaging for 3D Point Tracking</a> at the IEEE/CVPR Workshop
-  on <a href="http://imagesci.ece.cmu.edu/CCD2016/">Computational
-  Cameras and Displays</a>.
-<li>100,000 downloads of our app TraffickCam for <a href="https://itunes.apple.com/us/app/traffickcam/id1067713017?mt=8">iPhone</a> and
+<li>I'm excited to teach <a href="3212/index.html">CSCI 3212: Algorithms</a> this semester!
+<li>Thank you Adobe!  Your generous gift to GWU will help our image matching research
+to fight human trafficking.  
+<li>Welcome, Maya Shende, Hong Xuan, and Derek LeFever to the best Computer Vision research group in Foggy Bottom!
+<li>Download our app TraffickCam
+for <a href="https://itunes.apple.com/us/app/traffickcam/id1067713017?mt=8">iPhone</a>
+and
     <a href="https://play.google.com/store/apps/details?id=com.exchangeinitiative.traffickcam">Android</a>.
     Popular press: 
 <a href="https://www.washingtonpost.com/news/inspired-life/wp/2016/07/01/how-simply-snapping-a-photo-of-your-hotel-room-could-save-trafficked-children/">Washington
@@ -31,6 +29,14 @@
     of
     India</a>, <a href="http://www.ecpatusa.org/2016/06/20/travelers-use-traffickcam-app-fight-sex-trafficking-uploading-hotel-room-photos-national-database/">ECPAT</a>,
     and <a href="http://www.ksdk.com/news/local/new-app-created-to-fight-human-trafficking/253188670">KSDK news</a>.
+
+<li>Congratulations <a href="http://www.cse.wustl.edu/~schillebeeckxi/">Ian
+    Schillebeeckx</a>, new PhD!
+<li>Best Paper award for
+<a href="http://www.cv-foundation.org//openaccess/content_cvpr_2016_workshops/w16/papers/Stylianou_SparkleGeometry_Glitter_Imaging_CVPR_2016_paper.pdf">SparkleGeometry:
+  Glitter Imaging for 3D Point Tracking</a> at the IEEE/CVPR Workshop
+  on <a href="http://imagesci.ece.cmu.edu/CCD2016/">Computational
+  Cameras and Displays</a>.
 <li>Published in Frontiers in Public Health:
 <a href="http://journal.frontiersin.org/article/10.3389/fpubh.2016.00097/full">Webcams, crowdsourcing, and enhanced crosswalks: Developing a novel method to analyze active transportation</a>, Hipp, Manteiga, Burgess, Stylianou, Pless.
 <li><a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1553116">NSF CAREER AWARD</a> to my former student <a href="http://cs.uky.edu/~jacobs/">Nathan Jacobs</a>.
@@ -85,10 +91,6 @@ image with respect to Google Maps which was used to find the lost
 grave of a Jane Doe crime victim from 30 years ago.
 </ul>
 
-I founded and direct the 
-<a href="https://www.facebook.com/Media-and-Machines-Lab-145663825454497/info/?tab=overview">Media
- and Machines Laboratory</a>.
-<br>
 <br>
 
 <h4>Dataset, Apps, and Frequenty Requested Code</h4>
