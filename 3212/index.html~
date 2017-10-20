@@ -12,6 +12,10 @@
 
 The course Syllabus is <a href="syllabus.html">here</a>.
 
+<h5>Announcements:</h5>
+You can recover some points from your midterm 1 grade by completing this:
+<a href="redemption.pdf">redemption homework</a>.
+
 My lectures are drawn from fantastic online materials from David Mount,
 <h5>Lecture Notes:</h5>
 <ol>
@@ -20,12 +24,13 @@ My lectures are drawn from fantastic online materials from David Mount,
 <li>Lecture 1 approximately followed <a href="http://www3.cs.stonybrook.edu/~skiena/373/newlectures/lecture1.pdf">this lecture by Steve Skienna</a>
 <li>Lecture 2 approximately followed Lectures 2, 4 from <a href="https://www.cs.umd.edu/~mount/251/Lects/251lects.pdf">These lecture notes by David Mount</a>.
 </ol>
-<l>Homework 1, <a href="homework1.pdf">PDF version of assignment</a>, and if you like to use LaTeX as a way to write up technical homeworks, I'm also sharing <a href="homework1.tex">my LaTeX source</a>.
+<li>Homework 1, <a href="homework1.pdf">PDF version of assignment</a>, and if you like to use LaTeX as a way to write up technical homeworks, I'm also sharing <a href="homework1.tex">my LaTeX source</a>.
 <li>[9/5] Sorting, Quicksort, Mergesort, Bucketsort... we approximately followed <a href="https://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture8.pdf">these notes</a> from Steve Skienna.
 <li>[9/12] <a href="https://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture5.pdf">Search Trees</a>, and <a href="https://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture9.pdf">Lower Bound for sorting on page 256-33 of these notes</a>.
 <li>[9/19] <a href="https://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture6.pdf">Hashing</a>.
 <li>[9/26] MIDTERM 1 review.  Midterm 1 on 9/28.
-<li>[10/3] Graphs, (Data Structures, BFS/DFS, Topological Sort)
+<li>[10/3] Graphs, Tuesday lecture largely followed <a href="https://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture10.pdf">these notes</a>, and thursday lecture followed <a href="https://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture10.pdf">these notes</a>.
+<li><a href="homework3.pdf">Homework 3</a>, due October 17.
 <li>[10/10] Graphs II, spanning trees/union find.
 <li>[10/17] Shortest Paths and Dynamic Programming
 <li>[10/24] Applications to robotics and games
