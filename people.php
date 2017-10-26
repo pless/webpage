@@ -57,10 +57,13 @@ most outstanding students I have ever known.  Students I am currently working wi
   <TBODY><TR>
     <TD valign="top" align=center><h4>Undergraduate Students</h4><BR>
 <!-- CURRENT Ugrad -->
-   <A onmouseover="swap('webImages/people.jpg');changetext('William Lyons, Washington University, Class of 2018')">Will Lyons</a><br>
-   <A onmouseover="swap('webImages/people.jpg');changetext('Jessica Schreier, Washington University, Class of 2018')">Jessica Schreier</a><br>
+   <A onmouseover="swap('webImages/people.jpg');changetext('Sam Hanna, George Washington University, Class of 2020')">Sam Hanna</a><br>
+   <A onmouseover="swap('webImages/people.jpg');changetext('Samsara Counts, George Washington University, Class of 2019')">Samantha Counts</a><br>
+   <A onmouseover="swap('webImages/people.jpg');changetext('Suraj Shah, Washington University, Class of 2018')"></a>Suraj Shah<br>
 <!-- ALUMNI Ugrad -->
 <br>  <i>
+   <A onmouseover="swap('webImages/people.jpg');changetext('William Lyons, Washington University, Class of 2018')">Will Lyons</a><br>
+   <A onmouseover="swap('webImages/people.jpg');changetext('Jessica Schreier, Washington University, Class of 2018')">Jessica Schreier</a><br>
    <A onmouseover="swap('webImages/people.jpg');
 changetext('Joseph O\'Sullivan, Washington University, Class of 2016')">Joseph O'Sullivan</a><br>
    <A onmouseover="swap('webImages/people.jpg');
@@ -116,8 +119,7 @@ changetext('Brian Bies, Washington University (2010)')">Brian Bies</a><br>
 </TD>
     <TD valign="top" align=center ><h4>Master Students</h4><BR>
 <!-- CURRENT MS -->
-    <A onmouseover="swap('webImages/people.jpg');changetext('Hong Xuan')">Hong Xuan</A><br>
-    <A onmouseover="swap('webImages/people.jpg');changetext('Ziwei Zhao')">Ziwei Zhao</A><br>
+    <A onmouseover="swap('webImages/people.jpg');changetext('Hong Xuan')">Justine-louise Manning</A><br>
 <br>
 <!-- ALUMNI MS -->
 <i>   
@@ -161,16 +163,15 @@ https://plus.google.com/105258061927639811990/about">Jacob Perkins</a><br>
 </TD>
     <TD valign="top" align=center><h4>Doctoral Students/ <br> Research Scientists</h4><BR>
 <!-- CURRENT PHD -->
-    <A onmouseover="swap('webImages/people.jpg');changetext('Brendan Kelly')">
-Brendan Kelly</A><br>
+    <A onmouseover="swap('webImages/people.jpg');changetext('Hong Xuan, George Washington University, Expected Graduation 2020')">Hong Xuan</A><br>
+    <A onmouseover="swap('webImages/people.jpg');changetext('Maya Shende, George Washington University, Expected Graduation 2021')">Maya Shende</A><br>
+    <A onmouseover="swap('webImages/people.jpg');changetext('Derek Lefever, George Washington University, Expected Graduation 2022')">Derek Lefever</A><br>
     <A onmouseover="swap('webImages/abby.jpg');changetext('Research Scientist since 2012, now PhD Student.')" href="http://research.engineering.wustl.edu/~astylianou/">Abby Stylianou</A><br>
-    <A onmouseover="swap('webImages/people.jpg');changetext('')"> 
-    Dingwen Li</A><br>
-    <A onmouseover="swap('webImages/people.jpg');changetext('Zongyang Li')"> 
-    Zongyang Li</A><br>
 <!-- ALUMNI PHD -->
 <br>
     <i> 
+    <A onmouseover="swap('webImages/people.jpg');changetext('Zongyang Li, now a research Scientist at the Donald Danforth Plant Science Center')"> 
+    Zongyang Li</A><br>
    <A onmouseover="swap('webImages/Ian.jpg'); changetext('Ian Schillebeeckx')"
 href="http://www.cse.wustl.edu/~schillebeeckxi/">
 Ian Schillebeeckx, PhD</A><br>

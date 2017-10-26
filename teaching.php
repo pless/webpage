@@ -10,7 +10,11 @@
 <body> 
 <!-- ********* get the navigation bar on the left side... ****** -->
 <?php include("navbar.html") ?>
-<div class="content"> 
+<div class="content"> >
+<a href="3212/index.html">GWU CSCI 3212, Algorithms</a>
+<br>
+<br>
+<h4>Courses from Washington University</h4>
 <a href="http://www.cs.wustl.edu/~pless/546/">CS 546: Computational
 Geometry</a>, Fall 2016, Spring 2011, 2009, 2007, 2005, 2003, 2001</a><br>
 
