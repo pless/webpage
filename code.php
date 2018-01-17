@@ -37,7 +37,12 @@ Computer Vision and Applications, vol. 1 pp. 83-94, 2009.
 <br>
 <a href="code/manifoldVis.zip">code (zip 12 KBytes)</a>.
 <br><br>
-
+Code from manifold clustering: "A Survey of Manifold Learning for
+Images", Richard Souvenir and Robert Pless, ICCV 2005
+<a href="http://robertpless.com/pubs/bibtexbrowser.php?key=souvenirManifoldClusteringbib=plessRefs.bib">(bib)</a>
+<br>
+<a href="code/kmanifolds.zip">code (zip 2Mbyes)</a>.
+<br><br>
 
 <h5>Code for calibration of cameras to planar laser range finders</h5>
 Matlab code from our paper: "Extrinsic Calibration of a Camera and
