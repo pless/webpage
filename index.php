@@ -12,7 +12,7 @@
 <div class="content"> 
 <h4>Updates:</h4>
 <ul>
-<li>I'm excited to teach <a href="ComputerVision/index.html">Computer Vision</a> this semester!
+<li>I'm excited to teach <a href="classes/ComputerVision/index.html">Computer Vision</a> this semester!
 <li>Thank you Adobe!  Your generous gift to GWU will help our image matching research
 to fight human trafficking.  
 <li>Welcome, Maya Shende, Hong Xuan, and Derek LeFever to the best Computer Vision research group in Foggy Bottom!
