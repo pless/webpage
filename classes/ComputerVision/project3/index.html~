@@ -1,0 +1,136 @@
+
+<html>
+<body>
+First a link to <a href="gradIntroVision.ppt">slides from class</a>.
+<h4> Vision/Robotics Homework</h4>
+
+<li><b>Option 1, Autostereogram Generator</b>.  Not recommended if you can't see autostereograms.
+<ol>
+<li>Write a program that makes an autostereogram.  This program must
+be automatic, and take in a depth map, and (perhaps a texture source,
+or you can generate the texture randomly).  You turn in a web page,
+with your favorite (2 or 3) example outputs (and the depth map they
+came from).
+
+<pre>Program input:  depth map, such as those available from:
+<a href="http://www.philc.net/images/SampleDepthMap.gif">here</a>, 
+<a href="http://www.dbki.de/tutorials/eng/landscape/pic/depth.jpg">or here<a>
+(where dark should be closer), or, 
+<a href="http://www.bernardlebel.com/tutorials/AFX_depthPassDof/depth_pass.jpg">here</a>, or any thing else you can find.
+
+The depth map is usually a grayscale picture, and you need to map the
+color (probably from 0-256) to a distance (how far apart the next
+pixel should be over).  Often mapping depths of 0-256 into the range
+of disparities of 100-250 pixels is about right, but it depends on
+your monitor/printer.
+
+    Vague Algorithm:
+
+        Start at the left pixel of each row.  (ie, let x = 1)
+          randomly pick color C **.
+    	    color location x with color C.
+	    look up the depth (Z) at pixel location x on that row.
+	    map Z onto a displacement d (something like d = 100 + Z/2).
+	    x = x + d.
+            if x is still in the image 
+              (that is, if you haven't gone off the right edge)
+              then loop to "color location x..."
+
+         if x isn't still in the image, set x to the position of the the
+            leftmost pixel that isn't colored at all yet, 
+         loop to "randomly pick color C"
+
+     end
+
+   ** you do have to choose a color, but it does not have to be random.  
+</pre>
+<b>Possible Extensions (not required)</b>
+<ol>
+<li>Moving autostereograms (good java choice).  The idea here is to
+create a depth map that changes through time, and then show the
+autostereogram images through time (so that you see a moving depth
+map).  This might entail creating a depth map that is a mathematical
+function that depends on time (or frame number t):
+
+       d(x,y) = 4 + sin( (x+t) /150)
+
+Now, continually update the autostereograms as the depth map changes.
+This would be a nice java applet, or you could save the results as a
+movie (mpeg or avi).
+
+<li> Explore transparency in autostereograms.  If you have a partially
+transparent surface over a more "solid" surface, we can often see both
+depths at once.  The Project is to explore this idea in the following
+way: make one autostereogram.  make another one with a smaller depth.
+make the second one slightly (or very, I don't know) transparent, and
+put it one top of the first autostereogram.  How can you make it
+transparent?  Option 1, only use every 5th pixel (or so)... for the
+second autostereogram.  Option 2, instead of completely coloring the
+pixels, have the transparent layer only partially change the colors of
+the pixels.  Make a collection of "2 layer autostereograms" and answer
+the following questions: 
+
+    ..) does it matter if neither, one, or both of the two
+        autostereograms is random dot (ie, does it help if they have
+        more structure?
+
+    ...) how seperated, in depth, can the two surfaces be?
+
+<li>An autostereogram "paint" tool.  Given a depth map, there are
+pixels that are required to be the same color.  When you generate a
+autostereogram, usually, you pick a color for a pixel then propogate
+that color across a line in the image.  After you've made an
+autostereogram, if you want to "change" the color of a pixel, then you
+need to propagate that change left and right across the image.  The
+project asks you to implement a "paint" tool where, given a depth map,
+you can interactively create and modify the color choices of the
+autostereogram. 
+
+</ol>
+</ol>
+<li><b>Option 2, Stereo Depth Estimation</b><br>
+Consider rectified images, such as the ones available 
+<a
+href="http://svs.gsfc.nasa.gov/vis/a000000/a003500/a003531/">here</a>.
+(perhaps the best are:
+<a
+href="http://svs.gsfc.nasa.gov/vis/a000000/a003500/a003531/AS15_10320.Panorama_376x3638.tif">right</a>,
+and 
+<a
+href="http://svs.gsfc.nasa.gov/vis/a000000/a003500/a003531/AS15_10325.Panorama_376x3638.tif">left</a>).
+
+<p>Write a program that takes as input a rectified stereo pair, and
+creates a depth map of the scene, (where each pixel is color coded by
+your estimate of the depth).
+<b>Possible Extensions (not required)</b><br>
+Compute the depth map for many different window sizes (ie, 3x3, 5x5,
+9x9, 15x15, 21x21, 31x31), and try different heuristic rules to
+combine the resulting depth maps into one final answer.
+
+<li><b>Turn-in requirements</b><br>
+For either project, turn in a description of your algorithm that
+is less than one page, and which describes your algorithmic choices
+and why you made them (for instance, in the stereo problem, what
+window size do you choose?  are you using sum of squared differences
+or correlation, and why? ).  Then, turn in representative results of
+your program (both input and output), either on paper or through a web
+link.  To some extent, this homework/project is open ended (after all,
+"stereo vision" is a problem that has been studied in computer vision
+for three decades).
+<p>I expect this project (either option) to take less than 3 hours, and
+perhaps an additional hour if this is the first time you've had to
+figure out how to read in an image, muck with the pixel intensity
+values and output an image (each of which has some gotcha's; images
+are often read in as 8 bit uint8 values (which are hard to do math
+with), and depending on which language/library you are using,
+outputing images may prefer uint8's, or floating point numbers between
+0 and 1 and so on).  I  hope that you do not seek out code that already
+accomplishes these tasks, but finding code online that reads and
+writes image data is perfectly acceptable.  good luck.
+</ol>
+</body>
+</html>
+
+
+
+
