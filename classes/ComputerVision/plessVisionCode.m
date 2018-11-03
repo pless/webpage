@@ -67,7 +67,7 @@ axis([1 1920 1 1080])
 %%
 for tx = 1:0.1:9
 T = [0 0 10];
-R = rotationVectorToMatrix([0 0.2*tx 0]);
+R = rotationVectorToMatrix([0 2*tx 0]);
 
 P3 = R*P' + repmat(T', 1, size(P,1));
 P4 = K * P3;
@@ -82,27 +82,99 @@ end
 
 
 %% Now let's put it all together.
-X = P4(:,1);
-Y = P4(:,2);
-Z = P4(:,3);
+X = P(:,1);
+Y = P(:,2);
+Z = P(:,3);
+
+P = P + rand(size(P)).*0.001;
 
 x = P4(:,1)./P4(:,3);
 y = P4(:,2)./P4(:,3);
 
 A = [];
 b = [];
-for a = 1:size(P4,1);
+for a = 1:size(P,1);
     twoRows = [X(a) Y(a) Z(a) 1 0    0    0    0 -x(a)*X(a) -x(a)*Y(a) -x(a)*Z(a)
                0    0    0    0 X(a) Y(a) Z(a) 1 -y(a)*X(a) -y(a)*Y(a) -y(a)*Z(a)];
     A(end+1:end+2,:) = twoRows;
     b(end+1) = x(a);
-    b(end+1) = y(a);
-    
+    b(end+1) = y(a);  
 end
 
-       
-    
-    
-
-
+k = A\b';
+PROJ = [k(1) k(2) k(3) k(4)
+        k(5) k(6) k(7) k(8)
+        k(9) k(10) k(11) 1];
+%%
 %lookfor...
+
+[a b] = qr(PROJ(1:3,1:3));
+
+%%
+P5 = P;
+P5(:,4) = 1;
+tmp = PROJ * P5';
+xx=tmp(1,:)./tmp(3,:);
+yy = tmp(2,:)./tmp(3,:);
+plot(xx,yy,'*k');
+
+%%
+M = PROJ(1:3,1:3)';
+   [Q,R1] = qr(flipud(M)')
+    R1 = flipud(R1');
+    R1 = fliplr(R1);
+
+    Q = Q';   
+    Q = flipud(Q);
+
+    
+    %%
+im = imread('/Users/pless/data/TERRA/2017-08-04__08-43-28-707/c0efaa6d-e64b-488b-a432-a628bb0f24cd__Top-heading-west_0_g.png');
+im = im(1001:2000,1:1000);
+imagesc(im);
+[imh, imw] = size(im);
+ 
+hs = 512; % filter half-size
+fil = fspecial('gaussian', hs*2+1, 300); 
+ 
+fftsize = 1024; % should be order of 2 (for speed) and include padding
+im_fft  = fft2(im,  fftsize, fftsize);                    % 1) fft im with padding
+fil_fft = fft2(fil, fftsize, fftsize);                    % 2) fft fil, pad to same size as image
+im_fil_fft = im_fft .* fil_fft;                           % 3) multiply fft images
+im_fil = ifft2(im_fil_fft);                               % 4) inverse fft2
+im_fil = im_fil(1+hs:size(im,1)+hs, 1+hs:size(im, 2)+hs); % 5) remove padding
+
+%% fft2 refire:
+im = imread('/Users/pless/Desktop/prokudin-gorskii-5.png');
+im = rgb2gray(im);
+im = im-mean(im(:));
+F=fft2(double(im));
+S=fftshift(F);
+
+
+%S(282:285,280:290) = 0;  % Stomp on the center.
+%S(282:285,:) = 0;        % stomp on the vertical.
+%S(:,280:290) = 0;        % stopp on the horizontal.
+
+% stomp on avertical
+%S(282:285,:) = 0;
+
+
+%keep only the center.
+S2 = zeros(size(S));
+b = 200;
+S2(280-b:286+b,286-b:268+b) = S(280-b:286+b,286-b:268+b);
+S = S2;
+
+% reconsruct the image:
+F2 = ifftshift(S);
+im2 = real(ifft2(F2));
+imagesc(im2,[-200 200]);
+
+
+
+%%
+L=log2(S);
+A=abs(L);
+imagesc(A);
+

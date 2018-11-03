@@ -13,10 +13,15 @@
 The course Syllabus is <a href="syllabus.html">here</a>.
 
 <h5>Announcements:</h5>
-You can recover some points from your midterm 1 grade by completing this:
-<a href="redemption.pdf">redemption homework</a>.
+<a href="practiceFinal.pdf">Practice Final Exam</a>, and 
+<a href="sampleFinalDraftSolutions.pdf">partial solutions</a>.<br>
 
-My lectures are drawn from fantastic online materials from David Mount,
+<a href="homework5.pdf">homework 5</a>.
+
+
+<br>
+My lectures are drawn from fantastic online materials from David Mount, and Steven Skienna.
+
 <h5>Lecture Notes:</h5>
 <ol>
 <li>[8/29] Introduction/ Algorithmic Thinking
@@ -29,17 +34,26 @@ My lectures are drawn from fantastic online materials from David Mount,
 <li>[9/12] <a href="https://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture5.pdf">Search Trees</a>, and <a href="https://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture9.pdf">Lower Bound for sorting on page 256-33 of these notes</a>.
 <li>[9/19] <a href="https://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture6.pdf">Hashing</a>.
 <li>[9/26] MIDTERM 1 review.  Midterm 1 on 9/28.
-<li>[10/3] Graphs, Tuesday lecture largely followed <a href="https://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture10.pdf">these notes</a>, and thursday lecture followed <a href="https://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture10.pdf">these notes</a>.
+<li>[10/3] Graphs, Tuesday lecture largely followed <a href="https://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture10.pdf">these notes</a>, and thursday lecture followed <a href="https://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture11.pdf">these notes</a>.
 <li><a href="homework3.pdf">Homework 3</a>, due October 17.
 <li>[10/10] Graphs II, spanning trees/union find.
-<li>[10/17] Shortest Paths and Dynamic Programming
-<li>[10/24] Applications to robotics and games
-<li>[10/31] Other applications
+<a href="https://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture12.pdf">Notes about Depth First Search</a>, and 
+<li>[10/17] Minimum Spanning Trees
+<a href="https://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture13.pdf">Notes about Prim and Kruskals algorithm for Minimum Spanning Trees</a>, and a
+<a href="https://www.youtube.com/watch?v=eCAzKSfRiVI">Video of the proof of Kruskal's algorithm</a>,
+<a href="https://www.youtube.com/watch?v=o8Sqm1_3BRo">Video of Kruskals Algorithm</a>.
+<li>[10/24] Shortest Paths
+<a href="https://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture14.pdf">Shortest Paths</a>,
+<a href="https://www.youtube.com/watch?v=5GT5hYzjNoo">Dijkstra's algorithm nicely visualized</a>.
+<li>[10/31] Dynamic Programming Intro
+<a href="https://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture16.pdf">Dynamic Programming</a>, and 
+<a href="https://www.cs.cmu.edu/~avrim/451f09/lectures/lect1001.pdf">alternative notes and examples</a>
 <li>MIDTERM 2 on 11/9
 <li>[11/14] Strings, Search and Edit Distance
+<a href="http://www.let.rug.nl/kleiweg/lev/">visualization: </a>.
 <li>[11/21] Applications to Computational Biology [Thanksgiving]
-<li>[11/28] Dynamic Programming Examples
-<li>[12/5] NP Completeness
+<li>[11/29] NP Completeness
+<a href="https://people.eecs.berkeley.edu/~vazirani/s99cs170/notes/npc.pdf">Lecture Notes</a>.  Clear specific proof that independent set is NP-Complete <a href="http://www.cs.cornell.edu/courses/cs482/2005su/handouts/NPComplete.pdf">Notes</a>.
 </ol>
 
 <h5>University policy on observance of religious holidays</h5>

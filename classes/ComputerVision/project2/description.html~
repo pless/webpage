@@ -28,7 +28,7 @@ frequency (smooth) part of the signal can be seen. By blending the high frequenc
 
 <h3>Details</h3>
 
-<p class=text><a href="./hybrid.zip">Here</a>, we have included two sample images (of Derek and his former cat Nutmeg) and  some matlab
+<p class=text><a href="https://inst.eecs.berkeley.edu/~cs194-26/fa16/hw/proj3-frequencies/hybrid_.zip">Here</a>, we have included two sample images (of Derek Hoeim and his former cat Nutmeg) and some matlab
 starter code that can be used to load two images and align them. <a href="./hybrid_python.zip">Here</a> is the python version. The alignment is important because it affects
 the perceptual grouping (read the paper for details).</p>
 
@@ -52,8 +52,15 @@ href="http://en.wikipedia.org/wiki/Cutoff_frequency">cutoff-frequency</a> of
     The <a href="http://cvcl.mit.edu/hybridimage/">site</a> has several examples that
     may inspire.</li>
 </ol>
-<h3> Bells &amp; Whistles (Extra Points)</h3>
 
+<h3>Evaluation</h3>
+
+The first 70 points (out of 100) are for correctly implemented the code.
+10 points for the quality of the written description.
+20 points for the aethetic quality of the best results (for example, if you take 2 random images and put them together you will get a hybrid image, but it will look terrible and not be compelling.  Make them compelling!).
+
+
+<h3> Bells &amp; Whistles (Extra Points)</h3>
 <p class=text>Try using color to enhance the effect.
 Does it work better to use color for the high-frequency component, the
 low-frequency component, or both? (5 pts)

@@ -52,7 +52,90 @@
 % ABBREVIATIONS FOR INSTITUTIONS *
 %***********************************
 @STRING{CfAR = "Center for Automation Research"}
+%% 2019
+@InProceedings{WACVAnomaly2018,
+author = {Di Qi and Joshua Arfin and Mengxue Zhang and Tushar Mathew and Brendan Juba and Robert Pless},
+title = "Anomaly Explanation Using Metadata",
+booktitle = WACV,
+year = {2018}
+}
+
+
+%% 2018
+@misc{boyle2018system,
+  title={System and method for quantifying deformation, disruption, and development in a sample},
+  author={Boyle, John J and Genin, Guy M and Kume, Maiko and Pless, Robert B and Thomopoulos, Stavros},
+  year=2018,
+  month={September 11, 2018},
+  publisher={Google Patents},
+  note={US Patent 10,072,924}
+}
+
+@InProceedings{DREMLECCV2018,
+ author = {Hong Xuan and Richard Souvenir and Robert Pless},
+ title = "Deep Randomized Ensembles for Metric Learning",
+ booktitle = ECCV,
+ year = {2018},
+ url={../papers/DREML_ECCV2018.pdf}
+}
+
+@InProceedings{PlessWACVAnomaly2018,
+author = {Di Qi and Joshua Arfin and Mengxue Zhang and Tushar Mathew and Brendan Juba and Robert Pless},
+title = "Anomaly Explanation Using Metadata",
+booktitle = WACV,
+year = {2018}
+}
+
+@inproceedings{stylianou2017traffickcam,
+  title={TraffickCam: Crowdsourced and Computer Vision Based Approaches to Fighting Sex Trafficking},
+  author={Stylianou, Abby and Schreier, Jessica and Souvenir, Richard and Pless, Robert},
+  booktitle={2017 IEEE Applied Imagery Pattern Recognition Workshop (AIPR)},
+  pages={1--8},
+  year={2017},
+  organization={IEEE}
+}
+
 %% 2017
+@inproceedings{stylianou2017traffickcam,
+  title={TraffickCam: Crowdsourced and Computer Vision Based Approaches to Fighting Sex Trafficking},
+  author={Stylianou, Abby and Schreier, Jessica and Souvenir, Richard and Pless, Robert},
+  booktitle={2017 IEEE Applied Imagery Pattern Recognition Workshop (AIPR)},
+  pages={1--8},
+  year={2017},
+  organization={IEEE}
+}
+
+
+@InProceedingsunknown{HongICRAE,
+author = {Xuan, Hong and Schillebeeckx, Ian and Pless, Robert},
+year = {2017},
+month = {12},
+pages = {384-388},
+title = {Self calibrating lenticular markers and articulated pose estimation},
+booktitle = {International Conference on Robotics and Automation Engineering (ICRAE)},
+annote={geometry},
+}
+
+                  
+@InProceedings{PlessED2017,
+author = {Robert Pless and Rebecca Begtrup and Lulwah Alkulaib and Samsara N. Counts and James Harnett
+and Justine-Louise Manning and Hong Xuan and David A. Broniatowski},
+url="http://ceur-ws.org/Vol-1996/paper7.pdf",
+title = {Recognizing​ ​Images​ ​of​ ​Eating​ ​Disorders​ ​in​ ​Social​ ​Media​ ​(Abstract)},
+booktitle = {Proceedings of the 2nd Social Media Mining for Health Applications Workshop & Shared Task},
+month = {November},
+year = {2017},
+annote = {social}
+}
+
+@InProceedings{Upchurch_2017_CVPR,
+author = {Paul Upchurch and Jacob Gardner and Geoff Pleiss and Robert Pless and Noah Snavely and Kavita Bala and Kilian Weinberger},
+title = {Deep Feature Interpolation for Image Content Changes},
+booktitle = CVPR,
+month = {July},
+year = {2017},
+annote = {ML,selected}
+}
 
 @Inbook{Hipp2017,
 author="Hipp, J. Aaron
@@ -70,7 +153,7 @@ pages="471--490",
 isbn="978-3-319-40902-3",
 doi="10.1007/978-3-319-40902-3_26",
 url="http://dx.doi.org/10.1007/978-3-319-40902-3_26",
-annote={webcams}
+annote={webcams,social}
 }
 
 %% 2016
@@ -88,7 +171,7 @@ url={http://www.cv-foundation.org/openaccess/content_cvpr_2016_workshops/w16/pap
   author={Ian Schillebeeckx and Robert Pless},
   booktitle=CVPR,
   year={2016},
-  url={http://www.cse.wustl.edu/~pless/papers/schillebeeckxCVPR2016.pdf},
+  url={../papers/schillebeeckxCVPR2016.pdf},
   annote={geometry,selected}
 }
 
@@ -108,7 +191,7 @@ url={http://www.cv-foundation.org/openaccess/content_cvpr_2016_workshops/w16/pap
   author={Ian Schillebeeckx and Robert Pless},
   booktitle={IEEE Virtual Reality (poster)},
   year={2016},
-  url={http://www.cse.wustl.edu/~pless/papers/ieeeVRposter.pdf},
+  url={../papers/ieeeVRposter.pdf},
   annote={geometry}}
 }
 
@@ -132,7 +215,7 @@ url={http://www.cv-foundation.org/openaccess/content_cvpr_2016_workshops/w16/pap
   pages={},
   year={2015},
   organization={IEEE},
-  url="http://www.cse.wustl.edu/~pless/papers/iccv2015clouds_final.pdf",
+  url="../papers/iccv2015clouds_final.pdf",
   annote={webcams,ugrad,selected,ML}}
 
 
@@ -142,7 +225,7 @@ url={http://www.cv-foundation.org/openaccess/content_cvpr_2016_workshops/w16/pap
   booktitle=3DV,
   year={2015},
   organization={IEEE},
-  url="http://www.cse.wustl.edu/~pless/papers/3DVlenticular.pdf",
+  url="../papers/3DVlenticular.pdf",
 annote={sensorFusion,geometry}
 }
 
@@ -162,7 +245,7 @@ title={Structured Light Field Design for Correspondence Free Rotation Estimation
 author={Ian Schillebeeckx and Robert Pless},
 booktitle=ICCP,
 year=2015,
-url="http://www.cse.wustl.edu/~pless/papers/ICCP2015_lightField.pdf",
+url="../papers/ICCP2015_lightField.pdf",
 annote={sensorFusion,geometry,ICCP,selected}
 }
 
@@ -172,7 +255,7 @@ annote={sensorFusion,geometry,ICCP,selected}
   booktitle={Applied Imagery Pattern Recognition Workshop (AIPR)},
   year={2015},
   annote={ugrad, social},
-  url={http://research.engineering.wustl.edu/~pless/pdfs/AIPRSexTraffickingFinal.pdf},
+  url={../papers/AIPRSexTraffickingFinal.pdf},
 }
 
 @inproceedings{wirelessHealth2015,
@@ -193,7 +276,7 @@ doi={2811780.2811941},
   booktitle =	 ICCP,
   year =	 2014,
   pages     = {1-8},
-  url = "http://www.cse.wustl.edu/~pless/pdfs/iccp2014shadowtracking.pdf",
+  url = "../papers/iccp2014shadowtracking.pdf",
 annote = "webcams,selected,geometry"
 }
 @inproceedings{stylianou2014AIPR,
@@ -202,7 +285,7 @@ annote = "webcams,selected,geometry"
   booktitle={Applied Imagery Pattern Recognition Workshop (AIPR)},
   year={2014},
   annote={webcams,ugrad, social,geometry},
-  url={http://research.engineering.wustl.edu/~pless/papers/ImagesDontForget.pdf},
+  url={../papers/ImagesDontForget.pdf},
 }
 
 @inproceedings{osullivan2014AIPR,
@@ -211,7 +294,7 @@ annote = "webcams,selected,geometry"
   booktitle={Applied Imagery Pattern Recognition Workshop (AIPR)},
   year={2014},
   annote={webcams,ugrad,ML,social},
-  url={http://research.engineering.wustl.edu/~pless/papers/AIPR_democratizingFinal.pdf},
+  url={../papers/AIPR_democratizingFinal.pdf},
 }
 
 @article{boyle2014simple,
@@ -245,7 +328,7 @@ URL="http://www.pnas.org/content/111/12/4602.short"
   booktitle={NSF Workshop on Big Data and Urban Informatics},
   year={2014},
   annote={webcams,ML,social},
-  url={http://research.engineering.wustl.edu/~pless/papers/AIPR_democratizingFinal.pdf},
+  url={../papers/AIPR_democratizingFinal.pdf},
 }
 
 %% 2013
@@ -317,7 +400,7 @@ URL={http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=1660820
   year={2013},
   annotation={webcams, selected,geometry},
   publisher={IEEE},
-  url={http://research.engineering.wustl.edu/~pless/papers/twoCloudsPAMI.pdf},
+  url={../papers/twoCloudsPAMI.pdf},
 }
 @article{Abrams:2013:WGI:2422956.2422964,
  author = {Abrams, Austin and Pless, Robert},
@@ -329,7 +412,7 @@ URL={http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=1660820
  month = feb,
  year = {2013},
  pages = {8:1--8:20},
- url = {http://research.engineering.wustl.edu/~pless/papers/tomccap2012.pdf},
+ url = {../papers/tomccap2012.pdf},
  doi = {10.1145/2422956.2422964},
  acmid = {2422964},
  publisher = {ACM},
@@ -345,7 +428,7 @@ URL={http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=1660820
   booktitle = CVPR,
   year =      2013,
   annotation={timelapse,clouds,webcams,geometry},
-  url = {http://research.engineering.wustl.edu/~pless/papers/cvpr2013episolar.pdf}
+  url = {../papers/cvpr2013episolar.pdf}
 }
 
 @article{stark2013capillary,
@@ -368,7 +451,7 @@ URL={http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=1660820
   year=2013,
   booktitle=WACV,
   annotation={workshop,timelapse,clouds,webcams,ugrad,ML},
-  url={http://research.engineering.wustl.edu/~pless/papers/wacv2013Clouds.pdf},
+  url={../papers/wacv2013Clouds.pdf},
 }
 
 @Article{hippPless2013,
@@ -416,7 +499,7 @@ annote={ML,social},
   title={Heliometric Stereo: Shape from Sun Position},
   year={2012},
   booktitle=ECCV,
-  url={http://research.engineering.wustl.edu/~pless/papers/AbramsHeliometricEccv2012.pdf},
+  url={../papers/AbramsHeliometricEccv2012.pdf},
   annote={webcams,ugrad,selected}
 }
 
@@ -426,7 +509,7 @@ annote={ML,social},
   title={LOST: Longterm Observation of Scenes (with Tracks)},
   year={2012},
   booktitle=WACV,
-  url={http://research.engineering.wustl.edu/~pless/papers/wacv2012lost.pdf},
+  url={../papers/wacv2012lost.pdf},
   annote={webcams,ugrad,surveillance,ML,social},
   note={(oral presentation)}
 }
@@ -436,7 +519,7 @@ annote={ML,social},
   title={Tools for Richer Crowd Source Image Annotations},
   year={2012},
   booktitle=WACV,
-  url={http://research.engineering.wustl.edu/~pless/papers/wacv2012lost.pdf},
+  url={../papers/wacv2012lost.pdf},
   annote={webcams,ugrad,ML,social},
   note={(oral presentation)}
 }
@@ -471,7 +554,7 @@ issn = "0006-3495",
 doi = "DOI: 10.1016/j.bpj.2011.05.001",
 url = "http://www.sciencedirect.com/science/article/pii/S0006349511005571",
 author = "P.V. Bayly and B.L. Lewis and E.C. Ranz and R.J. Okamoto and R.B. Pless and S.K. Dutcher",
-url={http://research.engineering.wustl.edu/~pless/papers/bayly2011.pdf},
+url={../papers/bayly2011.pdf},
 annote={biological,ML}
 }
 
@@ -479,7 +562,7 @@ annote={biological,ML}
   author = 	 {Michael Dixon and Austin Abrams and Nathan Jacobs and Robert Pless},
   title = 	 {On analyzing video with very small motions},
   booktitle = 	 CVPR,
-  url={http://research.engineering.wustl.edu/~pless/papers/plessCVPR2011smallMotions.pdf},
+  url={../papers/plessCVPR2011smallMotions.pdf},
   project={http://research.engineering.wustl.edu/~abramsa/projects/motionPCA/},
   year =	 2011,
   annote = "surveillance,webcams,selected,geometry"
@@ -493,7 +576,7 @@ annote={biological,ML}
   booktitle=WACV,
 pages={132-138},
   pubtype={oral presentation}, 
-  url={http://research.engineering.wustl.edu/~pless/papers/webcamLightLevels.pdf},
+  url={../papers/webcamLightLevels.pdf},
   annote={webcams,ugrad},
   project={http://cs.uky.edu/~jacobs/research/geolocate/}
 }
@@ -506,7 +589,7 @@ pages={132-138},
 pages={336-343},
   pubtype={oral presentation}, 
 annote={webcams,ugrad,ML},
-  url={http://research.engineering.wustl.edu/~pless/papers/fspca.pdf}
+  url={../papers/fspca.pdf}
 }
 
 %% 2010
@@ -584,11 +667,11 @@ pages={56-69},
 @inproceedings{georgCVPR2008,
   author = {Manfred Georg and Richard Souvenir and Andrew Hope and Robert Pless},
   title = {Simultaneous Data Volume Reconstruction and Pose Estimation from Slice Samples },
-  booktitle = {Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  booktitle = CVPR,
   pages = {1-6},
   year = 2008,
   annote={manifold,segmentation,selected},
-URL="http://research.engineering.wustl.edu/~pless/pdfs/georg2008cvpr.pdf"}
+URL="../papers/georg2008cvpr.pdf"}
 }
 @inproceedings{georgMMBIA2008,
   author = {Manfred Georg and Richard Souvenir and Andrew Hope and Robert Pless},
@@ -598,7 +681,7 @@ URL="http://research.engineering.wustl.edu/~pless/pdfs/georg2008cvpr.pdf"}
 pages={1-8},
   abstract = {},
   annote={biological,isomap,CT,ML},
-URL="http://research.engineering.wustl.edu/~pless/pdfs/breathMeasureFor4DCT.pdf"
+URL="../papers/breathMeasureFor4DCT.pdf"
 }
                   
 %%%%%%%%%%%%%%%%%%%%%%%% 2007
@@ -650,7 +733,7 @@ abstract = {biological,isomap,CT}
   pages = {1437-1440},
   year =	 2006,
   annote = {ML, isomap};
-url = "http://www.cs.wustl.edu/~pless/papers/ImageManifoldInterp.pdf"
+url = "../papers/ImageManifoldInterp.pdf"
 }
 
 @InProceedings{multiSegmentation,
@@ -660,7 +743,7 @@ url = "http://www.cs.wustl.edu/~pless/papers/ImageManifoldInterp.pdf"
   pages = {197-200},
   year =	 2006,
   annote = {ML, isomap},
-url = "http://www.cs.wustl.edu/~pless/papers/SegmentingMultiObjectsWithShapePriors.pdf",
+url = "../papers/SegmentingMultiObjectsWithShapePriors.pdf",
 abstract = {}
 }
 
@@ -700,7 +783,7 @@ abstract = {}
   pages = {398-413},
   year =	 2005,
   annote = "isomap,segmentation,ML",
-  url = "http://www.cs.wustl.edu/~pless/papers/zhangEMMCVPR05.pdf"
+  url = "../papers/zhangEMMCVPR05.pdf"
 }
 
 
@@ -720,7 +803,7 @@ abstract = {}
   booktitle = 	 {Proceedings of the IEEE Workshop on Motion and Video Computing},
   pages     = {195-200},
   year =	 2005,
-  url = "http://www.cs.wustl.edu/~pless/papers/motionIsomap.pdf",
+  url = "../papers/motionIsomap.pdf",
   annote = "isomap,ML"
 }
 
@@ -730,7 +813,7 @@ abstract = {}
   booktitle = 	 { Proceedings of the IEEE Workshop on Articulated and non-rigid Motion},
   pages =	 {10-17},
   year =	 2004,
-  url = "http://www.cs.wustl.edu/~pless/papers/differentialStructure.pdf",
+  url = "../papers/differentialStructure.pdf",
   annote = "isomap,ML",
 abstract = {}
 }
@@ -741,7 +824,7 @@ abstract = {}
   booktitle = 	 ICCV,
   year =	 2003,
   pages = {1433-1440},
-  url = "http://www.cse.wustl.edu/~pless/papers/imageSpaces.pdf",
+  url = "../papers/imageSpaces.pdf",
 annote = "isomap,selected,ML"}
 
 @InProceedings{plessNonFlat,
@@ -750,7 +833,7 @@ annote = "isomap,selected,ML"}
   booktitle = 	 {Conference on Imaging Science Systems and Technology},
   pages =        {182-188},
   year = 	 {2002},
-  url = "http://www.cse.wustl.edu/~pless/papers/plessNonFlat.pdf",
+  url = "../papers/plessNonFlat.pdf",
   annote = "isomap,ugrad,ML"
 }
 
@@ -760,7 +843,7 @@ annote = "isomap,selected,ML"}
   booktitle = 	 {Proceedings of the 6th Joint Conference on Information Science, (CVPRIP)},
   pages     = {684-687},
   year = 	 {2002},
-  url = "http://www.cse.wustl.edu/~pless/papers/plessSimonThousandsCVPRIP.pdf",
+  url = "../papers/plessSimonThousandsCVPRIP.pdf",
   annote = "isomap,ugrad,ML"
 }
 
@@ -825,7 +908,7 @@ URL={http://cs.uky.edu/~jacobs/papers/jacobs2010depthfromclouds.pdf},
   month=nov,
   booktitle={ACM International Conference on Advances in Geographic
     Information Systems (SIGSPATIAL GIS)},
-  URL="http://research.engineering.wustl.edu/~pless/papers/jacobsPless09.pdf",
+  URL="../papers/jacobsPless09.pdf",
   annote="webcam,GIS,selected,ugrad,ML,social"
 }
 
@@ -938,7 +1021,7 @@ annote={webcams,ugrad,ML,social}
   pages = {123-132},
   series = {Lecture Notes in Computer Science},
   volume = {5359},
-  URL={http://www.cse.wustl.edu/~pless/papers/romanPlessISVC.pdf},
+  URL={../papers/romanPlessISVC.pdf},
   annote={surveillance,interactive,ugrad,ML}
 }
 
@@ -984,7 +1067,7 @@ annote={webcams,ugrad,selected}
   pages={1-6},
   address={Rio De Janiero, Brazil},
   booktitle= ICCV,
-  URL={http://www.cse.wustl.edu/~pless/papers/jacobsICCV07.pdf},
+  URL={../papers/jacobsICCV07.pdf},
   annote="webcams,calibration,ugrad,selected"
 }
 
@@ -1038,7 +1121,7 @@ url="http://portal.acm.org/citation.cfm?id=1116041"
   year = 	 2005,
 pages = {2281-2291},
   volume = 	 14,
-  url = "http://www.cse.wustl.edu/~pless/papers/JASPpless.pdf",
+  url = "../papers/JASPpless.pdf",
 annote = "surveillance"
 }
 
@@ -1048,7 +1131,7 @@ annote = "surveillance"
   booktitle = 	 {Proceedings of the IEEE Workshop on Performance Evaluation in Tracking and Surveillance},
   year =	 2005,
 pages={62-69},
-  url = "http://www.cs.wustl.edu/~pless/papers/souvenirWrightPless.pdf",
+  url = "../papers/souvenirWrightPless.pdf",
   annote = "surveillance,ugrad"
 }
 
@@ -1058,7 +1141,7 @@ pages={62-69},
   booktitle = 	 {Proceedings of the IEEE Workshop on Motion and Video Computing},
   pages     = {14-19},
   year =	 2005,
-  url = "http://www.cs.wustl.edu/~pless/papers/wright_j_tensor.pdf",
+  url = "../papers/wright_j_tensor.pdf",
   annote = "surveillance,ugrad"
 }
 
@@ -1069,7 +1152,7 @@ pages={62-69},
   booktitle = {Proceedings of the ACM Conference on Geographic Information Systems},
   year      = {2004},
   pages     = {31-38},
-  url = "http://www.cs.wustl.edu/~pless/papers/p94-pless.pdf",
+  url = "../papers/p94-pless.pdf",
   annote = "surveillance,ugrad"
 }
 
@@ -1087,7 +1170,7 @@ pages={62-69},
   booktitle = 	 CVPR,
   pages     = {73-78},
   year =	 2003,
-url = "http://www.cse.wustl.edu/~pless/papers/cvprInd.pdf",
+url = "../papers/cvprInd.pdf",
 annote = "surveillance,ugrad,selected"
 }
 
@@ -1109,7 +1192,7 @@ annote = "surveillance"
   booktitle =	 CVPR,
   pages     = {2092-2097},
   year =	 1999,
-url = "http://www.cse.wustl.edu/~pless/papers/plessCVPR99.pdf",
+url = "../papers/plessCVPR99.pdf",
 annote = "surveillance,selected"
 }
 
@@ -1211,7 +1294,7 @@ URL="http://spie.org/x648.html?product_id=571537"
   address =	 {Madison Wisconsin},
   editor =	 {Robert Pless and Jose Santos-Victor and Yasushi Yagi},
   organization = {IEEE Computer Society},
-  url="http://www.cs.wustl.edu/~pless/omnivis2003/program.html",
+  url="../omnivis2003/program.html",
 annote = "sensorFusion"
 }
 
@@ -1233,7 +1316,7 @@ pages = {345-363},
         BOOKTITLE = CVPR,
         YEAR = 2003,
         PAGES = {II: 587-593},
-url = "http://www.cs.wustl.edu/~pless/papers/plessPlucker.pdf",
+url = "../papers/plessPlucker.pdf",
 annote = "sensorFusion,selected,sensorDesign,geometry"}
 
 @InProceedings{plessOmni,
@@ -1242,7 +1325,7 @@ annote = "sensorFusion,selected,sensorDesign,geometry"}
   booktitle = 	 {Proc. of the IEEE Workshop on Omnidirectional Vision},
   year = 	 2002,
   pages = {53-59},
-url = "http://www.cse.wustl.edu/~pless/papers/pless_Omni.pdf",
+url = "../papers/pless_Omni.pdf",
 annote = "sensorFusion"
 }
 
@@ -1262,7 +1345,7 @@ url = "http://www.cfar.umd.edu/~jneumann/Papers/bake01f.pdf"
         school = "Department of Computer Science",
         address = "University of Maryland", 
         year   = 2000,
-url= {http://www.cse.wustl.edu/~pless/pdfs/VideoLinking2.pdf}
+url= {../papers/VideoLinking2.pdf}
 }
 
 @InProceedings{argusBMCV,
@@ -1284,7 +1367,7 @@ annote = "sensorFusion"
   year =         2000,
   booktitle =    {Workshop on 3D Structure from Multiple Images of
                   Large-scale Environments (SMILE)},
-  url = "http://www.cse.wustl.edu/~pless/papers/smile.pdf",
+  url = "../papers/smile.pdf",
 annote = "sensorFusion"
 }
 
@@ -1503,7 +1586,7 @@ annote = "opticIllusions"
   booktitle =	 CVPR,
   year =	 1999,
   pages     = {1561-1566},
-  url = "http://www.cse.wustl.edu/~pless/papers/statistical-biases-in-optic.pdf",
+  url = "../papers/statistical-biases-in-optic.pdf",
 annote = "opticIllusions,selected"
 }
 

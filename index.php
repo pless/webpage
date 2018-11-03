@@ -12,12 +12,9 @@
 <div class="content"> 
 <h4>Updates:</h4>
 <ul>
-<li>I'm excited to teach <a href="classes/ComputerVision/index.html">Computer Vision</a> this semester!
-<li>Thank you Adobe!  Your generous gift to GWU will help our image matching research
-to fight human trafficking.  
 <li>Welcome, Maya Shende, Hong Xuan, and Derek LeFever to the best Computer Vision research group in Foggy Bottom!
-<li>Download our app TraffickCam
-for <a href="https://itunes.apple.com/us/app/traffickcam/id1067713017?mt=8">iPhone</a>
+<li>Thank you NIJ for Funding our project <a href="https://external.ojp.usdoj.gov/selector/awardDetail?awardNumber=2018-75-CX-0038&fiscalYear=2018&applicationNumber=2018-90994-DC-IJ&programOffice=NIJ&po=NIJ">An Object-Centric Approach for Image Analysis to Combat Human Trafficking</a>.  Want to help this project? Download our app TraffickCam
+ for <a href="https://itunes.apple.com/us/app/traffickcam/id1067713017?mt=8">iPhone</a>
 and
     <a href="https://play.google.com/store/apps/details?id=com.exchangeinitiative.traffickcam">Android</a>.
     Popular press: 
@@ -29,18 +26,6 @@ and
     of
     India</a>, <a href="http://www.ecpatusa.org/2016/06/20/travelers-use-traffickcam-app-fight-sex-trafficking-uploading-hotel-room-photos-national-database/">ECPAT</a>,
     and <a href="http://www.ksdk.com/news/local/new-app-created-to-fight-human-trafficking/253188670">KSDK news</a>.
-
-<li>Congratulations <a href="http://www.cse.wustl.edu/~schillebeeckxi/">Ian
-    Schillebeeckx</a>, new PhD!
-<li>Best Paper award for
-<a href="http://www.cv-foundation.org//openaccess/content_cvpr_2016_workshops/w16/papers/Stylianou_SparkleGeometry_Glitter_Imaging_CVPR_2016_paper.pdf">SparkleGeometry:
-  Glitter Imaging for 3D Point Tracking</a> at the IEEE/CVPR Workshop
-  on <a href="http://imagesci.ece.cmu.edu/CCD2016/">Computational
-  Cameras and Displays</a>.
-<li>Published in Frontiers in Public Health:
-<a href="http://journal.frontiersin.org/article/10.3389/fpubh.2016.00097/full">Webcams, crowdsourcing, and enhanced crosswalks: Developing a novel method to analyze active transportation</a>, Hipp, Manteiga, Burgess, Stylianou, Pless.
-<li><a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1553116">NSF CAREER AWARD</a> to my former student <a href="http://cs.uky.edu/~jacobs/">Nathan Jacobs</a>.
-<li>New DOE TERRA <a href="https://engineering.wustl.edu/news/Pages/Wash-U-computer-scientists-part-of-$8M-big-data-research-grant.aspx">big data/agricultural robotics grant</a>.
 </ul>
 
 <h4>Research</h4> 
