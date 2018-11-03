@@ -12,20 +12,13 @@
 <div class="content"> 
 <h4>Updates:</h4>
 <ul>
-<li>Welcome, Maya Shende, Hong Xuan, and Derek LeFever to the best Computer Vision research group in Foggy Bottom!
+<li><a href="papers/Hotels50k.pdf">Hotels-50K: A Global Hotel Recognition Dataset</a> accepted to AAAI 2019!
+<li><a href="papers/papers/WACV_SimilarityVis.pdf">Visualizing Deep Similarity Networks accepted to WACV 2019!
 <li>Thank you NIJ for Funding our project <a href="https://external.ojp.usdoj.gov/selector/awardDetail?awardNumber=2018-75-CX-0038&fiscalYear=2018&applicationNumber=2018-90994-DC-IJ&programOffice=NIJ&po=NIJ">An Object-Centric Approach for Image Analysis to Combat Human Trafficking</a>.  Want to help this project? Download our app TraffickCam
  for <a href="https://itunes.apple.com/us/app/traffickcam/id1067713017?mt=8">iPhone</a>
 and
     <a href="https://play.google.com/store/apps/details?id=com.exchangeinitiative.traffickcam">Android</a>.
-    Popular press: 
-<a href="https://www.washingtonpost.com/news/inspired-life/wp/2016/07/01/how-simply-snapping-a-photo-of-your-hotel-room-could-save-trafficked-children/">Washington
-  Post</a>, 
-<a href="http://www.stltoday.com/news/local/crime-and-courts/a-new-app-created-in-st-louis-aims-to-track/article_984efb3b-8ee1-5f98-94d7-96afeefa5af0.html">St. Louis
-    Post-Dispatch</a>,
-    the <a href="http://timesofindia.indiatimes.com/tech/apps/TraffickCam-app-seeks-users-support-to-fight-sex-trafficking/articleshow/52896216.cms">Times
-    of
-    India</a>, <a href="http://www.ecpatusa.org/2016/06/20/travelers-use-traffickcam-app-fight-sex-trafficking-uploading-hotel-room-photos-national-database/">ECPAT</a>,
-    and <a href="http://www.ksdk.com/news/local/new-app-created-to-fight-human-trafficking/253188670">KSDK news</a>.
+<li>Deep Randomized Ensembles for Metric Learning accepted to ECCV 2018!
 </ul>
 
 <h4>Research</h4> 
