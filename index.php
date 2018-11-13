@@ -13,7 +13,7 @@
 <h4>Updates:</h4>
 <ul>
 <li><a href="papers/Hotels50k.pdf">Hotels-50K: A Global Hotel Recognition Dataset</a> accepted to AAAI 2019.
-<li><a href="papers/papers/WACV_SimilarityVis.pdf">Visualizing Deep Similarity Networks accepted to WACV 2019.
+<li><a href="papers/papers/WACV_SimilarityVis.pdf">Visualizing Deep Similarity Networks</a> accepted to WACV 2019.
 <li>New NIJ Funding: <a href="https://external.ojp.usdoj.gov/selector/awardDetail?awardNumber=2018-75-CX-0038&fiscalYear=2018&applicationNumber=2018-90994-DC-IJ&programOffice=NIJ&po=NIJ">An Object-Centric Approach for Image Analysis to Combat Human Trafficking</a>.  Want to help? Download our app TraffickCam
  for <a href="https://itunes.apple.com/us/app/traffickcam/id1067713017?mt=8">iPhone</a>
 and
