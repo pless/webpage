@@ -10,7 +10,7 @@
 <body> 
 <!-- get the navigation bar on the left side... -->
 <?php
-    include('../navbar.html');
+    include('navbar.html');
 ?>
 <div class="content"> 
 <h4>Publications</h4>
@@ -36,4 +36,4 @@ include( 'pubs/bibtexbrowser.php' );
 </div> 
   </body> 
 </html> 
- 
+
