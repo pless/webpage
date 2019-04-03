@@ -85,12 +85,12 @@ matlab and web visualizations of image manifolds, from the paper: "A
 Survey of Manifold Learning for Images", Robert Pless and Richard
 Souvenir, IPSJ Transactions on Computer Vision and Applications,
 vol. 1 pp. 83-94, 2009.
-<a href="http://research.engineering.wustl.edu/~pless/pubs/bibtexbrowser.php?key=plessSouvenirSurvey2009&bib=plessRefs.bib">(bib)</a>
+<a href="http://www2.seas.gwu.edu/~pless/pubs/bibtexbrowser.php?key=plessSouvenirSurvey2009&bib=plessRefs.bib">(bib)</a>
 
 <li>Code (<a href="code/calibZip.zip">2.3 MB zip file</a>) from our
 paper: "Extrinsic Calibration of a Camera and Laser Range Finder",
 Qilong Zhang, Robert Pless, IROS 2004,
-<a href="http://research.engineering.wustl.edu/~pless/pubs/bibtexbrowser.php?key=zhangIROS&bib=plessRefs.bib">(bib)</a>, 
+<a href="http://www2.seas.gwu.edu/~pless/pubs/bibtexbrowser.php?key=zhangIROS&bib=plessRefs.bib">(bib)</a>, 
 </ul>
 </div> 
 </body> 
