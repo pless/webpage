@@ -121,6 +121,7 @@ changetext('Brian Bies, Washington University (2010)')">Brian Bies</a><br>
 <!-- CURRENT MS -->
     <A onmouseover="swap('webImages/people.jpg');changetext('Hong Xuan')">Justine-louise Manning</A><br>
 <br>
+    <A onmouseover="swap('webImages/people.jpg');changetext('Derek Lefever, George Washington University')">Derek Lefever</A><br>
 <!-- ALUMNI MS -->
 <i>   
    <A onmouseover="swap('webImages/joshua.jpg');
@@ -165,11 +166,10 @@ https://plus.google.com/105258061927639811990/about">Jacob Perkins</a><br>
 <!-- CURRENT PHD -->
     <A onmouseover="swap('webImages/people.jpg');changetext('Hong Xuan, George Washington University, Expected Graduation 2020')">Hong Xuan</A><br>
     <A onmouseover="swap('webImages/people.jpg');changetext('Maya Shende, George Washington University, Expected Graduation 2021')">Maya Shende</A><br>
-    <A onmouseover="swap('webImages/people.jpg');changetext('Derek Lefever, George Washington University, Expected Graduation 2022')">Derek Lefever</A><br>
-    <A onmouseover="swap('webImages/abby.jpg');changetext('Research Scientist since 2012, now PhD Student.')" href="http://research.engineering.wustl.edu/~astylianou/">Abby Stylianou</A><br>
 <!-- ALUMNI PHD -->
 <br>
     <i> 
+    <A onmouseover="swap('webImages/abby.jpg');changetext('Abby Stylianou, PhD, Assistant Professor at St. Louis University')" href="http://www2.seas.wustl.edu/~astylianou/">Abby Stylianou</A><br>
     <A onmouseover="swap('webImages/people.jpg');changetext('Zongyang Li, now a research Scientist at the Donald Danforth Plant Science Center')"> 
     Zongyang Li</A><br>
    <A onmouseover="swap('webImages/Ian.jpg'); changetext('Ian Schillebeeckx')"
