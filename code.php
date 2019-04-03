@@ -33,12 +33,12 @@ view.<br><br>
 Used as we wrote the paper: "A Survey of Manifold Learning for
 Images", Robert Pless and Richard Souvenir, IPSJ Transactions on
 Computer Vision and Applications, vol. 1 pp. 83-94, 2009.
-<a href="http://research.engineering.wustl.edu/~pless/pubs/bibtexbrowser.php?key=plessSouvenirSurvey2009&bib=plessRefs.bib">(bib)</a>
+<a href="http://www2.seas.gwu.edu/~pless/pubs/bibtexbrowser.php?key=plessSouvenirSurvey2009&bib=plessRefs.bib">(bib)</a>
 <br>
 <a href="code/manifoldVis.zip">code (zip 12 KBytes)</a>.
 <br><br>
 Code from "Manifold Clustering", Richard Souvenir and Robert Pless, ICCV 2005
-<a href="http://robertpless.com/pubs/bibtexbrowser.php?key=souvenirManifoldClusteringbib=plessRefs.bib">(bib)</a>
+<a href="http://www2.seas.gwu.edu/~pless/pubs/bibtexbrowser.php?key=souvenirManifoldClusteringbib=plessRefs.bib">(bib)</a>
 <br>
 <a href="code/kmanifolds.zip">code (zip 2Mbyes)</a>.
 <br><br>
@@ -46,7 +46,7 @@ Code from "Manifold Clustering", Richard Souvenir and Robert Pless, ICCV 2005
 <h5>Code for calibration of cameras to planar laser range finders</h5>
 Matlab code from our paper: "Extrinsic Calibration of a Camera and
 Laser Range Finder", Qilong Zhang, Robert Pless, IROS 2004,
-<a href="http://research.engineering.wustl.edu/~pless/pubs/bibtexbrowser.php?key=zhangIROS&bib=plessRefs.bib">(bib)</a>, 
+<a href="http://www2.seas.gwu.edu/~pless/pubs/bibtexbrowser.php?key=zhangIROS&bib=plessRefs.bib">(bib)</a>, 
 <br>
 <a href="code/calibZip.zip">code (zip 2.3 Mbytes)</a>.
 <br>
