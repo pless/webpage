@@ -12,9 +12,9 @@
 <?php include("navbar.html") ?>
 <div class="content"> 
 <h4>Courses at George Washington University</h4>
-<a href="3212/index.html">Fall 2017 GWU CSCI 3212, Algorithms</a><br>
-<a href="classes/ComputerVision">Spring 2018 GWU CSCI 4527/6527</a>Computer Vision</a><br>
-Fall 2018 GWU CSCI 4364/6364, Machine Learning.
+<a href="3212/index.html">CSCI 3212</a>, Algorithms (Fall 2017)<br>
+<a href="classes/ComputerVision">CSCI 4527/6527, Computer Vision (Spring 2018)<br>
+CSCI 4364/6364, Machine Learning (Fall 2018)
 <br>
 <br>
 <h4>Courses from Washington University</h4>
@@ -24,7 +24,7 @@ Geometry</a>, Fall 2016, Spring 2011, 2009, 2007, 2005, 2003, 2001</a><br>
 <a href="http://www.cs.wustl.edu/~pless/classes/555/">CS 555: Computational
 Photography</a>, Spring 2016, 2015</a><br>
 
-<a href="http://www.cs.wustl.edu/~pless/441/">CSE 441/541: Advanced
+<a href="http://www.cs.wustl.edu/~pless/441/">CS 441/541: Advanced
   Algorithms</a>, Fall 2015</a> and Fall 2008<br>
 
 <a href="240/index.html">CS 240, Logic and Discrete Mathematics.</a>  
