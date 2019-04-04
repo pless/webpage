@@ -22,6 +22,7 @@
 <h4>Awards to my students</h4>
 
 <ul style="list-style-type:square">
+<li>Best Paper Award, "SparkleGeometry: Glitter Imaging for 3D Point Tracking" (Abby Stylianou, Robert Pless), In IEEE Workshop on Computational Cameras and Displays, 2016
 <li>
 Best Paper Award, ICDP 2013, for 
 Finding Jane Doe: A Forensic Application of 2D Image Calibration
