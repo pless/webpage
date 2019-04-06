@@ -57,11 +57,13 @@ most outstanding students I have ever known.  Students I am currently working wi
   <TBODY><TR>
     <TD valign="top" align=center><h4>Undergraduate Students</h4><BR>
 <!-- CURRENT Ugrad -->
-   <A onmouseover="swap('webImages/people.jpg');changetext('Sam Hanna, George Washington University, Class of 2020')">Sam Hanna</a><br>
-   <A onmouseover="swap('webImages/people.jpg');changetext('Samsara Counts, George Washington University, Class of 2019')">Samantha Counts</a><br>
-   <A onmouseover="swap('webImages/people.jpg');changetext('Suraj Shah, Washington University, Class of 2018')"></a>Suraj Shah<br>
+    <A onmouseover="swap('webImages/people.jpg');changetext('Samsara Counts, George Washington University, Class of 2019')" href="samsaranc.com">
+    Samsara Counts</A><BR>
+
+   <A onmouseover="swap('webImages/people.jpg');changetext('Suraj Shah, Washington University, Class of 2020')"></a>Suraj Shah<br>
 <!-- ALUMNI Ugrad -->
 <br>  <i>
+   <A onmouseover="swap('webImages/people.jpg');changetext('Sam Hanna, George Washington University, Class of 2020')">Sam Hanna</a><br>
    <A onmouseover="swap('webImages/people.jpg');changetext('William Lyons, Washington University, Class of 2018')">Will Lyons</a><br>
    <A onmouseover="swap('webImages/people.jpg');changetext('Jessica Schreier, Washington University, Class of 2018')">Jessica Schreier</a><br>
    <A onmouseover="swap('webImages/people.jpg');
