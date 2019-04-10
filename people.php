@@ -171,7 +171,7 @@ https://plus.google.com/105258061927639811990/about">Jacob Perkins</a><br>
 <!-- ALUMNI PHD -->
 <br>
     <i> 
-    <A onmouseover="swap('webImages/abby.jpg');changetext('Abby Stylianou, PhD, Assistant Professor at St. Louis University')" href="http://www2.seas.wustl.edu/~astylianou/">Abby Stylianou</A><br>
+    <A onmouseover="swap('webImages/abby.jpg');changetext('Abby Stylianou, PhD, Itinerant Laborer at Danforth Plant Science Center')" href="http://www2.seas.wustl.edu/~astylianou/">Abby Stylianou</A><br>
     <A onmouseover="swap('webImages/people.jpg');changetext('Zongyang Li, now a research Scientist at the Donald Danforth Plant Science Center')"> 
     Zongyang Li</A><br>
    <A onmouseover="swap('webImages/Ian.jpg'); changetext('Ian Schillebeeckx')"
