@@ -123,9 +123,9 @@ changetext('Brian Bies, Washington University (2010)')">Brian Bies</a><br>
 <!-- CURRENT MS -->
     <A onmouseover="swap('webImages/people.jpg');changetext('Hong Xuan')">Justine-louise Manning</A><br>
 <br>
-    <A onmouseover="swap('webImages/people.jpg');changetext('Derek Lefever, George Washington University')">Derek Lefever</A><br>
 <!-- ALUMNI MS -->
 <i>   
+    <A onmouseover="swap('webImages/people.jpg');changetext('Derek Lefever, Now At Capital One')">Derek Lefever</A><br>
    <A onmouseover="swap('webImages/joshua.jpg');
 changetext('Joshua Little, Washington University, Class of 2013, now a PhD student at Washington University')">Joshua Little</a><br>
     <A onmouseover="swap('webImages/Eileen.jpg');changetext('Eileen Duffner')"
@@ -166,12 +166,14 @@ https://plus.google.com/105258061927639811990/about">Jacob Perkins</a><br>
 </TD>
     <TD valign="top" align=center><h4>Doctoral Students/ <br> Research Scientists</h4><BR>
 <!-- CURRENT PHD -->
-    <A onmouseover="swap('webImages/people.jpg');changetext('Hong Xuan, George Washington University, Expected Graduation 2020')">Hong Xuan</A><br>
-    <A onmouseover="swap('webImages/people.jpg');changetext('Maya Shende, George Washington University, Expected Graduation 2021')">Maya Shende</A><br>
+    <A onmouseover="swap('webImages/people.jpg');changetext('Hong Xuan, George Washington University, Expected Graduation 2021')">Hong Xuan</A><br>
+    <A onmouseover="swap('webImages/people.jpg');changetext('Maya Shende, George Washington University, Expected Graduation 2022')">Maya Shende</A><br>
+    <A onmouseover="swap('webImages/people.jpg');changetext('Zeyu Zhang , George Washington University, Expected Graduation 2023')">Zeyu Zhang</A><br>
+    <A onmouseover="swap('webImages/people.jpg');changetext('Xiaotong Liu, George Washington University, Expected Graduation 2023')">Xiaotong Liu</A><br>
 <!-- ALUMNI PHD -->
 <br>
     <i> 
-    <A onmouseover="swap('webImages/abby.jpg');changetext('Abby Stylianou, PhD, Post-Doc at George Washington University and Donald Danforth Plant Science Center')" href="http://www2.seas.wustl.edu/~astylianou/">Abby Stylianou</A><br>
+    <A onmouseover="swap('webImages/abby.jpg');changetext('Abby Stylianou, PhD, Assistant Professor, Saint Louis University')" href="http://www2.seas.wustl.edu/~astylianou/">Abby Stylianou, PhD</A><br>
     <A onmouseover="swap('webImages/people.jpg');changetext('Zongyang Li, now a research Scientist at the Donald Danforth Plant Science Center')"> 
     Zongyang Li</A><br>
    <A onmouseover="swap('webImages/Ian.jpg'); changetext('Ian Schillebeeckx')"
