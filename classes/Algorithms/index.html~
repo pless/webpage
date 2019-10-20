@@ -4,10 +4,6 @@
 <a href="hw1.pdf">Homework 1</a><br>
 <a href="hw1.tex">Latex source for HW 1</a><br>
 <a href="hw1_sevens.png">image for homework 1 latex</a><br>
-<a href="hw1Solutions.pdf">Solutions Homework 1</a><br>
-<a href="hw2Solutions.pdf">Solutions Homework 2</a><br>
-<a href="hw3Solutions.pdf">Solutions Homework 3</a><br>
-<a href="sampleMidtermAlgorithms.pdf">Sample Midterm Questions</a><br>
 
 <h5>Lectures</h5>
 
@@ -28,10 +24,10 @@ Pages 16-20 of <a href="https://www.cs.umd.edu/class/spring2012/cmsc754/Lects/cm
 <li>Sept. 26, 2019.  Introduction to graphs, DFS, BFS, Dijkstra's Algorithm.  Pages 24-37 of <a href="https://www.cs.umd.edu/class/fall2013/cmsc451/Lects/cmsc451-fall13-lects.pdf">
 Mount's Algorithms Notes</a>
 <li>Oct. 3, 2019.  Minimum Spanning Trees.  Pages 37-46 of <a href="https://www.cs.umd.edu/class/fall2013/cmsc451/Lects/cmsc451-fall13-lects.pdf">Mount's Algorithms Notes</a>
-<li>Oct. 10, 2019. <a href="maxFlowMinCutLecture.ppt">Network Flows</a><li>
-<li>Oct. 17, 2019. Network Flow 2 + review
+<li>Oct. 10, 2019. Network Flows
+<li>Oct. 17, 2019. Dynamic Programming
 <li>Oct. 24, 2019. Exam 1 + Fun Lecture.
-<li>Oct. 31, 2019. Dynamic Programming 
+<li>Oct. 31, 2019. Dynamic Programming II
 <li>Nov. 7,  2019. NP Completeness / Reductions
 <li>Nov. 14,  2019. NP Completeness / Complexity Heirarchy
 <li>Nov. 21, 2019. Approximation Algorithms I 
