@@ -1,0 +1,40 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage{amssymb,amsmath,graphicx,url}
+\pdfpagewidth=8.5truein
+\pdfpageheight=11.0truein
+\setlength{\topmargin}{-.5in}
+
+\setlength{\textheight}{8.875in}
+\setlength{\textwidth}{6.5in}
+\setlength{\oddsidemargin}{-.1875in}  % Centers text.
+\setlength{\evensidemargin}{-.1875in}
+\usepackage{graphicx}
+\begin{document}
+\subsection*{Homework 4: CSCI 6212 Algorithms, due: Beginning of class, Nov. 15, 2019}
+    \paragraph{Collaboration Policies:} This is not a group homework, you are required to do this homework yourself.  However, you are {\em allowed} to use or search any passive online resource for information about how to solve the problem, and discuss the problems with classmates.  
+    You are {\em not allowed} to use active web resources (like Stack Overflow) where you post questions and ask for responses, post these questions to a "work for hire" site where someone else does them for you, or take *any* written notes from discussions with classmates or others. 
+\paragraph{Resources:} The following webpage gives a fantastic and clear description of the steps to prove a problem is NP-Complete: \url{https://www.cs.oberlin.edu/~asharp/cs280/2012fa/handouts/np.pdf}
+
+A very nice detailing of many of the things we talked about in the last two lectures:
+\url{https://people.eecs.berkeley.edu/~vazirani/algorithms/chap8.pdf}
+
+\paragraph{Problems:}
+\begin{enumerate}
+\item An ``oracle'' is the theoretical computer science term for a subroutine that you can pretend computes an answer in constant time.  Suppose you have access to an Oracle that can answer the decision problem VC(G,k), which answers ``Does graph G have a vertex cover with $k$ nodes''.  Show how you could use this oracle to solve for the specific nodes in the vertex cover.  Give the running time of your algorithm (assuming the oracle runs in constant time), and argue that your algorithm is correct.
+
+\item $CLIQUE(G,k)$ is the decision problem that asks, "Does graph G have $k$ nodes that form a clique?".  
+\begin{enumerate}
+\item Prove that CLIQUE(G,k) is NP-complete, but showing it is in the class NP, and by reducing 3-SAT to CLIQUE.  
+\item Show the graph that your reduction would create for the 3-SAT input of: \\
+$(x_1 \lor x_2 \lor x_3) \land (\bar{x_1} \lor \bar{x_2} \lor x_3)$
+\item Would you problem translation to CLIQUE work if you were given an instance of "4-SAT" (like 3-SAT, but each clause could have 4 terms)?  Explain why or why not.
+\end{enumerate}
+
+\item Which of the following would change our current understanding of the runtime necessary to solve NP-Complete problems, and why (in a few sentences)?
+\begin{enumerate}
+    \item An O($n^k$) algorithm to solve for if there exists a clique of size $k$ in graph G
+    \item A proof that Hamiltonian Cycle requires at least $\Theta(n^3)$ time.
+    \item Showing the you can reduce the MST problem to 3-SAT?
+\end{enumerate}
+\end{enumerate}
+\end{document}
