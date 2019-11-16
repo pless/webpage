@@ -1,0 +1,39 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage{amssymb,amsmath,graphicx,url}
+\pdfpagewidth=8.5truein
+\pdfpageheight=11.0truein
+\setlength{\topmargin}{-.5in}
+
+\setlength{\textheight}{8.875in}
+\setlength{\textwidth}{6.5in}
+\setlength{\oddsidemargin}{-.1875in}  % Centers text.
+\setlength{\evensidemargin}{-.1875in}
+\usepackage{graphicx}
+\begin{document}
+\subsection*{Homework 5: CSCI 6212 Algorithms, due: Beginning of class, Nov. 22, 2019}
+    \paragraph{Collaboration Policies:} This is not a group homework, you are required to do this homework yourself.  However, you are {\em allowed} to use or search any passive online resource for information about how to solve the problem, and discuss the problems with classmates.  
+    You are {\em not allowed} to use active web resources (like Stack Overflow) where you post questions and ask for responses, post these questions to a "work for hire" site where someone else does them for you, or take *any* written notes from discussions with classmates or others. 
+
+\paragraph{Problems:}
+\begin{enumerate}
+
+\item In class we talked about the greedy algorithm for the 
+vertex cover problem:a
+\begin{verbatim}
+(1) picks the node that touches the most edges,
+(2) puts that node into the Vertex Cover, 
+(3) deletes all those edges from the graph, and
+(4) if there are any edges left in the graph, GOTO 1.
+\end{verbatim}
+
+In class we claimed that it can have an arbitrarily bad approximation ratio.  In this problem your job is to construct examples where the greedy algorithm does badly.  
+To help you, any time where the algorithm gets to choose (for example, if there are two nodes that each touch 4 edges), you can pick for the algorithm (forcing it to choose the "wrong" choice).
+\begin{enumerate}
+\item Show a graph with 5 nodes where the greedy algorithm chooses 3 nodes but only 2 are necessary.  Explain (in a sentence or two) why the algorithm gets the wrong answer.
+\item Show a specific graph with the largest ratio of greedy-solution vs. optimal solution that you can create.  Explain your construction; the reasoning behind how you constructed the graph and which nodes are chosen in what order.  (Hint, in a bi-partite graph, the vertex cover can always consist of all the nodes on one side of the graph)
+\end{enumerate}
+\item Let NeighborSet be the problem defined as follows. Given a graph $G(V,E)$ and a
+number $k$, is there a way to select a set $NS \subseteq V$ with $|NS| = k$ such that every vertex in
+the graph is either in NS or is connect by an edge to a vertex in NS. Show that NeighborSet is NP-complete.
+\end{enumerate}
+\end{document}
