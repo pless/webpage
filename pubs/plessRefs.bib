@@ -51,13 +51,81 @@
 %***********************************
 % ABBREVIATIONS FOR INSTITUTIONS *
 %***********************************
+%% 2020
 @STRING{CfAR = "Center for Automation Research"}
-%% 2019
-@article{xuan2019improved,
-  title={Improved Embeddings with Easy Positive Triplet Mining},
+@inproceedings{xuan2020improved,
+  title={Improved embeddings with easy positive triplet mining},
   author={Xuan, Hong and Stylianou, Abby and Pless, Robert},
-  journal={arXiv preprint arXiv:1904.04370},
-  url={https://arxiv.org/abs/1904.04370},
+  booktitle={The IEEE Winter Conference on Applications of Computer Vision},
+  pages={2474--2482},
+  year={2020},
+  annote={ML}
+}
+
+@article{boyle2020direct,
+  title={Direct Estimation of Surface Strain Fields From a Stereo Vision System},
+  author={Thomopoulos, Stavros and Genin, Guy M},
+  journal={Journal of Biomechanical Engineering},
+  volume={142},
+  number={7},
+  year={2020},
+  publisher={American Society of Mechanical Engineers Digital Collection},
+    annote={biological, selected}
+}
+
+@inproceedings{liu20202,
+  title={2-MAP: Aligned Visualizations for Comparison of High-Dimensional Point Sets},
+  author={Liu, Xiaotong and Zhang, Zeyu and Xuan, Hong and Leontie, Roxana and Stylianou, Abby and Pless, Robert},
+  booktitle=WACV,
+  pages={2550--2558},
+  year={2020},
+  url={https://arxiv.org/abs/2007.12749},
+  annote={ML}
+  }
+
+@inproceedings{xuan2020hard,
+  title={Hard negative examples are hard, but useful},
+  author={Xuan, Hong and Stylianou, Abby and Liu, Xiaotong and Pless, Robert},
+  booktitle=ECCV,
+  pages={126--142},
+  year={2020},
+  url={https://arxiv.org/abs/2007.12749},
+  organization={Springer, Cham},
+  annote={selected,ML}
+}
+
+%% 2019
+
+@misc{schillebeeckx2019camera,
+  title={Camera calibration with lenticular arrays},
+  author={Schillebeeckx, Ian and Pless, Robert},
+  year={2019},
+  month=oct # "~22",
+  note={US Patent 10,455,138}
+}
+
+@article{wang2019high,
+  title={High-throughput phenotyping with deep learning gives insight into the genetic architecture of flowering time in wheat},
+  author={Wang, Xu and Xuan, Hong and Evers, Byron and Shrestha, Sandesh and Pless, Robert and Poland, Jesse},
+  journal={GigaScience},
+  volume={8},
+  number={11},
+  year={2019},
+  publisher={Oxford University Press},
+  annote={biological}
+}
+
+@inproceedings{zhai2019learning,
+  title={Learning geo-temporal image features},
+  author={Zhai, Menghua and Salem, Tawfiq and Greenwell, Connor and Workman, Scott and Pless, Robert and Jacobs, Nathan},
+  booktitle={British Machine Vision Conference (BMVC)},
+  year={2019}
+}
+
+@article{stylianou2019traffickcam,
+  title={TraffickCam: Explainable Image Matching For Sex Trafficking Investigations},
+  author={Stylianou, Abby and Souvenir, Richard and Pless, Robert},
+  journal={AAAI Fall Symposium},
   year={2019}
 }
 
@@ -69,7 +137,8 @@
   number={1},
   pages={011010},
   year={2019},
-  publisher={American Society of Mechanical Engineers}
+  publisher={American Society of Mechanical Engineers},
+  annote{selected,biological}
 }
 
 @InProceedings{WACVVis2019,
@@ -82,7 +151,7 @@ year = {2019}
 }
 
 @InProceedings{Hotels50,
-author = {Abby Stylianou, Hong Xuan, Maya Shende, Richard Souvenir and Robert Pless},
+author = {Abby Stylianou and Hong Xuan and Maya Shende and Richard Souvenir and Robert Pless},
 title = "Hotels-50K: A Global Hotel Recognition Dataset",
 booktitle = AAAI,
 annote={ML,selected},
@@ -98,8 +167,7 @@ year = {2019}
   booktitle={2018 IEEE Applied Imagery Pattern Recognition Workshop (AIPR)},
   pages={1--6},
   year={2018},
-  url={papers/AIPR2018ED.pdf},
-  annote={ugrad}
+  organization={IEEE}
 }
 
 @misc{boyle2018system,
@@ -126,8 +194,7 @@ author = {Di Qi and Joshua Arfin and Mengxue Zhang and Tushar Mathew and Brendan
 title = "Anomaly Explanation Using Metadata",
 booktitle = WACV,
 annote={ML,webcams,ugrad},
-year = {2018},
- url={papers/anomalyMetadata.pdf}
+year = {2018}
 }
 
 %% 2017
@@ -137,7 +204,6 @@ year = {2018},
   booktitle={2017 IEEE Applied Imagery Pattern Recognition Workshop (AIPR)},
   pages={1--8},
   annote={ML,ugrad},
-  url={papers/2017AIPRTrafficking.pdf},
   year={2017},
   organization={IEEE}
 }
@@ -159,7 +225,7 @@ author = {Robert Pless and Rebecca Begtrup and Lulwah Alkulaib and Samsara N. Co
 and Justine-Louise Manning and Hong Xuan and David A. Broniatowski},
 url="http://ceur-ws.org/Vol-1996/paper7.pdf",
 title = {Recognizing​ ​Images​ ​of​ ​Eating​ ​Disorders​ ​in​ ​Social​ ​Media​ ​(Abstract)},
-booktitle = {Proceedings of the 2nd Social Media Mining for Health Applications Workshop & Shared Task},
+booktitle = {Proceedings of the 2nd Social Media Mining for Health Applications Workshop \& Shared Task},
 month = {November},
 year = {2017},
 annote = {social,ugrad,ML}
@@ -189,7 +255,7 @@ publisher="Springer International Publishing",
 pages="471--490",
 isbn="978-3-319-40902-3",
 doi="10.1007/978-3-319-40902-3_26",
-url="https://www.researchgate.net/publication/268147824_Learning_from_Outdoor_Webcams_Surveillance_of_Physical_Activity_Across_Environments",
+url="http://dx.doi.org/10.1007/978-3-319-40902-3_26",
 annote={webcams,social}
 }
 
@@ -213,14 +279,13 @@ url={http://www.cv-foundation.org/openaccess/content_cvpr_2016_workshops/w16/pap
 }
 
 @Article{frontiers2016,
-  author = 	 {J. Aaron Hipp,  Alicia Manteiga, Amanda Burgess, Abby Stylianou and Robert Pless},
-  title = 	 {Webcams, crowdsourcing, and enhanced crosswalks: Developing a novel method to analyze active transportation},
-  journal = 	 {Frontiers in Public Health},
-  year = 	 {2016},
-  doi = {doi: 10.3389/fpubh.2016.00097},
-  volume = 	 {published online},
-  annote={selected,webcams},
-  url = {http://journal.frontiersin.org/article/10.3389/fpubh.2016.00097/abstract}
+  title={Webcams, crowdsourcing, and enhanced crosswalks: Developing a novel method to analyze active transportation},
+  author={Hipp, J Aaron and Manteiga, Alicia and Burgess, Amanda and Stylianou, Abby and Pless, Robert},
+  journal={Frontiers in Public Health},
+  volume={4},
+  pages={97},
+  year={2016},
+  publisher={Frontiers}
 }
 
 @inproceedings{schillebeeckx2016VR,
@@ -273,7 +338,7 @@ annote={sensorFusion,geometry}
   pages={892--898},
   year={2015},
   organization={IEEE},
-  url="papers/wacvFeaturesOverTime.pdf",
+  url="http://www.cse.wustl.edu/~astylianou/papers/featuresOverTime.pdf",
 annote={webcams}
 }
 
@@ -370,13 +435,12 @@ URL="http://www.pnas.org/content/111/12/4602.short"
 
 %% 2013
 @inproceedings{stylianou2013finding,
-  title={Finding Jane Doe: a forensic application of 2D image calibration},
+  title={Finding {J}ane {D}oe: a forensic application of 2D image calibration},
   author={Stylianou, Abby and Abrams, Austin and Pless, Robert},
   year={2013},
   publisher={IET Digital Library},
   booktitle={5th International Conference on Imagining for Crime Detection and Prevention (ICDP)},
   pages={97-102},
-  note={Best Paper Award},
   annote={social,geometry,selected},
   URL={http://www.cse.wustl.edu/~astylianou/papers/Finding_Jane_Doe.pdf}
 }
@@ -405,7 +469,6 @@ URL="http://www.pnas.org/content/111/12/4602.short"
   author={Abrams, Austin and Hawley, Chris and Miskell, Kylia and Stoica, Adina and Jacobs, Nathan and Pless, Robert},
   journal={arXiv preprint arXiv:1304.4112},
   annotation={webcams, ugrad, clouds},
-  url="https://arxiv.org/abs/1304.4112",
   year={2013}
 }
 
@@ -427,8 +490,7 @@ URL={http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=1660820
   pages={20},
   year={2013},
   annotation={webcams, ugrad,social},
-  organization={ACM},
-  url="papers/collaborative_rephotography.pdf"
+  organization={ACM}
 }
 
 @article{jacobs2013two,
@@ -558,7 +620,7 @@ annote={ML,social},
   title={Tools for Richer Crowd Source Image Annotations},
   year={2012},
   booktitle=WACV,
-  url="https://www.researchgate.net/publication/254056802_Tools_for_Richer_Crowd_Source_Image_Annotations",
+  url={papers/wacv2012lost.pdf},
   annote={webcams,ugrad,ML,social},
   note={(oral presentation)}
 }
@@ -906,7 +968,7 @@ url="http://www.cs.wustl.edu/~msd2/publications/mvap2010.pdf"
   month = {Jun},
 pages={331-340},
   booktitle=ACMMM,
-URL="papers/webcamsInContext.pdf"",
+URL="http://research.engineering.wustl.edu/~abramsa/papers/webcams_in_context.pdf",
   annote="webcams,GIS,selected,social"
 }
 

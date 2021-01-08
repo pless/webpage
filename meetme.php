@@ -12,8 +12,7 @@
 <?php include("navbar.html") ?>
 <div class="content"> 
 <h4>Courses at George Washington University</h4>
-<a href="3212/index.html">CSCI 3212</a>, Algorithms (Fall 2017, Fall 2020)<br>
-CSCI 6212, Graduate Algorithms (Fall 2019)<br>
+<a href="3212/index.html">CSCI 3212</a>, Algorithms (Fall 2017)<br>
 <a href="classes/ComputerVision">CSCI 4527/6527, Computer Vision (Spring 2018)<br>
 CSCI 4364/6364, Machine Learning (Fall 2018)
 <br>
