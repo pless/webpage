@@ -8,7 +8,7 @@
      <link rel="STYLESHEET" href="../mystyle.css" type="text/css">   
   </head> 
   <body> 
-<?php include("navbar.html") ?>
+<?php include("../navbar.html") ?>
 <div class="content"> 
 <h3>CSCI 3907/6907, Computational Photography, Spring 2022</h3>
 
