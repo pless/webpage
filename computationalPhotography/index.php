@@ -24,6 +24,10 @@ sometimes do in-class demos in matlab, because it is what I know best,
 and because I think it makes the mathematical operations happening
 more clear.
 
+<h4>Lectures and Slides</h5>
+<ol>
+  <li><a href="slides/ComputationalPhotography_01_IntroAndFormationModel.ppt">Lecture 1 slides</a>
+    </ol>
 <h4>Some reading</h5>
 Pop-culture reading on Computational Photography:
 <ol>
