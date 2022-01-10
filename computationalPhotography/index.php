@@ -14,7 +14,17 @@
 
 This course meets once per week, Monday, 12:00 -- 2:30 pm.  Our first week we will be following University policies to meet online.  Information about course policies is available in the <a href="syllabus.html">course syllabus</a>, and this page will be updated to reflect the lecture topics, assignments and readings.
 
-<h5>Some reading</h5>
+<h3>Assignments and Projects and Expectations</h3>
+
+This is an advanced undergraduate/graduate course, so I expect you to
+be able to program.  Assignments and projects will be defined in terms
+of reports and data inputs and outputs, you are welcome to program in
+any language you'd like --- python, java, C++, whatever.  I may
+sometimes do in-class demos in matlab, because it is what I know best,
+and because I think it makes the mathematical operations happening
+more clear.
+
+<h4>Some reading</h5>
 Pop-culture reading on Computational Photography:
 <ol>
   <li><a href="https://medium.com/@FriedmanArchives/computational-photography-1cdbccc3c2ef">Medium article about computational photography on high-end smartphones</a>.
