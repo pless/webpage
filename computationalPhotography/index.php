@@ -24,6 +24,9 @@ sometimes do in-class demos in matlab, because it is what I know best,
 and because I think it makes the mathematical operations happening
 more clear.
 
+<h4>Project 1 is due 10am, Monday January 23.
+<a href="project1/description.php">details here</a></h5>
+
 <h4>Lectures and Slides</h5>
 <ol>
   <li><a href="slides/ComputationalPhotography_01_IntroAndFormationModel.ppt">Lecture 1 slides</a>
