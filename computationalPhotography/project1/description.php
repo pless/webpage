@@ -16,6 +16,8 @@
     <a href="http://www.loc.gov/exhibits/empire/gorskii.html">Prokudin-Gorskii</a> 
     photo collection</h3>
 
+You are allowed to work in groups of 1 or 2 or 3 for this project. 
+
 
 <h4>Useful Links</h4>
 <p>
@@ -194,7 +196,7 @@ These are not class projects so the format isn't exactly, but they should a litt
    <li> +20 pts: Correctly aligned images, even if done by hand (explain how!) </li>
    <li> +30 pts: Single-scale implementation (if correct, no need to show by hand version)</li>
    <li> +20 pts: Multi-scale or otherwise faster implementation </li>
-   <li> +10 pts: Bell + Whistles </li>
+   <li> +10 pts: Implementation of Bell + Whistles.  You must have at least as many bells and whistles as the number of people in your group. </li>
    <li> +20 pts: Quality of the write-up. </li>
 </ul>
 
