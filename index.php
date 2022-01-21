@@ -12,17 +12,9 @@
 <div class="content"> 
 <h4>Updates:</h4>
 <ul>
-<li><a href="https://arxiv.org/abs/2007.12749">Hard Negatives are Hard, But Useful</a>.  An ECCV '20 paper showing how to make metric learning with triplet loss effective with hard-negative examples.
-<li><a href="https://arxiv.org/abs/1904.04370">Improved Embeddings with Easy Positive Triplet Mining
-</a>.  A WACV '20 paper showing that only using <i>easy</i> positive examples in triplet learning leads to embeddings that generalize better to new data.
-<li><a href="https://openaccess.thecvf.com/content_WACV_2020/papers/Liu_2-MAP_Aligned_Visualizations_for_Comparison_of_High-Dimensional_Point_Sets_WACV_2020_paper.pdf">2-MAP: Aligned Visualizations for Comparison of High-Dimensional Point Sets</a>.  Do you ever have 2 related embeddings and want to show t-SNE or U-MAP plots that compare them?  This let's you approximately align those plots for easier comparison!
-<li><a href="papers/Hotels50k.pdf">Hotels-50K: A Global Hotel Recognition Dataset</a> AAAI 2019 paper introducing the hotel recognition problem we work on in the domain of fighting sex trafficking.
-<li><a href="papers/papers/WACV_SimilarityVis.pdf">Visualizing Deep Similarity Networks</a> WACV 2019 paper with a clean approach to visualizing why a Deep Metric Learning network judges two images to be similar.
-<li>New NIJ Funding: <a href="https://external.ojp.usdoj.gov/selector/awardDetail?awardNumber=2018-75-CX-0038&fiscalYear=2018&applicationNumber=2018-90994-DC-IJ&programOffice=NIJ&po=NIJ">An Object-Centric Approach for Image Analysis to Combat Human Trafficking</a>.  Want to help? Download our app TraffickCam
- for <a href="https://itunes.apple.com/us/app/traffickcam/id1067713017?mt=8">iPhone</a>
-and
-    <a href="https://play.google.com/store/apps/details?id=com.exchangeinitiative.traffickcam">Android</a>.
-<li><a href="papers/DREML_ECCV2018.pdf">Deep Randomized Ensembles for Metric Learning</a>.  ECCV '18 paper with a simple and surprisingly effective approach to ensembles for metric learning.
+<li>Do you use transforms to learn image similarity metric?  Here's how you can visualization those: <a href="https://openaccess.thecvf.com/content/WACV2022/html/Black_Visualizing_Paired_Image_Similarity_in_Transformer_Networks_WACV_2022_paper.html">"Visualizing Paired Image Similarity in Transformer Networks
+ [WACV 2022]</a>.
+<li><a href="https://arxiv.org/abs/2007.12749">Hard Negatives are Hard, But Useful</a>.  An ECCV 2020 paper showing how to make metric learning with triplet loss effective with hard-negative examples.
 </ul>
 
 <h4>Research</h4> 

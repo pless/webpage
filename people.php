@@ -59,11 +59,11 @@ most outstanding students I have ever known.  Students I am currently working wi
 <!-- CURRENT Ugrad -->
       <br>
       <A onmouseover="swap('webImages/people.jpg');changetext('Marshall Thompson George Washington University, GWU Class of 2022')">Marshall Thompson</a><br>
-      <A onmouseover="swap('webImages/people.jpg');changetext('Rishiraj Kanungo, George Washington University, GWU Class of 2022')">Rishiraj Kanungo</a><br>
       <A onmouseover="swap('webImages/people.jpg');changetext('Chen Hao Liu, George Washington University, GWU Class of 2022')">Chen Hao Liu</a><br>
-      <A onmouseover="swap('webImages/people.jpg');changetext('Grady McPeak, George Washington University, GWU Class of 2022')">Grady McPeak</a><br>
 <!-- ALUMNI Ugrad -->
 <br>  <i>
+<A onmouseover="swap('webImages/people.jpg');changetext('Rishiraj Kanungo, George Washington University, GWU Class of 2022')">Rishiraj Kanungo</a><br>
+<A onmouseover="swap('webImages/people.jpg');changetext('Grady McPeak, George Washington University, GWU Class of 2022')">Grady McPeak</a><br>
 <A onmouseover="swap('webImages/people.jpg');changetext('Suraj Shah, George Washington University, Class of 2020')">Suraj Shah</a><br>
 <A onmouseover="swap('webImages/people.jpg');changetext('Kyle Rood, George Washington University, Class of 2020')">Kyle Rood</a><br>
 <A onmouseover="swap('webImages/people.jpg');changetext('Sutton Howell, George Washington University, Class of 2022')"></a>Sutton Howell<br>
@@ -144,13 +144,13 @@ https://plus.google.com/105258061927639811990/about">Jacob Perkins</a><br>
 </TD>
     <TD valign="top" align=center><h4>Doctoral Students/ <br> Research Scientists</h4><BR>
 <!-- CURRENT -->
-    <A onmouseover="swap('webImages/people.jpg');changetext('Hong Xuan, George Washington University, Expected Graduation 2021')">Hong Xuan</A><br>
     <A onmouseover="swap('webImages/people.jpg');changetext('Zeyu Zhang, George Washington University, Expected Graduation 2023')">Zeyu Zhang</A><br>
     <A onmouseover="swap('webImages/people.jpg');changetext('Xiaotong Liu, George Washington University, Expected Graduation 2023')">Xiaotong Liu</A><br>
-    <A onmouseover="swap('webImages/people.jpg');changetext('Roxana Leontie, George Washington University, PhD 2019')">Roxana Leontie</A><br>
-<!-- ALUMNI -->
+    <A onmouseover="swap('webImages/people.jpg');changetext('Justine Manning, George Washington University, Expected Graduation 2025')">Justine Manning</A><br>
+    <!-- ALUMNI -->
  <br>
     <i> 
+    <A onmouseover="swap('webImages/people.jpg');changetext('Hong Xuan, George Washington University, PhD 2021.  Now on Bing Image Search Team @ Microsoft')">Hong Xuan</A><br>
     <A onmouseover="swap('webImages/abby.jpg');changetext('Abby Stylianou, PhD, Assistant Professor, Saint Louis University')" href="http://www2.seas.wustl.edu/~astylianou/">Abby Stylianou, PhD</A><br>
     <A onmouseover="swap('webImages/people.jpg');changetext('Zongyang Li, now a research Scientist at the Donald Danforth Plant Science Center')"> 
     Zongyang Li</A><br>
