@@ -24,13 +24,16 @@ sometimes do in-class demos in matlab, because it is what I know best,
 and because I think it makes the mathematical operations happening
 more clear.
 
-<h4>Project 1 is due 10am, Monday January 23.
-<a href="project1/description.php">details here</a></h5>
+<h4>Project 2 is due 10am, Monday Febuary 14.</h4>
+Assignment <a href="project2.php">details here</a>, and please turn in your project via
+<a href="https://forms.gle/DLKoBtUZXDMJHvUAA">this form</a></h4>
 
 <h4>Lectures and Slides</h5>
 <ol>
   <li><a href="slides/ComputationalPhotography_01_IntroAndFormationModel.ppt">Lecture 1 slides</a>
-    </ol>
+  <li><a href="slides/ComputationalPhotography2.ppt">Lecture 2 slides</a>
+  <li><a href="slides/ComputationalPhotography3.ppt">Lecture 3 slides</a>, and <a href="imagesAsVectors.m">matlab code</a>.
+</ol>
 <h4>Some reading</h5>
 Pop-culture reading on Computational Photography:
 <ol>
