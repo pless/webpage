@@ -33,7 +33,7 @@ frequency (smooth) part of the signal can be seen. By blending the high frequenc
 
 <h3>Details</h3>
 
-<p class=text><a href="./hybridImages.zip">Here</a>, we have included two sample images (of President Mark Wright and a bear.  I've mostly aligned these images so that their eyes are in the same place.  The alignment of these images is very important for the final results.</p>
+<p class=text><a href="project2/hybridImages.zip">Here</a>, we have included two sample images (of President Mark Wright and a bear.  I've mostly aligned these images so that their eyes are in the same place.  The alignment of these images is very important for the final results.</p>
 
 <ol>
   <li>
