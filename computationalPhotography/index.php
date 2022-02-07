@@ -33,6 +33,7 @@ Assignment <a href="project2.php">details here</a>, and please turn in your proj
   <li><a href="slides/ComputationalPhotography_01_IntroAndFormationModel.ppt">Lecture 1 slides</a>
   <li><a href="slides/ComputationalPhotography2.ppt">Lecture 2 slides</a>
   <li><a href="slides/ComputationalPhotography3.ppt">Lecture 3 slides</a>, and <a href="imagesAsVectors.m">matlab code</a>.
+  <li><a href="slides/ComputationalPhotography4.ppt">Lecture 4 slides</a> on Blind Deconvolution and coded aperture imaging, and <a href="deconvDemo.m">deconv Demo matlab code</a>, and the <a href="errf.m">errf.m</a> the ill fated error function that didn't really converge.
 </ol>
 <h4>Some reading</h5>
 Pop-culture reading on Computational Photography:
