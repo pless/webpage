@@ -24,7 +24,7 @@ sometimes do in-class demos in matlab, because it is what I know best,
 and because I think it makes the mathematical operations happening
 more clear.
 
-<h4>Project 3 is due 10am, Thursday, March 25.</h4>
+<h4>Project 3 is due 10am, Thursday, April 7.</h4>
 Assignment <a href="project3.php">details here</a>, and please turn in your project via
 <a href="https://forms.gle/DLKoBtUZXDMJHvUAA">this form</a></h4>
 
@@ -34,9 +34,11 @@ Assignment <a href="project3.php">details here</a>, and please turn in your proj
   <li><a href="slides/ComputationalPhotography2.ppt">Lecture 2 slides</a>
   <li><a href="slides/ComputationalPhotography3.ppt">Lecture 3 slides</a>, and <a href="imagesAsVectors.m">matlab code</a>.
   <li><a href="slides/ComputationalPhotography4.ppt">Lecture 4 slides</a> on Blind Deconvolution and coded aperture imaging, and <a href="deconvDemo.m">deconv Demo matlab code</a>, and the <a href="errf.m">errf.m</a> the ill fated error function that didn't really converge.
-  <li><a href="slides/ComputationalPhotography5.ppt">Lecture 5 slides</a>Flutter Shutter imaging and image based PCA,  <a href="lecture5.m">PCA demo matlab code</a>.
-  <li><a href="slides/ComputationalPhotography6.ppt">Lecture 5 slides</a>Flutter Shutter imaging and image based PCA,  <a href="lecture5.m">PCA demo matlab code</a>.
-  <li><a href="slides/ComputationalPhotography7.ppt">Lecture 5 slides</a>Flutter Shutter imaging and image based PCA,  <a href="lecture5.m">PCA demo matlab code</a>.
+  <li><a href="slides/ComputationalPhotography5.ppt">Lecture 5 slides</a> Flutter Shutter imaging and image based PCA,  <a href="lecture5.m">PCA demo matlab code</a>.
+  <li><a href="slides/ComputationalPhotography6.ppt">Lecture 6 slides</a> Linear models of image variation.
+  <li><a href="slides/ComputationalPhotography7.ppt">Lecture 7 slides</a> Homographies and Image Warping<a href="lecture8.m"> PCA demo matlab code</a>.
+  <li>Lecture 8</a> Intro to image alignment for astrophotography <a href="lecture8_astro.m">matlab code</a>.
+  <li><a href="slides/ComputationalPhotography9.ppt">Lecture 9</a> Ransac</a>.
 </ol>
 <h4>Some reading</h5>
 Pop-culture reading on Computational Photography:

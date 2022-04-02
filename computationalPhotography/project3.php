@@ -21,7 +21,7 @@ Thursday, March 25, 10am.  Please turn in your project via
 
 <h3>Overview</h3>
 
-<p class="text">The goal of this part of the assignment is to create <a href="http://cvcl.mit.edu/hybridimage/">image mosaics</a>.
+<p class="text">The goal of this part of the assignment is to create image mosaics by combining two or more images into a single image.  I encourage you to capture your own images for this project, but I've also included a collection of possible images <a href="project3/PTZImages.zip">here</a>.<br><br>
 
 You will take two or more photographs and create a combined image by
 registering, projective warping, resampling, and compositing them.
@@ -132,6 +132,17 @@ this can produce some strange wedge-like artifacts. You can try
 minimizing these by using a more sophisticated blending technique,
 such as a Laplacian pyramid. If your only problem is “ghosting” of
 high-frequency terms, then a 2-level pyramid should be enough.<br>
+
+
+<h3>Grading Details</h3>
+As before, the project can be done in groups of 1 to 3, and you should do as many bells and whistles as you have group members.
+
+Points:
+<ol>
+  <li>50 points for demonstrating image homographies on your own images or images shared in the zip files near the top of this page.
+  <li>30 points for bells and whistles
+  <li> 20 points for a writeup that is clear about what you did, what worked, what didn't work and what are the limitations of the approach or otherwise what you learned.
+    </ol>
 
 
 <h3> Bells &amp; Whistles (Extra Points)</h3>
