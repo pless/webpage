@@ -15,8 +15,9 @@
 
 
 <h3>Due</h3>
+
 Thursday, March 25, 10am.  Please turn in your project via
-<a href="https://forms.gle/DLKoBtUZXDMJHvUAA">this form</a></h4>
+<a href="https://forms.gle/DLKoBtUZXDMJHvUAA">this form</a>.  As before, the project can be done in groups of 1 to 3, and you should do as many bells and whistles as you have group members.
 
 
 <h3>Overview</h3>
@@ -31,10 +32,10 @@ is the algebraic workhorse to warp images.
 In your project and writeup, I want to see a collection of steps:
   <ol>
 <li> Shoot and choose good pictures (20 pts).  Show the pictures you've picked, why you chose to use those pictures, what about those pictures might make the rest of the project easier or harder?</li>
-<li> Recover homographies (20 pts).  Explain your approach (even if it is hand-clicking points), and what the challenges are for that.
-<li> Warp the images (20 pts).  Produce at least two examples of rectified images, and share any adventures that you had along the way.
-<li> Blend images into a mosaic (20 pts).  There are some choices about how you do the blending --- do you just use one image as much as possible and fill in with the rest?  Do you have a smooth gradient?  Do you do something more interesting?
-<li> Optional Bells and Whistles (up to 20 pts).  
+<li>Recover homographies (20 pts).  Explain your approach (even if it is hand-clicking points), and what the challenges are for that.
+<li>Warp the images (20 pts).  Produce at least two examples of rectified images, and share any adventures that you had along the way.
+<li>Blend images into a mosaic (20 pts).  There are some choices about how you do the blending --- do you just use one image as much as possible and fill in with the rest?  Do you have a smooth gradient?  Do you do something more interesting?
+<li>Optional Bells and Whistles (up to 20 pts).  
 <li>Each of the above points includes point relating to the clarity and organization of the write-up of that section.
 </ol>
  
@@ -132,18 +133,6 @@ this can produce some strange wedge-like artifacts. You can try
 minimizing these by using a more sophisticated blending technique,
 such as a Laplacian pyramid. If your only problem is “ghosting” of
 high-frequency terms, then a 2-level pyramid should be enough.<br>
-
-
-<h3>Grading Details</h3>
-As before, the project can be done in groups of 1 to 3, and you should do as many bells and whistles as you have group members.
-
-Points:
-<ol>
-  <li>50 points for demonstrating image homographies on your own images or images shared in the zip files near the top of this page.
-  <li>30 points for bells and whistles
-  <li> 20 points for a writeup that is clear about what you did, what worked, what didn't work and what are the limitations of the approach or otherwise what you learned.
-    </ol>
-
 
 <h3> Bells &amp; Whistles (Extra Points)</h3>
 <p class=text>Do the image geometric warping on your own without using functions that warp the images</p>
