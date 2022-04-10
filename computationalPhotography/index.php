@@ -37,8 +37,10 @@ Assignment <a href="project3.php">details here</a>, and please turn in your proj
   <li><a href="slides/ComputationalPhotography5.ppt">Lecture 5 slides</a> Flutter Shutter imaging and image based PCA,  <a href="lecture5.m">PCA demo matlab code</a>.
   <li><a href="slides/ComputationalPhotography6.ppt">Lecture 6 slides</a> Linear models of image variation.
   <li><a href="slides/ComputationalPhotography7.ppt">Lecture 7 slides</a> Homographies and Image Warping<a href="lecture8.m"> PCA demo matlab code</a>.
-  <li>Lecture 8</a> Intro to image alignment for astrophotography <a href="lecture8_astro.m">matlab code</a>.
-  <li><a href="slides/ComputationalPhotography9.ppt">Lecture 9</a> Ransac</a>.
+  <li>Lecture 8</a> Intro to image alignment for astrophotography <a href="lecture8_astro.m">matlab code</a>, <a href="findMutualNearestNeighbors.m">find NN</a>,
+<a href="ransacHomography.m">ransacHomogrpahy</a>.
+ <li><a href="slides/ComputationalPhotography9.ppt">Lecture 9</a> Ransac</a>.
+<li><a href="slides/ComputationalPhotography10.ppt">Lecture 10</a> Gradient Domain Editing Slides</a>, and <a href="gradientReconstruction.m">Matlab Demo Code</a>.
 </ol>
 <h4>Some reading</h5>
 Pop-culture reading on Computational Photography:
