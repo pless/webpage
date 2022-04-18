@@ -10,7 +10,7 @@
   <body> 
 <?php include("../navbar.html") ?>
 <div class="content"> 
-<img src="project3/teaser.png" alt="Teaser Image" height="200" width="900" align="center" /> <br>
+<img src="https://eirikso.files.wordpress.com/2011/01/allof20101.jpg?w=598&h=202" alt="Teaser Image" height="200" width="900" align="center" /> <br>
 <h3> Project 4: Final Project</h3>
 
 

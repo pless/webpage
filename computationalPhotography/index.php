@@ -25,6 +25,11 @@ and because I think it makes the mathematical operations happening
 more clear.
 
 <h4>Project 3 is due 10am, Thursday, April 7.</h4>
+Final Project <a href="projectFinal.php">details here</a>, and please turn in your project via
+<a href="https://forms.gle/DLKoBtUZXDMJHvUAA">this form</a></h4>.
+
+
+<h4>Project 3 is due 10am, Thursday, April 7.</h4>
 Assignment <a href="project3.php">details here</a>, and please turn in your project via
 <a href="https://forms.gle/DLKoBtUZXDMJHvUAA">this form</a></h4>
 
