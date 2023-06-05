@@ -12,7 +12,7 @@
 <div class="content"> 
 <h4>Updates:</h4>
 <ul>
-<li>I'm excited to be part of the brand new, NSF Trails Institute, <a href="https://www.trails.umd.edu/research">Trustworthy AI in Law and Society</a>.                                                                                                   
+<li>I'm excited to be part of the brand new UMD + GW + Morgan State NSF Trails Institute, <a href="https://www.trails.umd.edu/research">Trustworthy AI in Law and Society</a>.                                                                                                   
 <li>What we learned from hundreds of varieties of Sorghum planted in an amazing field site in Arizona, and imaging them with 3D scanners, thermal cameras and more.
 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9289439/">Comparing Deep Learning Approaches for Understanding Genotype × Phenotype Interactions in Biomass Sorghum< [Frontiers in AI]/a>
 <li>"GradCAM" style visualization tools for image similarity metrics learned by transformers <a href="https://openaccess.thecvf.com/content/WACV2022/html/Black_Visualizing_Paired_Image_Similarity_in_Transformer_Networks_WACV_2022_paper.html">"Visualizing Paired Image Similarity in Transformer Networks
