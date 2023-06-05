@@ -12,7 +12,10 @@
 <div class="content"> 
 <h4>Updates:</h4>
 <ul>
-<li>Do you use transforms to learn image similarity metric?  Here's how you can visualization those: <a href="https://openaccess.thecvf.com/content/WACV2022/html/Black_Visualizing_Paired_Image_Similarity_in_Transformer_Networks_WACV_2022_paper.html">"Visualizing Paired Image Similarity in Transformer Networks
+<li>I'm excited to be part of the brand new, NSF Trails Institute, <a href="https://www.trails.umd.edu/research">Trustworthy AI in Law and Society</a>.                                                                                                   
+<li>What we learned from hundreds of varieties of Sorghum planted in an amazing field site in Arizona, and imaging them with 3D scanners, thermal cameras and more.
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9289439/">Comparing Deep Learning Approaches for Understanding Genotype × Phenotype Interactions in Biomass Sorghum< [Frontiers in AI]/a>
+<li>"GradCAM" style visualization tools for image similarity metrics learned by transformers <a href="https://openaccess.thecvf.com/content/WACV2022/html/Black_Visualizing_Paired_Image_Similarity_in_Transformer_Networks_WACV_2022_paper.html">"Visualizing Paired Image Similarity in Transformer Networks
  [WACV 2022]</a>.
 <li><a href="https://arxiv.org/abs/2007.12749">Hard Negatives are Hard, But Useful</a>.  An ECCV 2020 paper showing how to make metric learning with triplet loss effective with hard-negative examples.
 </ul>
