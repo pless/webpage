@@ -1,0 +1,71 @@
+SUBJECTIVE
+
+AGE
+8y
+
+Gender
+female
+
+Cheif Complaint
+Abdominal pain, rated 6/10 X 1/7
+
+History of presenting Illness (HPI)
+Patient seen
+Informat: Mother and Patient
+She was apparently well until a week ago when she complained of abdominal pain, periumbilical, intermittent, dull aching, no known aggravating nor relieving factor, sometimes severe enough to hinder daily activities.
+However, not present at the time of review
+No vomiting
+No loose stools
+No fever
+
+
+Allergy
+Other substance
+
+Medical History
+Others
+
+Family History
+
+Review of system
+Abnormal weight loss (), Fever()
+
+Current medication
+
+
+Vaccination
+Influenza virus vaccine
+
+
+Physical Examination
+General appearance ()
+
+
+OBJECTIVE
+
+Vital Signs
+Blood pressure(0/0 mm[Hg])
+
+Anthropometry
+Height(130 cm) Weight(32.8 kg) BMI(19.4 kg/m2)
+
+
+ASSESSMENT
+
+Diagnosis
+Other and unspecified abdominal pain
+
+Differential Diagnosis
+
+
+
+PLAN
+
+Treatment plan
+Tab PCM 500mg PRN
+Tab Hyoscine 10mg PRN
+To present if symptoms persist or worsen
+Follow-up call by the nurses in 2 days
+
+Follow up appointment
+

@@ -1,0 +1,66 @@
+SUBJECTIVE
+
+AGE
+56y
+
+Gender
+female
+
+Cheif Complaint
+Body weakness , headache 
+
+History of presenting Illness (HPI)
+Body weakness, headache 
+
+Allergy
+
+
+Medical History
+
+
+Family History
+
+Review of system
+Abnormal weight loss (), Fever()
+
+Current medication
+
+
+Vaccination
+
+
+
+Physical Examination
+General appearance ()
+
+
+OBJECTIVE
+
+Vital Signs
+Blood pressure(123/78 mm[Hg])
+
+Anthropometry
+
+
+
+ASSESSMENT
+
+Diagnosis
+Plasmodium falciparum malaria
+
+Differential Diagnosis
+Plasmodium falciparum malaria
+
+
+PLAN
+
+Treatment plan
+Use insecticide-treated bed nets (ITNs) during pregnancy and with baby’s.
+-   	Use malaria control products in your home.
+ -            Use of intermittent preventive therapy (IPT)
+-             Proper environmental sanitation
+-             Cover all water containers 
+
+
+Follow up appointment
+
