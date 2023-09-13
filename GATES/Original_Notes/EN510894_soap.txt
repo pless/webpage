@@ -1,0 +1,56 @@
+SUBJECTIVE
+
+AGE
+35y
+
+Gender
+female
+
+Cheif Complaint
+Abdominal pain and diarrhoea 
+
+History of presenting Illness (HPI)
+Patient presented with abdominal pain and diarrhoea 
+
+
+;Fall Risk Assessment
+Pain assessment Assessment
+Do you feel pain? (Yes), Which body site? (Abdomen), Pain scale? (7), How long? (1 day)
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Constitutional
+- General appearance (Normal )
+- Level of alertness (Active, No comment)
+- State of health (Chronically ill appearing, No comment)
+- State of comfort or distress (Moderate distress, No comment)
+
+Vital Signs
+Blood pressure(100/82 mm[Hg])
+
+Anthropometry
+Height(170 cm) Weight(99.5 kg) BMI(34.4 kg/m2)
+
+ASSESSMENT
+
+Diagnosis
+Gastritis, unspecified
+
+Differential Diagnosis
+
+
+
+PLAN
+
+Treatment plan
+Tabs buscofan 10mg tdsx3days
+Zinc tablet 4mg daily x5
+ORS
+
+Exhaustive list of Medicine prescribed
+40mg Emzolyte Plus (ORS/Zinc)X 2 Once a day 5 days
+10mg Buscomac ( Hyoscine-N-Butylbromide 10mg) Tablets x10 3 times per day 3 days
+
+
+

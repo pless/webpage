@@ -1,0 +1,12 @@
+
+ This patient's symptoms suggest Acute Coronary Syndrome - a potentially life-threatening condition. This is a medical emergency, and immediate action is necessary. This would include contacting emergency services, and if this is an option, doing an ECG for you to rule out ST elevation Myocardial Infarction.
+
+Diagnostic tests that may be performed include: ECG, chest X-ray, Troponin or other cardiac enzymes, lipid profile, BNP (B-type natriuretic peptide if the patient is found to be in shock or has signs of heart failure).
+
+There may be other causes, too. For instance, if this is an older person, maybe angina - however the physical examination should strongly suggest an acute coronary event; we would likely not consider angina given these presenting symptoms.
+
+If this is a situation where emergency services might have access to specialist cardiology advice, it might make sense to alert them after getting the patient into the ambulance. 
+
+This situation also shows the difficulty in working in rural areas for healthcare professionals. Aside from the emergency, we also have to think about whether our patient can afford transportation to a hospital, and that the hospital can actually provide what they need to get the optimal care.
+
+# Rural Health Care # Emergency Care # Cardiovascular # Diagnosis # Observation # Review

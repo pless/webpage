@@ -1,0 +1,4 @@
+
+ The treatment is consistent with the diagnosis, and the diagnosis is consistent with the patient's symptoms. The RDT result is positive for malaria, which is consistent with this case. Given this, antimalarial drugs should be administered. What other tests would you consider in this setting? What are the next steps? [1 mark] [A] RDT (rapid diagnostic test) [B] Blood smears for microscopy [C] Other, explain. [Answer should emphasize the role of the clinic and the limitations of tests available in rural settings] [2 marks]
+
+1 mark for the consistent treatment with the diagnosis. 1 mark for the RDT result. [Total marks: 3]

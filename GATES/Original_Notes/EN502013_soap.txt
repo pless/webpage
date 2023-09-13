@@ -1,0 +1,47 @@
+SUBJECTIVE
+
+AGE
+51y
+
+Gender
+female
+
+Cheif Complaint
+Complain of chest pain 
+
+History of presenting Illness (HPI)
+Patient has peptic ulcers 
+
+Allergy
+Other food
+
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Vital Signs
+Blood pressure(110/69 mm[Hg])
+
+Anthropometry
+Height(169 cm) Weight(67 kg) BMI(23.5 kg/m2)
+
+ASSESSMENT
+
+Diagnosis
+Peptic ulcer, site unspecified
+
+Differential Diagnosis
+
+
+
+PLAN
+
+Treatment plan
+Caps omeprazole 20mgbdx14days
+Suspensions magnessium trisilicate 10mls tdsx3days 
+
+Exhaustive list of Medicine prescribed
+20mg Getzome (Omeprazole 20mg) Capsules X 14 Twice daily 2 weeks
+
+
+

@@ -1,0 +1,929 @@
+<table id='myTable'>
+<tr>
+  <th>SOAP Note</th>
+  <th>Llama2chat</th>
+  <th>Hermes</th>
+  <th>medllama2</th>
+  <th>medalpaca</th>
+  <th>GPT4</th>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EHAClinics_sample_soap1.txt'>EHAClinics_sample_soap1</td>
+  <td data-filename="EHAClinics_sample_soap1/model-A-20230830194719309992.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EHAClinics_sample_soap1/model-B-20230830203500994367.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EHAClinics_sample_soap1/model-C-20230831174631225075.txt" class="serious">Serious problem: Missing specific diagnosis</td>
+  <td data-filename="EHAClinics_sample_soap1/model-D-20230831182733592086.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EHAClinics_sample_soap1/model-E-20230902051744582113.txt" class="missing">Missing: Plan for follow-up testing or re-evaluation of the malaria diagnosis.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EHAClinics_sample_soap2.txt'>EHAClinics_sample_soap2</td>
+  <td data-filename="EHAClinics_sample_soap2/model-A-20230830194751387578.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EHAClinics_sample_soap2/model-B-20230830203534897141.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EHAClinics_sample_soap2/model-C-20230831174650601645.txt" class="serious">Serious problem: Lack of consideration for COPD and PUD in the diagnosis and treatment plan</td>
+  <td data-filename="EHAClinics_sample_soap2/model-D-20230831182746214375.txt" class="slight">Slight problem: Incorrect diagnosis</td>
+  <td data-filename="EHAClinics_sample_soap2/model-E-20230902051807607937.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EHAClinics_sample_soap3.txt'>EHAClinics_sample_soap3</td>
+  <td data-filename="EHAClinics_sample_soap3/model-A-20230830194817437735.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EHAClinics_sample_soap3/model-B-20230830203601248854.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EHAClinics_sample_soap3/model-C-20230831174801722366.txt" class="missing">Missing: diagnosis</td>
+  <td data-filename="EHAClinics_sample_soap3/model-D-20230831182835185173.txt" class="missing">Missing: Diagnosis and treatment plan.</td>
+  <td data-filename="EHAClinics_sample_soap3/model-E-20230902051823279486.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EHAClinics_sample_soap4.txt'>EHAClinics_sample_soap4</td>
+  <td data-filename="EHAClinics_sample_soap4/model-A-20230830194841735760.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EHAClinics_sample_soap4/model-B-20230830203620157210.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EHAClinics_sample_soap4/model-C-20230831174848724955.txt" class="no-problems">No problems found</td>
+  <td data-filename="EHAClinics_sample_soap4/model-D-20230831182904655070.txt" class="missing">Missing: Definitive diagnosis</td>
+  <td data-filename="EHAClinics_sample_soap4/model-E-20230902051841086641.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EHAClinics_sample_soap5.txt'>EHAClinics_sample_soap5</td>
+  <td data-filename="EHAClinics_sample_soap5/model-A-20230830194907143182.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EHAClinics_sample_soap5/model-B-20230830203645828887.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EHAClinics_sample_soap5/model-C-20230831174901314892.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EHAClinics_sample_soap5/model-D-20230831182921510252.txt" class="serious">Serious problem: potentially inappropriate treatment given patient's age and history</td>
+  <td data-filename="EHAClinics_sample_soap5/model-E-20230902051903277941.txt" class="serious">Serious problem: Inconsistent treatment plan for Plasmodium falciparum malaria.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN501981_soap.txt'>EN501981_soap</td>
+  <td data-filename="EN501981_soap/model-A-20230830194932160512.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN501981_soap/model-B-20230830203708708483.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN501981_soap/model-C-20230831175029421342.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN501981_soap/model-D-20230831182940882500.txt" class="slight">Slight problem: incorrect treatment</td>
+  <td data-filename="EN501981_soap/model-E-20230902051914261183.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN501987_soap.txt'>EN501987_soap</td>
+  <td data-filename="EN501987_soap/model-A-20230830194953583028.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN501987_soap/model-B-20230830203735405114.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN501987_soap/model-C-20230831175040811245.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN501987_soap/model-D-20230831182949024505.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN501987_soap/model-E-20230902051931581201.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN501996_soap.txt'>EN501996_soap</td>
+  <td data-filename="EN501996_soap/model-A-20230830195019309197.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN501996_soap/model-B-20230830203807120539.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN501996_soap/model-C-20230831175059227678.txt" class="missing">Missing: Assessment for potential trigger factors and investigation of contributing factors to the patient's hypertension.</td>
+  <td data-filename="EN501996_soap/model-D-20230831182955721080.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN501996_soap/model-E-20230902051948981405.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN502000_soap.txt'>EN502000_soap</td>
+  <td data-filename="EN502000_soap/model-A-20230830195041240875.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502000_soap/model-B-20230830203828158182.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502000_soap/model-C-20230831175110849358.txt" class="missing">Missing: Diagnosis of the underlying cause of the fever.</td>
+  <td data-filename="EN502000_soap/model-D-20230831183003658487.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502000_soap/model-E-20230902052003731610.txt" class="serious">Missing: Recording of blood pressure.
+Serious problem: None found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN502004_soap.txt'>EN502004_soap</td>
+  <td data-filename="EN502004_soap/model-A-20230830195110390230.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502004_soap/model-B-20230830203850746546.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502004_soap/model-C-20230831175216061891.txt" class="serious">Serious problem: Missing a clear diagnosis</td>
+  <td data-filename="EN502004_soap/model-D-20230831183023807749.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502004_soap/model-E-20230902052024505826.txt" class="serious">Serious problem: The diagnosis is not consistent with the observations.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN502013_soap.txt'>EN502013_soap</td>
+  <td data-filename="EN502013_soap/model-A-20230830195141954662.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502013_soap/model-B-20230830203921074466.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502013_soap/model-C-20230831175251440292.txt" class="missing">Missing: Diagnosis and treatment plan</td>
+  <td data-filename="EN502013_soap/model-D-20230831183037886170.txt" class="missing">Missing: Follow-up plan</td>
+  <td data-filename="EN502013_soap/model-E-20230902052041083737.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN502055_soap.txt'>EN502055_soap</td>
+  <td data-filename="EN502055_soap/model-A-20230830195208620828.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502055_soap/model-B-20230830203942577328.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502055_soap/model-C-20230831175343106211.txt" class="serious">Serious problem: Missing a definitive diagnosis.</td>
+  <td data-filename="EN502055_soap/model-D-20230831183051615555.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502055_soap/model-E-20230902052051571156.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN502104_soap.txt'>EN502104_soap</td>
+  <td data-filename="EN502104_soap/model-A-20230830195235187977.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502104_soap/model-B-20230830204009250526.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502104_soap/model-C-20230831175501383612.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502104_soap/model-D-20230831183059664299.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502104_soap/model-E-20230902052104896052.txt" class="missing">Missing: Treatment, diagnosis, fall risk assessment, medical history, differential diagnosis.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN502323_soap.txt'>EN502323_soap</td>
+  <td data-filename="EN502323_soap/model-A-20230830195301077206.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502323_soap/model-B-20230830204034803016.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502323_soap/model-C-20230831175510121554.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502323_soap/model-D-20230831183112742075.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502323_soap/model-E-20230902052117620075.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN502357_soap.txt'>EN502357_soap</td>
+  <td data-filename="EN502357_soap/model-A-20230830195320773474.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502357_soap/model-B-20230830204055771859.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502357_soap/model-C-20230831175522798650.txt" class="missing">Missing: Treatment plan for acute diarrheal disease</td>
+  <td data-filename="EN502357_soap/model-D-20230831183131261350.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502357_soap/model-E-20230902052121289898.txt" class="missing">Missing: Diagnosis, Treatment plan, Differential diagnosis</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN502397_soap.txt'>EN502397_soap</td>
+  <td data-filename="EN502397_soap/model-A-20230830195347546561.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502397_soap/model-B-20230830204116318597.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502397_soap/model-C-20230831175530838225.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502397_soap/model-D-20230831183143782547.txt" class="missing">Missing: Duration and frequency of symptoms in the HPI.</td>
+  <td data-filename="EN502397_soap/model-E-20230902052140321238.txt" class="serious">Serious problem: Treatment plan missing for Allergic Rhinitis.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN502422_soap.txt'>EN502422_soap</td>
+  <td data-filename="EN502422_soap/model-A-20230830195408111880.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502422_soap/model-B-20230830204138425025.txt" class="no-problems">No problems found</td>
+  <td data-filename="EN502422_soap/model-C-20230831175541329383.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502422_soap/model-D-20230831183147289018.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502422_soap/model-E-20230902052155604738.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN502432_soap.txt'>EN502432_soap</td>
+  <td data-filename="EN502432_soap/model-A-20230830195431122795.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502432_soap/model-B-20230830204203465314.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502432_soap/model-C-20230831175557962212.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502432_soap/model-D-20230831183203225455.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502432_soap/model-E-20230902052212021818.txt" class="slight">Missing: Treatment plan for primary pulmonary hypertension
+Missing: Symptoms or signs consistent with primary pulmonary hypertension
+Slight problem: Missing recommended tests for further evaluation
+No problems found</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN502503_soap.txt'>EN502503_soap</td>
+  <td data-filename="EN502503_soap/model-A-20230830195501912367.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502503_soap/model-B-20230830204228694734.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502503_soap/model-C-20230831175610926394.txt" class="missing">Missing: A suitable treatment plan for the chief complaint of fever and catarrh</td>
+  <td data-filename="EN502503_soap/model-D-20230831183208943867.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502503_soap/model-E-20230902052231400608.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN502506_soap.txt'>EN502506_soap</td>
+  <td data-filename="EN502506_soap/model-A-20230830195527918600.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502506_soap/model-B-20230830204254463169.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502506_soap/model-C-20230831175636006629.txt" class="missing">Missing: a clear diagnosis</td>
+  <td data-filename="EN502506_soap/model-D-20230831183223029011.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502506_soap/model-E-20230902052244926590.txt" class="missing">Missing: Diagnosis, Differential Diagnosis, Treatment plan, Observations (blood pressure)</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN502575_soap.txt'>EN502575_soap</td>
+  <td data-filename="EN502575_soap/model-A-20230830195549808534.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502575_soap/model-B-20230830204312201209.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502575_soap/model-C-20230831175658179677.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502575_soap/model-D-20230831183236308903.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502575_soap/model-E-20230902052304716608.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN502763_soap.txt'>EN502763_soap</td>
+  <td data-filename="EN502763_soap/model-A-20230830195614377032.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502763_soap/model-B-20230830204329701435.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502763_soap/model-C-20230831175706117973.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502763_soap/model-D-20230831183240442593.txt" class="serious">Serious problem: missing treatment plan for contraception and need to refer to a specialist for future pregnancy planning.</td>
+  <td data-filename="EN502763_soap/model-E-20230902052316574752.txt" class="missing">Missing: Treatment plan, Diagnosis.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN502765_soap.txt'>EN502765_soap</td>
+  <td data-filename="EN502765_soap/model-A-20230830195633182927.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502765_soap/model-B-20230830204351328392.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502765_soap/model-C-20230831175713465493.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502765_soap/model-D-20230831183248379974.txt" class="serious">Serious problem: Inappropriate treatment plan for severe malaria or sepsis.</td>
+  <td data-filename="EN502765_soap/model-E-20230902052320608783.txt" class="missing">Missing: Patient symptoms</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN502830_soap.txt'>EN502830_soap</td>
+  <td data-filename="EN502830_soap/model-A-20230830195702241663.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502830_soap/model-B-20230830204415820192.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502830_soap/model-C-20230831175847843303.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502830_soap/model-D-20230831183301291368.txt" class="serious">Serious problem: Missing treatment plan.</td>
+  <td data-filename="EN502830_soap/model-E-20230902052323590276.txt" class="missing">Missing: Details about the patient's presenting symptoms, diagnosis, differential diagnosis, and treatment plan.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN502862_soap.txt'>EN502862_soap</td>
+  <td data-filename="EN502862_soap/model-A-20230830195722497536.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502862_soap/model-B-20230830204433079702.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502862_soap/model-C-20230831175909406131.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN502862_soap/model-D-20230831183313591888.txt" class="slight">Slight problem: missing specific diagnosis or treatment plan for diabetes mellitus.</td>
+  <td data-filename="EN502862_soap/model-E-20230902052336959820.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN503132_soap.txt'>EN503132_soap</td>
+  <td data-filename="EN503132_soap/model-A-20230830195747315581.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503132_soap/model-B-20230830204502397045.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503132_soap/model-C-20230831175915856260.txt" class="missing">Missing: Definitive diagnosis</td>
+  <td data-filename="EN503132_soap/model-D-20230831183336875196.txt" class="serious">Serious problem: Missing referral to a doctor as recommended for further evaluation and management.</td>
+  <td data-filename="EN503132_soap/model-E-20230902052352857846.txt" class="missing">Missing: explicit diagnosis</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN503142_soap.txt'>EN503142_soap</td>
+  <td data-filename="EN503142_soap/model-A-20230830195822751572.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503142_soap/model-B-20230830204537495269.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503142_soap/model-C-20230831175932940715.txt" class="serious">Serious problem: Lacking specificity in assessment.</td>
+  <td data-filename="EN503142_soap/model-D-20230831183342131142.txt" class="missing">Missing: Specific diagnosis</td>
+  <td data-filename="EN503142_soap/model-E-20230902052407985924.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN503158_soap.txt'>EN503158_soap</td>
+  <td data-filename="EN503158_soap/model-A-20230830195842059863.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503158_soap/model-B-20230830204558605393.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503158_soap/model-C-20230831175951490568.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503158_soap/model-D-20230831183351642417.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503158_soap/model-E-20230902052423228233.txt" class="serious">Missing: Treatment plan and specific diagnosis.
+Need to perform EKG, blood test, and urine test.
+Serious problem: Hypertensive crisis requiring immediate medical attention and referral to hospital.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN503202_soap.txt'>EN503202_soap</td>
+  <td data-filename="EN503202_soap/model-A-20230830195902687579.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503202_soap/model-B-20230830204618954640.txt" class="missing">Missing: Follow-up plan for monitoring the patient's symptoms and considering referral to a higher level of care if symptoms worsen or do not improve.</td>
+  <td data-filename="EN503202_soap/model-C-20230831180006378930.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503202_soap/model-D-20230831183436240578.txt" class="no-problems">No problems found</td>
+  <td data-filename="EN503202_soap/model-E-20230902052426578187.txt" class="missing">Missing: Diagnosis, Differential Diagnosis, and Treatment plan.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN503214_soap.txt'>EN503214_soap</td>
+  <td data-filename="EN503214_soap/model-A-20230830195929289093.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503214_soap/model-B-20230830204640883837.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503214_soap/model-C-20230831180108013456.txt" class="serious">Serious problem: Missing specific diagnosis and treatment plan for the patient's recurrent diarrhea and IBS symptoms.</td>
+  <td data-filename="EN503214_soap/model-D-20230831183446932138.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503214_soap/model-E-20230902052436064668.txt" class="missing">Missing: Diagnosis and treatment plan.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN503225_soap.txt'>EN503225_soap</td>
+  <td data-filename="EN503225_soap/model-A-20230830195954064041.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503225_soap/model-B-20230830204703520740.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503225_soap/model-C-20230831180238443001.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503225_soap/model-D-20230831183501314784.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503225_soap/model-E-20230902052440633359.txt" class="missing">Missing: Diagnosis, Differential diagnosis, Treatment plan</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN503227_soap.txt'>EN503227_soap</td>
+  <td data-filename="EN503227_soap/model-A-20230830200022638816.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503227_soap/model-B-20230830204738881094.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503227_soap/model-C-20230831180257083003.txt" class="serious">Serious problem: No treatment plan mentioned</td>
+  <td data-filename="EN503227_soap/model-D-20230831183517488685.txt" class="serious">Serious problem: Missing treatment plan.</td>
+  <td data-filename="EN503227_soap/model-E-20230902052449332673.txt" class="missing">Missing: Diagnosis, treatment plan, and differential diagnosis.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN503232_soap.txt'>EN503232_soap</td>
+  <td data-filename="EN503232_soap/model-A-20230830200042791182.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503232_soap/model-B-20230830204804017070.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503232_soap/model-C-20230831180427275471.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503232_soap/model-D-20230831183529084221.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503232_soap/model-E-20230902052504418875.txt" class="missing">Missing: Diagnosis, treatment plan, specific observations, and other pertinent details such as patient history and physical exam findings.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN503292_soap.txt'>EN503292_soap</td>
+  <td data-filename="EN503292_soap/model-A-20230830200110012576.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503292_soap/model-B-20230830204830101218.txt" class="missing">Missing: Follow-up plan.</td>
+  <td data-filename="EN503292_soap/model-C-20230831180438544735.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503292_soap/model-D-20230831183546266503.txt" class="serious">Serious problem: Missing a definitive diagnosis.</td>
+  <td data-filename="EN503292_soap/model-E-20230902052518942764.txt" class="serious">Serious problem: Incorrect treatment, missing antifungal medication.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN503305_soap.txt'>EN503305_soap</td>
+  <td data-filename="EN503305_soap/model-A-20230830200132239399.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503305_soap/model-B-20230830204850008425.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503305_soap/model-C-20230831180512507671.txt" class="missing">Missing: Treatment plan</td>
+  <td data-filename="EN503305_soap/model-D-20230831183630429133.txt" class="serious">Serious problem: No diagnosis given. Missing: definitive diagnosis.</td>
+  <td data-filename="EN503305_soap/model-E-20230902052534389756.txt" class="serious">Missing: Diagnosis, Treatment Plan, Differential Diagnosis. Serious problem: lack of specific observations and examination findings.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN503310_soap.txt'>EN503310_soap</td>
+  <td data-filename="EN503310_soap/model-A-20230830200153600930.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503310_soap/model-B-20230830204910969062.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503310_soap/model-C-20230831180522686220.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503310_soap/model-D-20230831183700563057.txt" class="missing">Missing: Diagnosis (confirmed bronchitis or pneumonia)</td>
+  <td data-filename="EN503310_soap/model-E-20230902052537379282.txt" class="missing">Missing: Diagnosis, Differential Diagnosis, Treatment Plan</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN503351_soap.txt'>EN503351_soap</td>
+  <td data-filename="EN503351_soap/model-A-20230830200218404510.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503351_soap/model-B-20230830204941784792.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503351_soap/model-C-20230831180532990212.txt" class="missing">Missing: Diagnosis confirmation (culture and testing for strep throat)</td>
+  <td data-filename="EN503351_soap/model-D-20230831183721164434.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503351_soap/model-E-20230902052550759309.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN503354_soap.txt'>EN503354_soap</td>
+  <td data-filename="EN503354_soap/model-A-20230830200237282165.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503354_soap/model-B-20230830205009340152.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503354_soap/model-C-20230831180554908940.txt" class="">Minor problem: It would be excellent to conduct further tests or diagnostics, such as a Complete Blood Count (CBC) and Renal Function Tests.</td>
+  <td data-filename="EN503354_soap/model-D-20230831183750588459.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503354_soap/model-E-20230902052607614802.txt" class="missing">Missing: Diagnosis and treatment plan.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN503443_soap.txt'>EN503443_soap</td>
+  <td data-filename="EN503443_soap/model-A-20230830200258501597.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503443_soap/model-B-20230830205032291091.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503443_soap/model-C-20230831180601843550.txt" class="serious">Serious problem: Missing diagnosis and treatment plan for the chest pain.</td>
+  <td data-filename="EN503443_soap/model-D-20230831183803627473.txt" class="missing">Missing: Treatment plan for chest pain and evaluation for conditions other than gastritis, such as pneumonia.</td>
+  <td data-filename="EN503443_soap/model-E-20230902052610985971.txt" class="missing">Missing: Information about patient's symptoms, diagnosis, and treatment plan.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN503446_soap.txt'>EN503446_soap</td>
+  <td data-filename="EN503446_soap/model-A-20230830200325555623.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503446_soap/model-B-20230830205058326937.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503446_soap/model-C-20230831180708653397.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503446_soap/model-D-20230831183811065532.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503446_soap/model-E-20230902052626237949.txt" class="serious">Serious problem: Missing surgical intervention or referral for acute peptic ulcer with perforation.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN503456_soap.txt'>EN503456_soap</td>
+  <td data-filename="EN503456_soap/model-A-20230830200352646121.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503456_soap/model-B-20230830205121243610.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503456_soap/model-C-20230831180714915218.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503456_soap/model-D-20230831183922351546.txt" class="missing">Missing: Treatment plan</td>
+  <td data-filename="EN503456_soap/model-E-20230902052647156568.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN503479_soap.txt'>EN503479_soap</td>
+  <td data-filename="EN503479_soap/model-A-20230830200419033183.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503479_soap/model-B-20230830205147110920.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503479_soap/model-C-20230831180722885764.txt" class="serious">Serious problem: Incorrect treatment for chronic headache</td>
+  <td data-filename="EN503479_soap/model-D-20230831183931363934.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN503479_soap/model-E-20230902052659948925.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN504318_soap.txt'>EN504318_soap</td>
+  <td data-filename="EN504318_soap/model-A-20230830200447562065.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN504318_soap/model-B-20230830205211025907.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN504318_soap/model-C-20230831180732299137.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN504318_soap/model-D-20230831183959295921.txt" class="no-problems">No problems found</td>
+  <td data-filename="EN504318_soap/model-E-20230902052718213723.txt" class="missing">Missing: Clear diagnosis</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN504728_soap.txt'>EN504728_soap</td>
+  <td data-filename="EN504728_soap/model-A-20230830200519190734.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN504728_soap/model-B-20230830205234811594.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN504728_soap/model-C-20230831180742000907.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN504728_soap/model-D-20230831184020647587.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN504728_soap/model-E-20230902052734032275.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN504733_soap.txt'>EN504733_soap</td>
+  <td data-filename="EN504733_soap/model-A-20230830200542649732.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN504733_soap/model-B-20230830205305565363.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN504733_soap/model-C-20230831180752368383.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN504733_soap/model-D-20230831184034536361.txt" class="slight">Slight problem: Additional blood tests are needed to confirm the diagnosis.</td>
+  <td data-filename="EN504733_soap/model-E-20230902052750181903.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN504736_soap.txt'>EN504736_soap</td>
+  <td data-filename="EN504736_soap/model-A-20230830200608130090.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN504736_soap/model-B-20230830205333681180.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN504736_soap/model-C-20230831180827131112.txt" class="serious">Serious problem: unclear diagnosis and treatment plan for fever, missing: differential diagnosis</td>
+  <td data-filename="EN504736_soap/model-D-20230831184044378501.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN504736_soap/model-E-20230902052806828760.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN504881_soap.txt'>EN504881_soap</td>
+  <td data-filename="EN504881_soap/model-A-20230830200621802065.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN504881_soap/model-B-20230830205350690907.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN504881_soap/model-C-20230831180855659826.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN504881_soap/model-D-20230831184056098638.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN504881_soap/model-E-20230902052819833346.txt" class="missing">Missing: Diagnosis, treatment plan, thorough history</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN504978_soap.txt'>EN504978_soap</td>
+  <td data-filename="EN504978_soap/model-A-20230830200651047270.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN504978_soap/model-B-20230830205414690824.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN504978_soap/model-C-20230831180903604526.txt" class="missing">Missing: Diagnosis</td>
+  <td data-filename="EN504978_soap/model-D-20230831184110380442.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN504978_soap/model-E-20230902052829585354.txt" class="missing">Missing: Diagnosis and differential diagnosis, treatment plan.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN505085_soap.txt'>EN505085_soap</td>
+  <td data-filename="EN505085_soap/model-A-20230830200717896625.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505085_soap/model-B-20230830205446465707.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505085_soap/model-C-20230831180926489204.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505085_soap/model-D-20230831184119968190.txt" class="slight">Slight problem: Further tests might not be available except for laboratory tests that require referral to a diagnostic center.</td>
+  <td data-filename="EN505085_soap/model-E-20230902052842045871.txt" class="missing">Missing: Diagnosis, Treatment plan
+
+Further tests: Complete blood count (CBC), Abdominal ultrasound, Urine test</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN505088_soap.txt'>EN505088_soap</td>
+  <td data-filename="EN505088_soap/model-A-20230830200740162931.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505088_soap/model-B-20230830205516319963.txt" class="serious">Serious problem: The treatment plan is not fully effective in managing the patient's moderate pain.</td>
+  <td data-filename="EN505088_soap/model-C-20230831180935251551.txt" class="serious">Serious problem: No treatment plan provided.</td>
+  <td data-filename="EN505088_soap/model-D-20230831184138107560.txt" class="serious">Serious problem: Missing treatment plan.</td>
+  <td data-filename="EN505088_soap/model-E-20230902052851973657.txt" class="missing">Missing: Diagnosis, Differential Diagnosis, Treatment Plan</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN505091_soap.txt'>EN505091_soap</td>
+  <td data-filename="EN505091_soap/model-A-20230830200800286292.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505091_soap/model-B-20230830205530921848.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505091_soap/model-C-20230831180958111891.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505091_soap/model-D-20230831184155290972.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505091_soap/model-E-20230902052855611763.txt" class="missing">Missing: Diagnosis, Differential Diagnosis, Treatment Plan, HPI.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN505092_soap.txt'>EN505092_soap</td>
+  <td data-filename="EN505092_soap/model-A-20230830200827339535.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505092_soap/model-B-20230830205559522579.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505092_soap/model-C-20230831181010464056.txt" class="missing">Missing: Discussion of diet and potential water contamination, referral to secondary care if patient does not recover</td>
+  <td data-filename="EN505092_soap/model-D-20230831184204969752.txt" class="missing">Missing: Diagnosis. The SOAP note does not provide a specific diagnosis for the patient's abdominal pain.</td>
+  <td data-filename="EN505092_soap/model-E-20230902052907934675.txt" class="missing">Missing: Diagnosis, Treatment plan</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN505095_soap.txt'>EN505095_soap</td>
+  <td data-filename="EN505095_soap/model-A-20230830200853031653.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505095_soap/model-B-20230830205620018757.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505095_soap/model-C-20230831181050466075.txt" class="missing">Missing: Specific diagnosis and treatment plan</td>
+  <td data-filename="EN505095_soap/model-D-20230831184215032211.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505095_soap/model-E-20230902052924398958.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN505097_soap.txt'>EN505097_soap</td>
+  <td data-filename="EN505097_soap/model-A-20230830200922053488.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505097_soap/model-B-20230830205652191594.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505097_soap/model-C-20230831181127223578.txt" class="missing">Missing: Specific diagnosis and treatment plan for the patient's migraines</td>
+  <td data-filename="EN505097_soap/model-D-20230831184229720499.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505097_soap/model-E-20230902052926918903.txt" class="missing">Missing: diagnosis and treatment plan.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN505108_soap.txt'>EN505108_soap</td>
+  <td data-filename="EN505108_soap/model-A-20230830200937869240.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505108_soap/model-B-20230830205717229377.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505108_soap/model-C-20230831181135743277.txt" class="missing">Missing: Treatment plan, follow-up plan.</td>
+  <td data-filename="EN505108_soap/model-D-20230831184239936877.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505108_soap/model-E-20230902052942527832.txt" class="missing">Missing: Diagnosis and treatment plan.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN505218_soap.txt'>EN505218_soap</td>
+  <td data-filename="EN505218_soap/model-A-20230830200959535963.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505218_soap/model-B-20230830205737775084.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505218_soap/model-C-20230831181153365305.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505218_soap/model-D-20230831184258179196.txt" class="slight">Slight problem: Missing definitive diagnosis and treatment plan.</td>
+  <td data-filename="EN505218_soap/model-E-20230902052957564524.txt" class="missing">Missing: Diagnosis, Differential Diagnosis, and Treatment Plan. The patient's symptoms are general and could indicate various conditions. Further information and tests are needed for a thorough analysis.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN505288_soap.txt'>EN505288_soap</td>
+  <td data-filename="EN505288_soap/model-A-20230830201031799635.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505288_soap/model-B-20230830205806792593.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505288_soap/model-C-20230831181210722522.txt" class="serious">Serious problem: Missing confirmatory test for all causes of malaria.</td>
+  <td data-filename="EN505288_soap/model-D-20230831184304997807.txt" class="slight">Slight problem: Rapid diagnostic test could be used for confirmation.</td>
+  <td data-filename="EN505288_soap/model-E-20230902053012175221.txt" class="missing">Missing: Follow-up care</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN505374_soap.txt'>EN505374_soap</td>
+  <td data-filename="EN505374_soap/model-A-20230830201056453268.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505374_soap/model-B-20230830205831393571.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505374_soap/model-C-20230831181222040179.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505374_soap/model-D-20230831184345192541.txt" class="missing">Missing: Lab tests to confirm diagnosis of secondary hypertension.</td>
+  <td data-filename="EN505374_soap/model-E-20230902053026435670.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN505726_soap.txt'>EN505726_soap</td>
+  <td data-filename="EN505726_soap/model-A-20230830201127783088.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505726_soap/model-B-20230830205856008029.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505726_soap/model-C-20230831181232204196.txt" class="missing">Missing: Diagnosis of endocrine disorder</td>
+  <td data-filename="EN505726_soap/model-D-20230831184350290670.txt" class="missing">Missing: Patient's medical history information.</td>
+  <td data-filename="EN505726_soap/model-E-20230902053043861977.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN505793_soap.txt'>EN505793_soap</td>
+  <td data-filename="EN505793_soap/model-A-20230830201152696547.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505793_soap/model-B-20230830205920813933.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505793_soap/model-C-20230831181242187297.txt" class="slight">Slight problem: Missing a specific diagnosis.</td>
+  <td data-filename="EN505793_soap/model-D-20230831184356308744.txt" class="slight">Slight problem: inappropriate medication prescribed</td>
+  <td data-filename="EN505793_soap/model-E-20230902053104560508.txt" class="missing">Missing: Specific diagnosis</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN505796_soap.txt'>EN505796_soap</td>
+  <td data-filename="EN505796_soap/model-A-20230830201220189494.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505796_soap/model-B-20230830205948100373.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN505796_soap/model-C-20230831181258888565.txt" class="missing">Missing: Specific location of the incident.</td>
+  <td data-filename="EN505796_soap/model-D-20230831184401293477.txt" class="missing">Missing: Ear examination or imaging study to check for ear complications.</td>
+  <td data-filename="EN505796_soap/model-E-20230902053127594568.txt" class="serious">Serious problem: Missing diagnosis and inaccurate blood pressure reading.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN506054_soap.txt'>EN506054_soap</td>
+  <td data-filename="EN506054_soap/model-A-20230830201251403729.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN506054_soap/model-B-20230830210019294090.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN506054_soap/model-C-20230831181310342142.txt" class="serious">Serious problem: Possible need for further diagnostic testing or specialist referral</td>
+  <td data-filename="EN506054_soap/model-D-20230831184410568115.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN506054_soap/model-E-20230902053147275983.txt" class="missing">Missing: Clear diagnosis and follow-up plan.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN506168_soap.txt'>EN506168_soap</td>
+  <td data-filename="EN506168_soap/model-A-20230830201312927712.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN506168_soap/model-B-20230830210042946310.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN506168_soap/model-C-20230831181317600948.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN506168_soap/model-D-20230831184420910801.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN506168_soap/model-E-20230902053203814532.txt" class="missing">Missing: Diagnosis</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN507071_soap.txt'>EN507071_soap</td>
+  <td data-filename="EN507071_soap/model-A-20230830201329731006.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN507071_soap/model-B-20230830210102286496.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN507071_soap/model-C-20230831181330050554.txt" class="missing">Missing: Documentation of patient education and specific guidelines for the rural setting.</td>
+  <td data-filename="EN507071_soap/model-D-20230831184430962332.txt" class="missing">Missing: No problems found.</td>
+  <td data-filename="EN507071_soap/model-E-20230902053218996395.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN507080_soap.txt'>EN507080_soap</td>
+  <td data-filename="EN507080_soap/model-A-20230830201357594098.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN507080_soap/model-B-20230830210132528070.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN507080_soap/model-C-20230831181340720132.txt" class="serious">Serious problem: missing treatment plan.</td>
+  <td data-filename="EN507080_soap/model-D-20230831184448159746.txt" class="missing">Missing: Examination and visualization to confirm the diagnosis</td>
+  <td data-filename="EN507080_soap/model-E-20230902053235165286.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN507675_soap.txt'>EN507675_soap</td>
+  <td data-filename="EN507675_soap/model-A-20230830201422521428.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN507675_soap/model-B-20230830210205206615.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN507675_soap/model-C-20230831181404473596.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN507675_soap/model-D-20230831184508428951.txt" class="missing">Missing: Specific diagnosis</td>
+  <td data-filename="EN507675_soap/model-E-20230902053245630220.txt" class="missing">Missing: Diagnosis and treatment plan</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN507679_soap.txt'>EN507679_soap</td>
+  <td data-filename="EN507679_soap/model-A-20230830201442277668.txt" class="missing">Missing: Nutritional assessment and evaluation of the patient's upper back pain.</td>
+  <td data-filename="EN507679_soap/model-B-20230830210224773523.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN507679_soap/model-C-20230831181427387239.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN507679_soap/model-D-20230831184518692168.txt" class="missing">Missing: Treatment plan for insomnia.</td>
+  <td data-filename="EN507679_soap/model-E-20230902053300273947.txt" class="missing">Missing: Treatment plan, diagnosis</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN508118_soap.txt'>EN508118_soap</td>
+  <td data-filename="EN508118_soap/model-A-20230830201508743782.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508118_soap/model-B-20230830210248089495.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508118_soap/model-C-20230831181432974796.txt" class="missing">Missing: Examination findings</td>
+  <td data-filename="EN508118_soap/model-D-20230831184554176214.txt" class="serious">Serious problem: Missing specific diagnosis and treatment plan for the patient's symptoms of persistent diarrhea, weight loss, and recent travel to a tropical area.</td>
+  <td data-filename="EN508118_soap/model-E-20230902053319936235.txt" class="serious">Serious problem: Missing explicit diagnosis.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN508181_soap.txt'>EN508181_soap</td>
+  <td data-filename="EN508181_soap/model-A-20230830201531127524.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508181_soap/model-B-20230830210312868320.txt" class="missing">Missing: Treatment plan for hypertension</td>
+  <td data-filename="EN508181_soap/model-C-20230831181439443097.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508181_soap/model-D-20230831184606242560.txt" class="slight">Slight problem: The management plan should include treatment for both inflammation and dryness.</td>
+  <td data-filename="EN508181_soap/model-E-20230902053336563433.txt" class="missing">Missing: specific diagnosis.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN508182_soap.txt'>EN508182_soap</td>
+  <td data-filename="EN508182_soap/model-A-20230830201548951000.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508182_soap/model-B-20230830210333632021.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508182_soap/model-C-20230831181445614538.txt" class="missing">Missing: Treatment plan</td>
+  <td data-filename="EN508182_soap/model-D-20230831184642968753.txt" class="missing">Missing: Treatment plan.</td>
+  <td data-filename="EN508182_soap/model-E-20230902053350691099.txt" class="missing">Missing: specific diagnosis</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN508184_soap.txt'>EN508184_soap</td>
+  <td data-filename="EN508184_soap/model-A-20230830201614793016.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508184_soap/model-B-20230830210354454938.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508184_soap/model-C-20230831181616188544.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508184_soap/model-D-20230831184650132485.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508184_soap/model-E-20230902053409481606.txt" class="serious">Missing: Treatment plan lacks specific diagnosis
+Serious problem: Diagnosis not consistent with observations
+Missing: Additional tests that could be considered in rural health clinics
+Minor problem: Incomplete blood pressure reading
+Minor problem: Lack of detailed history of present illness and differential diagnosis</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN508211_soap.txt'>EN508211_soap</td>
+  <td data-filename="EN508211_soap/model-A-20230830201640566581.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508211_soap/model-B-20230830210426809434.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508211_soap/model-C-20230831181631541336.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508211_soap/model-D-20230831184754207979.txt" class="missing">Missing: Confirmation of knee swelling or morning stiffness. Further investigation with X-ray to confirm diagnosis and assess severity.</td>
+  <td data-filename="EN508211_soap/model-E-20230902053431228272.txt" class="missing">Missing: Addressing the patient's right ocular pain post-surgery.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN508421_soap.txt'>EN508421_soap</td>
+  <td data-filename="EN508421_soap/model-A-20230830201707706450.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508421_soap/model-B-20230830210458557421.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508421_soap/model-C-20230831181647029470.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508421_soap/model-D-20230831184809923975.txt" class="slight">Slight problem: Plan needs clarification for longer antibiotic course and follow-up plan.</td>
+  <td data-filename="EN508421_soap/model-E-20230902053450754483.txt" class="serious">Serious problem: Treatment plan not consistent with diagnosis, missing addressing the cause of the fever.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN508507_soap.txt'>EN508507_soap</td>
+  <td data-filename="EN508507_soap/model-A-20230830201727863924.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508507_soap/model-B-20230830210520487420.txt" class="">No problem found.</td>
+  <td data-filename="EN508507_soap/model-C-20230831181709356158.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508507_soap/model-D-20230831184815151595.txt" class="missing">Missing: Pain scale is not clearly reported.</td>
+  <td data-filename="EN508507_soap/model-E-20230902053507996739.txt" class="slight">Slight problem: The patient's epigastric pain is not being addressed in the treatment plan.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN508548_soap.txt'>EN508548_soap</td>
+  <td data-filename="EN508548_soap/model-A-20230830201804956783.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508548_soap/model-B-20230830210551519031.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508548_soap/model-C-20230831181715468393.txt" class="missing">Missing: Treatment plan</td>
+  <td data-filename="EN508548_soap/model-D-20230831184927985627.txt" class="serious">Serious problem: missing a clear diagnosis.</td>
+  <td data-filename="EN508548_soap/model-E-20230902053531091503.txt" class="serious">Serious problem: Incomplete treatment plan for patient's symptoms of headache and general body pain</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN508616_soap.txt'>EN508616_soap</td>
+  <td data-filename="EN508616_soap/model-A-20230830201830836995.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508616_soap/model-B-20230830210622299050.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508616_soap/model-C-20230831181727922558.txt" class="missing">Missing: Additional information about the patient's history, physical examination, and specific concerns.</td>
+  <td data-filename="EN508616_soap/model-D-20230831184936315819.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508616_soap/model-E-20230902053545257165.txt" class="missing">Missing: Clear diagnosis and treatment plan.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN508847_soap.txt'>EN508847_soap</td>
+  <td data-filename="EN508847_soap/model-A-20230830201857798948.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508847_soap/model-B-20230830210647519295.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508847_soap/model-C-20230831181742254575.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508847_soap/model-D-20230831184952763013.txt" class="serious">Serious problem: Missing treatment plan.</td>
+  <td data-filename="EN508847_soap/model-E-20230902053608462232.txt" class="slight">Slight problem: No specific treatment provided for the diagnosis of recurrent abortions.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN508853_soap.txt'>EN508853_soap</td>
+  <td data-filename="EN508853_soap/model-A-20230830201918391652.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508853_soap/model-B-20230830210711832498.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508853_soap/model-C-20230831181800951514.txt" class="serious">Serious problem: Missing specific treatment plan for fibromyalgia symptoms</td>
+  <td data-filename="EN508853_soap/model-D-20230831185028070803.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508853_soap/model-E-20230902053625919789.txt" class="missing">Missing: Specific diagnosis.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN508864_soap.txt'>EN508864_soap</td>
+  <td data-filename="EN508864_soap/model-A-20230830201940569797.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508864_soap/model-B-20230830210729112840.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508864_soap/model-C-20230831181809262782.txt" class="missing">Missing: Treatment plan</td>
+  <td data-filename="EN508864_soap/model-D-20230831185036768664.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508864_soap/model-E-20230902053644269001.txt" class="serious">Serious problem: Missing blood pressure treatment plan.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN508867_soap.txt'>EN508867_soap</td>
+  <td data-filename="EN508867_soap/model-A-20230830201958474068.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508867_soap/model-B-20230830210753421473.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508867_soap/model-C-20230831181839977780.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN508867_soap/model-D-20230831185052958740.txt" class="slight">Slight problem: Missing diagnosis for the patient's chest pain.</td>
+  <td data-filename="EN508867_soap/model-E-20230902053652649898.txt" class="missing">Missing: Diagnosis</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN509143_soap.txt'>EN509143_soap</td>
+  <td data-filename="EN509143_soap/model-A-20230830202016450402.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN509143_soap/model-B-20230830210816629033.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN509143_soap/model-C-20230831181853483232.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN509143_soap/model-D-20230831185105849665.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN509143_soap/model-E-20230902053710876579.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN509153_soap.txt'>EN509153_soap</td>
+  <td data-filename="EN509153_soap/model-A-20230830202052025997.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN509153_soap/model-B-20230830210845773753.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN509153_soap/model-C-20230831181910666935.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN509153_soap/model-D-20230831185140528138.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN509153_soap/model-E-20230902053729999959.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN509185_soap.txt'>EN509185_soap</td>
+  <td data-filename="EN509185_soap/model-A-20230830202116208569.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN509185_soap/model-B-20230830210905654653.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN509185_soap/model-C-20230831181922304185.txt" class="serious">Serious problem: Missing further tests to determine the cause of red eye.</td>
+  <td data-filename="EN509185_soap/model-D-20230831185307838402.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN509185_soap/model-E-20230902053745571483.txt" class="serious">Serious problem: Missing vision acuity check.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN509205_soap.txt'>EN509205_soap</td>
+  <td data-filename="EN509205_soap/model-A-20230830202145305163.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN509205_soap/model-B-20230830210939485014.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN509205_soap/model-C-20230831181929810776.txt" class="missing">Missing: Further assessment and consideration of other underlying causes of the patient's symptoms (e.g., irritable bowel syndrome, inflammatory conditions, chronic illnesses) and potential complications from delayed medical attention.</td>
+  <td data-filename="EN509205_soap/model-D-20230831185346497651.txt" class="missing">Missing: Treatment plan</td>
+  <td data-filename="EN509205_soap/model-E-20230902053803682457.txt" class="missing">Missing: Clear diagnosis
+
+Note: Incomplete diagnosis and missing investigation for bitterness in mouth.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN509734_soap.txt'>EN509734_soap</td>
+  <td data-filename="EN509734_soap/model-A-20230830202212940228.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN509734_soap/model-B-20230830211013849858.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN509734_soap/model-C-20230831181952325292.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN509734_soap/model-D-20230831185358165100.txt" class="missing">Missing: Treatment plan, next step for diagnosis, other conditions to consider, steps for quality management.</td>
+  <td data-filename="EN509734_soap/model-E-20230902053824974157.txt" class="missing">Missing: Assessment of the patient's vital signs and physical examination findings.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN509806_soap.txt'>EN509806_soap</td>
+  <td data-filename="EN509806_soap/model-A-20230830202242115710.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN509806_soap/model-B-20230830211043458362.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN509806_soap/model-C-20230831182003139082.txt" class="missing">Missing: Treatment plan.</td>
+  <td data-filename="EN509806_soap/model-D-20230831185427411843.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN509806_soap/model-E-20230902053847508660.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN509961_soap.txt'>EN509961_soap</td>
+  <td data-filename="EN509961_soap/model-A-20230830202310492420.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN509961_soap/model-B-20230830211112862699.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN509961_soap/model-C-20230831182034772276.txt" class="serious">Serious problem: Missing differential diagnosis</td>
+  <td data-filename="EN509961_soap/model-D-20230831185444155745.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN509961_soap/model-E-20230902053907179080.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN510366_soap.txt'>EN510366_soap</td>
+  <td data-filename="EN510366_soap/model-A-20230830202332524620.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510366_soap/model-B-20230830211138923918.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510366_soap/model-C-20230831182044375560.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510366_soap/model-D-20230831185453335841.txt" class="serious">Serious problem: Missing assessment and management of hypoglycemia risk.</td>
+  <td data-filename="EN510366_soap/model-E-20230902053924460402.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN510370_soap.txt'>EN510370_soap</td>
+  <td data-filename="EN510370_soap/model-A-20230830202401075568.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510370_soap/model-B-20230830211203057955.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510370_soap/model-C-20230831182053642461.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510370_soap/model-D-20230831185506972187.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510370_soap/model-E-20230902053944656400.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN510391_soap.txt'>EN510391_soap</td>
+  <td data-filename="EN510391_soap/model-A-20230830202420880723.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510391_soap/model-B-20230830211226096899.txt" class="missing">Missing: Follow-up plan</td>
+  <td data-filename="EN510391_soap/model-C-20230831182115987555.txt" class="serious">Serious problem: Missing culture results to guide antibiotic choices for possible secondary bacterial infections.</td>
+  <td data-filename="EN510391_soap/model-D-20230831185552882001.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510391_soap/model-E-20230902054005262209.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN510418_soap.txt'>EN510418_soap</td>
+  <td data-filename="EN510418_soap/model-A-20230830202440570870.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510418_soap/model-B-20230830211248246916.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510418_soap/model-C-20230831182125981202.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510418_soap/model-D-20230831185605780313.txt" class="serious">Serious problem: missing blood smear examination to confirm diagnosis and rule out other causes of fever and headache.</td>
+  <td data-filename="EN510418_soap/model-E-20230902054023656267.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN510444_soap.txt'>EN510444_soap</td>
+  <td data-filename="EN510444_soap/model-A-20230830202514841062.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510444_soap/model-B-20230830211318997739.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510444_soap/model-C-20230831182134074721.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510444_soap/model-D-20230831185611508615.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510444_soap/model-E-20230902054040061091.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN510460_soap.txt'>EN510460_soap</td>
+  <td data-filename="EN510460_soap/model-A-20230830202536753400.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510460_soap/model-B-20230830211342032406.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510460_soap/model-C-20230831182142662251.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510460_soap/model-D-20230831185620403312.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510460_soap/model-E-20230902054057579530.txt" class="serious">Serious problem: Missing antibiotic treatment for impetigo.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN510505_soap.txt'>EN510505_soap</td>
+  <td data-filename="EN510505_soap/model-A-20230830202603976609.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510505_soap/model-B-20230830211407482085.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510505_soap/model-C-20230831182154893964.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510505_soap/model-D-20230831185642408852.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510505_soap/model-E-20230902054113860082.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN510520_soap.txt'>EN510520_soap</td>
+  <td data-filename="EN510520_soap/model-A-20230830202644460243.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510520_soap/model-B-20230830211433362484.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510520_soap/model-C-20230831182203234870.txt" class="missing">Missing: Confirmation of diagnosis by blood film examination.</td>
+  <td data-filename="EN510520_soap/model-D-20230831185657829140.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510520_soap/model-E-20230902054134400724.txt" class="slight">Slight problem: Underweight BMI needs to be addressed.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN510530_soap.txt'>EN510530_soap</td>
+  <td data-filename="EN510530_soap/model-A-20230830202711694324.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510530_soap/model-B-20230830211455257305.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510530_soap/model-C-20230831182231524207.txt" class="no-problems">No problems found</td>
+  <td data-filename="EN510530_soap/model-D-20230831185705230281.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510530_soap/model-E-20230902054151702894.txt" class="slight">Slight problem: The diagnosis is somewhat consistent with the observations, but further investigation into the cause of the symptoms might be warranted.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN510590_soap.txt'>EN510590_soap</td>
+  <td data-filename="EN510590_soap/model-A-20230830202739905201.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510590_soap/model-B-20230830211521248011.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510590_soap/model-C-20230831182243867278.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510590_soap/model-D-20230831185731380384.txt" class="serious">Serious problem: Lack of consideration for potential complications and need for regular follow-ups.</td>
+  <td data-filename="EN510590_soap/model-E-20230902054208556993.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN510592_soap.txt'>EN510592_soap</td>
+  <td data-filename="EN510592_soap/model-A-20230830202800313455.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510592_soap/model-B-20230830211537446540.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510592_soap/model-C-20230831182302744633.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510592_soap/model-D-20230831185738342035.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510592_soap/model-E-20230902054223022035.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN510595_soap.txt'>EN510595_soap</td>
+  <td data-filename="EN510595_soap/model-A-20230830202829712363.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510595_soap/model-B-20230830211557141972.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510595_soap/model-C-20230831182315753759.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510595_soap/model-D-20230831185744787240.txt" class="serious">Serious problem: No treatment plan mentioned.</td>
+  <td data-filename="EN510595_soap/model-E-20230902054242419575.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN510869_soap.txt'>EN510869_soap</td>
+  <td data-filename="EN510869_soap/model-A-20230830202900694481.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510869_soap/model-B-20230830211627975420.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510869_soap/model-C-20230831182322020582.txt" class="serious">Serious problem: Missing treatment plan</td>
+  <td data-filename="EN510869_soap/model-D-20230831185755159852.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510869_soap/model-E-20230902054306843568.txt" class="serious">Serious problem: Uncontrolled hypertension and potential peripheral neuropathy.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN510880_soap.txt'>EN510880_soap</td>
+  <td data-filename="EN510880_soap/model-A-20230830202922241761.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510880_soap/model-B-20230830211650816880.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510880_soap/model-C-20230831182333470816.txt" class="missing">Missing: Treatment plan for UTI</td>
+  <td data-filename="EN510880_soap/model-D-20230831185809041317.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510880_soap/model-E-20230902054326110658.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN510883_soap.txt'>EN510883_soap</td>
+  <td data-filename="EN510883_soap/model-A-20230830202942796776.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510883_soap/model-B-20230830211718644789.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510883_soap/model-C-20230831182343465352.txt" class="serious">Serious problem: Missing follow-up plan.</td>
+  <td data-filename="EN510883_soap/model-D-20230831185820895119.txt" class="missing">Missing: Treatment plan for confirmed malaria diagnosis.</td>
+  <td data-filename="EN510883_soap/model-E-20230902054338279908.txt" class="missing">Missing: Addressing the eye discharge and possible conjunctivitis in the diagnosis and treatment plan.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN510891_soap.txt'>EN510891_soap</td>
+  <td data-filename="EN510891_soap/model-A-20230830203006829668.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510891_soap/model-B-20230830211737349299.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510891_soap/model-C-20230831182350277288.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510891_soap/model-D-20230831185827379779.txt" class="slight">Slight problem: Diagnosis might need confirmation through another test.</td>
+  <td data-filename="EN510891_soap/model-E-20230902054354496011.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN510894_soap.txt'>EN510894_soap</td>
+  <td data-filename="EN510894_soap/model-A-20230830203035005129.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510894_soap/model-B-20230830211810796685.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510894_soap/model-C-20230831182359831450.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510894_soap/model-D-20230831185836022786.txt" class="serious">Serious problem: Incorrect diagnosis and inconsistent treatment plan.</td>
+  <td data-filename="EN510894_soap/model-E-20230902054410071860.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN510940_soap.txt'>EN510940_soap</td>
+  <td data-filename="EN510940_soap/model-A-20230830203053682042.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510940_soap/model-B-20230830211834060285.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510940_soap/model-C-20230831182411260490.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510940_soap/model-D-20230831185858651831.txt" class="missing">Missing: Management plan.</td>
+  <td data-filename="EN510940_soap/model-E-20230902054426494646.txt" class="missing">Missing: Details about the symptoms and test results.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN510949_soap.txt'>EN510949_soap</td>
+  <td data-filename="EN510949_soap/model-A-20230830203125728307.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510949_soap/model-B-20230830211903613803.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510949_soap/model-C-20230831182426396624.txt" class="missing">Missing: Diagnosis</td>
+  <td data-filename="EN510949_soap/model-D-20230831185909955035.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN510949_soap/model-E-20230902054443496805.txt" class="no-problems">No problems found.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/EN511010_soap.txt'>EN511010_soap</td>
+  <td data-filename="EN511010_soap/model-A-20230830203148493100.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN511010_soap/model-B-20230830211925834458.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN511010_soap/model-C-20230831182543745358.txt" class="no-problems">No problems found.</td>
+  <td data-filename="EN511010_soap/model-D-20230831185922061187.txt" class="serious">Serious problem: inappropriate treatment plan</td>
+  <td data-filename="EN511010_soap/model-E-20230902054458964941.txt" class="slight">Missing: Blood pressure measurement is missing a valid recording.
+Slight problem: Symptoms have persisted for three days, monitor closely and consider further evaluation if no improvement or worsening condition.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/REACH_soap1.txt'>REACH_soap1</td>
+  <td data-filename="REACH_soap1/model-A-20230830203218726709.txt" class="missing">Missing: Treatment plan.</td>
+  <td data-filename="REACH_soap1/model-B-20230830211946857812.txt" class="no-problems">No problems found.</td>
+  <td data-filename="REACH_soap1/model-C-20230831182624415535.txt" class="no-problems">No problems found.</td>
+  <td data-filename="REACH_soap1/model-D-20230831185935422265.txt" class="no-problems">No problems found.</td>
+  <td data-filename="REACH_soap1/model-E-20230902054513047668.txt" class="slight">Slight problem: Incomplete assessment, missing tests for infection/inflammation.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/REACH_soap2.txt'>REACH_soap2</td>
+  <td data-filename="REACH_soap2/model-A-20230830203240397406.txt" class="no-problems">No problems found.</td>
+  <td data-filename="REACH_soap2/model-B-20230830212009371960.txt" class="no-problems">No problems found.</td>
+  <td data-filename="REACH_soap2/model-C-20230831182637082700.txt" class="no-problems">No problems found.</td>
+  <td data-filename="REACH_soap2/model-D-20230831190005267866.txt" class="no-problems">No problems found.</td>
+  <td data-filename="REACH_soap2/model-E-20230902054531100867.txt" class="missing">Missing: Confirmation of diagnosis through Rapid Diagnostic Test or microscopy examination of blood smear. Additional testing for other common illnesses presenting with similar symptoms. Patient's vaccination history, allergy information, family medical history, vital signs, and general appearance during physical examination.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/REACH_soap3.txt'>REACH_soap3</td>
+  <td data-filename="REACH_soap3/model-A-20230830203309102522.txt" class="no-problems">No problems found.</td>
+  <td data-filename="REACH_soap3/model-B-20230830212038013365.txt" class="no-problems">No problems found</td>
+  <td data-filename="REACH_soap3/model-C-20230831182646089901.txt" class="missing">Missing: Treatment plan</td>
+  <td data-filename="REACH_soap3/model-D-20230831190024751531.txt" class="serious">Serious problem: Missing a diagnosis and treatment plan.</td>
+  <td data-filename="REACH_soap3/model-E-20230902054542716666.txt" class="missing">Missing: Diagnosis, observations, tests, treatment, patient history, vital signs, anthropometry results.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/REACH_soap4.txt'>REACH_soap4</td>
+  <td data-filename="REACH_soap4/model-A-20230830203343269266.txt" class="no-problems">No problems found.</td>
+  <td data-filename="REACH_soap4/model-B-20230830212102965647.txt" class="no-problems">No problems found.</td>
+  <td data-filename="REACH_soap4/model-C-20230831182656613451.txt" class="no-problems">No problems found.</td>
+  <td data-filename="REACH_soap4/model-D-20230831190040179220.txt" class="no-problems">No problems found.</td>
+  <td data-filename="REACH_soap4/model-E-20230902054600349194.txt" class="serious">Serious problem: Treatment plan not consistent with diagnosis.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/REACH_soap5.txt'>REACH_soap5</td>
+  <td data-filename="REACH_soap5/model-A-20230830203406558082.txt" class="no-problems">No problems found.</td>
+  <td data-filename="REACH_soap5/model-B-20230830212127906523.txt" class="no-problems">No problems found.</td>
+  <td data-filename="REACH_soap5/model-C-20230831182707454235.txt" class="serious">Serious problem: Possible complications from malaria</td>
+  <td data-filename="REACH_soap5/model-D-20230831190133261046.txt" class="missing">Missing: Treatment plan for malaria</td>
+  <td data-filename="REACH_soap5/model-E-20230902054616812229.txt" class="serious">Serious problem: Missing diagnosis confirmation and patient history.</td>
+</tr>
+<tr>
+  <td data-filename='Original_Notes/REACH_soap6.txt'>REACH_soap6</td>
+  <td data-filename="REACH_soap6/model-A-20230830203427223323.txt" class="no-problems">No problems found.</td>
+  <td data-filename="REACH_soap6/model-B-20230830212159860780.txt" class="serious">Serious problem: Missing follow-up plan for further evaluation and management of weight loss, fever, and cough.</td>
+  <td data-filename="REACH_soap6/model-C-20230831182720333650.txt" class="no-problems">No problems found.</td>
+  <td data-filename="REACH_soap6/model-D-20230831190144012322.txt" class="no-problems">No problems found.</td>
+  <td data-filename="REACH_soap6/model-E-20230902054631730060.txt" class="serious">Serious problem: incorrect diagnosis.</td>
+</tr>
+</table>

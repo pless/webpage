@@ -1,0 +1,46 @@
+SUBJECTIVE
+
+AGE
+22y
+
+Gender
+female
+
+Cheif Complaint
+Abdominal pain, vomiting 
+
+History of presenting Illness (HPI)
+Abdominal pain, vomiting for 1day
+
+
+;Fall Risk Assessment
+Pain assessment Assessment
+Do you feel pain? (Yes), Which body site? (Abdomen), Pain scale? (4), How long? (1 day)
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Vital Signs
+Blood pressure(100/75 mm[Hg])
+
+ASSESSMENT
+
+Diagnosis
+Abdominal and pelvic pain
+
+Differential Diagnosis
+
+
+
+PLAN
+
+Treatment plan
+Tabs metronidazole tds for 5 days
+Sus magnesium tricilicate tds for 3 days 
+
+Exhaustive list of Medicine prescribed
+200mL Fidson(Mist. Magnesium Trisilicate Suspension)200ml 3 times per day 3 days
+200mg Emgyl (Metronidazole 200mg) Tablet x 100 3 times per day 5 days
+
+
+

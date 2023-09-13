@@ -1,0 +1,48 @@
+SUBJECTIVE
+
+AGE
+45y
+
+Gender
+female
+
+Cheif Complaint
+Headache 
+
+History of presenting Illness (HPI)
+Headache x7days
+Dizziness x3days
+Insomnia x2days 
+
+
+
+
+
+;Fall Risk Assessment
+Pain assessment Assessment
+Do you feel pain? (Yes), Which body site? (Head), Pain scale? (7), How long? (1 week)
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Vital Signs
+Blood pressure(150/100 mm[Hg])
+
+ASSESSMENT
+
+Diagnosis
+
+
+Differential Diagnosis
+
+
+
+PLAN
+
+Treatment plan
+
+
+Follow up appointment
+Home care(2023-06-23T12:45:00+01:00)
+
+

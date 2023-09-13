@@ -1,0 +1,48 @@
+SUBJECTIVE
+
+AGE
+123y
+
+Gender
+male
+
+Cheif Complaint
+Insomnia 
+
+History of presenting Illness (HPI)
+Insomnia x2days
+Headache x2days 
+Fever x3days 
+
+
+;Fall Risk Assessment
+Pain assessment Assessment
+Do you feel pain? (Yes), Which body site? (Upper back), Pain scale? (6), How long? (2 months)
+
+Nutrition Assessment
+Is the condition affecting eating, chewing and swallowing?(No), Diet? (), Recent weight change? (), Mucus membrane? (), Any other comments? ()
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Vital Signs
+Blood pressure(140/100 mm[Hg])
+
+ASSESSMENT
+
+Diagnosis
+
+
+Differential Diagnosis
+
+
+
+PLAN
+
+Treatment plan
+
+
+Exhaustive list of Investigations Ordered
+Malaria Parasite - RDT (done)
+
+

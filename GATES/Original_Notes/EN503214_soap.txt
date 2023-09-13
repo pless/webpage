@@ -1,0 +1,44 @@
+SUBJECTIVE
+
+AGE
+25y
+
+Gender
+female
+
+Cheif Complaint
+Diarrhoea 
+
+History of presenting Illness (HPI)
+Dairrhoea x12hours
+Abdominal pain x2days 
+
+
+;Fall Risk Assessment
+Pain assessment Assessment
+Do you feel pain? (Yes), Which body site? (Abdomen), Pain scale? (4), How long? (12 hours)
+
+Nutrition Assessment
+Is the condition affecting eating, chewing and swallowing?(Yes), Diet? (Soft), Recent weight change? (Yes), Mucus membrane? (Moist), Any other comments? (Mild dehydration )
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Vital Signs
+Blood pressure(119/68 mm[Hg])
+
+ASSESSMENT
+
+Diagnosis
+
+
+Differential Diagnosis
+
+
+
+PLAN
+
+Treatment plan
+
+
+

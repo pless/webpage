@@ -1,0 +1,70 @@
+SUBJECTIVE
+
+AGE
+0y
+
+Gender
+male
+
+Cheif Complaint
+Fever x 2/7
+
+History of presenting Illness (HPI)
+A 3 month old male infant with c/o fever x 2/7
+The fever is high and intermittent
+Associated crying while passing urine
+Mother has noticed change in urine temperature (warmer)
+No cough or catarrh, no change in bowel habit, no evidence of ear pain
+He is adequately breastfeeding
+No change in sleep pattern
+Anterior fontanelle not bulging
+Fully immunized for age
+
+
+
+
+
+Review of system
+Abnormal weight loss (No), Fever(Yes)
+
+Nutrition Assessment
+Is the condition affecting eating, chewing and swallowing?(No), Diet? (), Recent weight change? (), Mucus membrane? (), Any other comments? ()
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Constitutional
+- General appearance (playing with occasional crying)
+- Level of alertness (Awake, No comment)
+- State of health (Well appearing, No comment)
+
+Vital Signs
+Blood pressure(0/0 mm[Hg])
+
+Anthropometry
+Height(58 cm) Weight(7 kg) BMI(20.8 kg/m2)
+
+ASSESSMENT
+
+Diagnosis
+Urinary tract infection, site not specified
+
+Differential Diagnosis
+Fever, unspecified
+
+
+PLAN
+
+Treatment plan
+Syrup PCM 70mg TDS x 5/7
+To do urinalysis (collect sample bottle and bring tomorrow)
+To be reviewed after urinalysis for antibiotic consideration
+
+Exhaustive list of Investigations Ordered
+Urine Analysis (done)
+
+Exhaustive list of Medicine prescribed
+2.5mL Fidson (Paracetamol 125mg/5ml) Suspension x1 3 times per day 5 days
+
+
+

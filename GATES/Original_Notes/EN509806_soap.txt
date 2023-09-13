@@ -1,0 +1,67 @@
+SUBJECTIVE
+
+AGE
+24y
+
+Gender
+male
+
+Cheif Complaint
+Abdominal pain intermitted onset, 4 episodes of Vomiting, Weak
+
+History of presenting Illness (HPI)
+Patient complain of abdominal pain 3hours ago as at 9:30pm, Had 3 episodes of vomiting
+
+
+Review of system
+Current medication
+omeprazole
+
+;Fall Risk Assessment
+Assisted (No)
+Pain assessment Assessment
+Do you feel pain? (Yes), Which body site? (Abdomen), Pain scale? (7), How long? (3 hours)
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Vital Signs
+Blood pressure(110/60 mm[Hg])
+
+Anthropometry
+Height(166 cm) Weight(53 kg) BMI(19.2 kg/m2)
+
+ASSESSMENT
+
+Diagnosis
+Nausea and vomiting, Other and unspecified abdominal pain, Peptic ulcer, site unspecified
+
+Differential Diagnosis
+, , 
+
+
+PLAN
+
+Treatment plan
+- IV Pemameth (Promethazine 50mg/2mls) Inj. stat
+- IV Omeshal (Omeprazole 40mg)Inj. stat
+- IV Dana (Ringers Lactate) Infusion 500mls stat
+- IV Paranelb (Paracetamol Injection 300mg/2mls ) Injection x 10NO REFILL, - IV Pemameth (Promethazine 50mg/2mls) Inj. stat
+- IV Omeshal (Omeprazole 40mg)Inj. stat
+- IV Dana (Ringers Lactate) Infusion 500mls stat
+- IV Paranelb (Paracetamol Injection 300mg/2mls ) Injection x 10NO REFILL, - IV Pemameth (Promethazine 50mg/2mls) Inj. stat
+- IV Omeshal (Omeprazole 40mg)Inj. stat
+- IV Dana (Ringers Lactate) Infusion 500mls stat
+- IV Paranelb (Paracetamol Injection 300mg/2mls ) Injection x 10NO REFILL
+
+Exhaustive list of Medicine prescribed
+50mg Pemameth (Promethazine 50mg/2mls) Injection  x10 Stat null
+40mg Omeshal (Omeprazole 40mg)Injection x10ml x1 Stat null
+500mL Dana (Ringers Lactate) Infusion 500mls Stat null
+600mg Paranelb (Paracetamol Injection 300mg/2mls ) Injection x 10 Stat null
+
+
+Follow up appointment
+Follow up consultation (2023-08-09T00:00:00+01:00)
+
+

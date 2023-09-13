@@ -1,0 +1,110 @@
+SUBJECTIVE
+
+AGE
+11y
+
+Gender
+male
+
+Cheif Complaint
+Stomach Ache And Fever x 5/7
+
+History of presenting Illness (HPI)
+12 year old presented on account of:
+
+Stomach pain x 5/7
+Fever x 1/7
+
+Pain is described as dull in nature with occasional moments of sharp pain. No known relieving or aggravating factors.
+ Pain is located in the right side of the abdomen, radiates to the umbilicus
+Fever is low grade, associate with chills, no known relieving factors. 
+
+Patient had one episode of vomiting consisting of recently ingested meal; non-bilous
+Nil hx of passage of loose stools, nil hx of constipation, nil hx of abdominal distension.
+
+Nil dysuria, 
+
+o/e: Healthy looking young boy, warm to touch, not pale, anicteric, acyanosed, not dehydrated, nil pedal edema
+
+Abdomen: Full, moves with respiration,
+tenderness in right iliac fossa and umbilicus(+)
+nil guarding
+nil renal angle tenderness
+
+chest: clear, s1, s2
+
+
+
+
+
+Review of system
+Abnormal weight loss (), Fever(Yes)
+
+;Fall Risk Assessment
+Assisted (No)
+Pain assessment Assessment
+Do you feel pain? (Yes), Which body site? (Abdomen), Pain scale? (6), How long? (5 days)
+
+Nutrition Assessment
+Is the condition affecting eating, chewing and swallowing?(No), Diet? (), Recent weight change? (), Mucus membrane? (), Any other comments? ()
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Eyes
+- Left conjunctiva (Normal). No comment
+- Right conjunctiva (Normal). No comment
+
+Lung
+- Auscultation of breath sounds: The presence of breath sounds? (N/A), Breath sound (N/A), Phase: (N/A), Use of accessory muscles (Absent), Chest deformities (Absent). No comment
+
+Gastrointestinal
+- Appearance (Flat). Moves with respiration
+- Spleen (Normal). No comment
+- Liver (Normal). No comment
+- Tenderness (Present). Tender at right iliac fossa and umbilicus...nil rebound tenderness, nil 
+- Masses (Absent). No comment
+- Spleen (Normal). No comment
+- Costovertebral angle tenderness (Absent). No comment
+
+Vital Signs
+Blood pressure(100/60 mm[Hg])
+
+Anthropometry
+Height(148 cm) Weight(36.5 kg) BMI(16.7 kg/m2)
+
+ASSESSMENT
+
+Diagnosis
+Unspecified malaria
+
+Differential Diagnosis
+Unspecified appendicitis
+
+
+PLAN
+
+Treatment plan
+Reassure patient
+Malaria RDT
+Review with result
+
+update
+Malaria RDT - positive
+
+plan:
+Tabs ACT 80/480mg 1 bd x 3/7
+tabs pcm 500mg tds x 3/7
+counsel to sleep under ITNs
+
+If symptoms persist after 3/7 , to revisit clinic
+
+Exhaustive list of Investigations Ordered
+Malaria Parasite - RDT (done)
+
+Exhaustive list of Medicine prescribed
+250mg Emzor (Paracetamol 500mg) Tablets X 96 3 times per day 3 days
+80480mg Shalartem(Artemether,Lumefantrine 80/480) X 6 Twice daily 3 days
+
+
+

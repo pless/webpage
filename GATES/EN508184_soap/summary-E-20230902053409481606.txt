@@ -1,0 +1,5 @@
+Missing: Treatment plan lacks specific diagnosis
+Serious problem: Diagnosis not consistent with observations
+Missing: Additional tests that could be considered in rural health clinics
+Minor problem: Incomplete blood pressure reading
+Minor problem: Lack of detailed history of present illness and differential diagnosis

@@ -1,0 +1,43 @@
+SUBJECTIVE
+
+AGE
+21y
+
+Gender
+female
+
+Cheif Complaint
+Fever
+
+History of presenting Illness (HPI)
+
+
+
+;Fall Risk Assessment
+Pain assessment Assessment
+Do you feel pain? (Yes), Which body site? (Head), Pain scale? (4), How long? (3 days)
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Vital Signs
+Blood pressure(100/70 mm[Hg])
+
+ASSESSMENT
+
+Diagnosis
+
+
+Differential Diagnosis
+
+
+
+PLAN
+
+Treatment plan
+
+
+Exhaustive list of Investigations Ordered
+Malaria Parasite - RDT (done)
+
+

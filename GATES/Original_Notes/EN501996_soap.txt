@@ -1,0 +1,45 @@
+SUBJECTIVE
+
+AGE
+45y
+
+Gender
+female
+
+Cheif Complaint
+Headache 
+
+History of presenting Illness (HPI)
+She present with headache and she was hypertensive patient
+
+
+;Fall Risk Assessment
+Pain assessment Assessment
+Do you feel pain? (Yes), Which body site? (Head), Pain scale? (5), How long? (2 hours)
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Vital Signs
+Blood pressure(113/73 mm[Hg])
+
+ASSESSMENT
+
+Diagnosis
+Tension-type headache
+
+Differential Diagnosis
+
+
+
+PLAN
+
+Treatment plan
+Tab.pcm 1g tds for 3 days
+Advice on adquate rest and sleeping 
+
+Exhaustive list of Medicine prescribed
+1000mg Emcap (Paracetamol 500mg) Caplets X10 3 times per day 3 days
+
+
+

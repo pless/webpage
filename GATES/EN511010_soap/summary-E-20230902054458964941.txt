@@ -1,0 +1,2 @@
+Missing: Blood pressure measurement is missing a valid recording.
+Slight problem: Symptoms have persisted for three days, monitor closely and consider further evaluation if no improvement or worsening condition.

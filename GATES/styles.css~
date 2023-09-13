@@ -1,0 +1,41 @@
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#myTable td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 8px;
+  cursor: pointer;
+}
+
+#myTable td, #myTable th {
+  width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#displayText {
+  margin-top: 20px;
+}
+
+/* Container for the two divs */
+body {
+  display: flex;
+  align-items: flex-start;
+}
+
+/* Styles for tableContainer */
+#tableContainer {
+  width: 50%; /* Or whatever width you want */
+  height: 600px; /* Set a fixed height */
+  overflow-y: auto; /* Enable vertical scrolling */
+  margin-right: 20px; /* Add right margin to create space between the divs */
+}
+
+/* Styles for displayText */
+#displayText {
+  width: 50%; /* Or whatever width you want */
+}

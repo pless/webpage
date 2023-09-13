@@ -1,0 +1,72 @@
+SUBJECTIVE
+
+AGE
+33y
+
+Gender
+female
+
+Cheif Complaint
+fever,headache and generalized body also had a sleepless night
+
+History of presenting Illness (HPI)
+A 33 year old lady presented to the clinic with complaint of fever x 5/7, said to be high, intermittent, not relieved by pcm. There is associated headache, generalized, score: 7, and generalized body weakness.
+
+Pt had episodes of vomitting and diarrhea which have now subsided. She went to a general hospital yesterday where she received IM Emal and IV Ceftriaxone. No significant improvement in symptoms.
+There is a dark colored urine. other systemic review not contributory
+
+A known asthmatic, history of PIH, non-diabetic.
+
+Examination: Febrile, not pale, not dehydrated, aniecteric, acyanosed.
+
+Systems stable
+
+Diagnosis: ? malaria
+
+Plan:
+IM PCM 600mg stat
+to do MP (rdt)
+To review with the result
+
+Addendum:
+ RDT: positive
+
+Plan:
+Complete IM Emal 120mg for 2/7
+Then, Tabs ACT 80/480mg BD x 3/7
+Tabs PCM 1g TDS x 3/7
+
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Vital Signs
+Blood pressure(110/80 mm[Hg])
+
+Anthropometry
+Height(169 cm) Weight(100 kg) BMI(35 kg/m2)
+
+ASSESSMENT
+
+Diagnosis
+
+
+Differential Diagnosis
+
+
+
+PLAN
+
+Treatment plan
+
+
+Exhaustive list of Investigations Ordered
+Malaria Parasite - RDT (done)
+
+Exhaustive list of Medicine prescribed
+80480mg Shalartem(Artemether,Lumefantrine 80/480) X 6 Twice daily null
+1g Emcap (Paracetamol 500mg) Caplets X10 3 times per day null
+600mg Krishat (Paracetamol 300mg/2mls) Injection x10 Stat null
+
+
+

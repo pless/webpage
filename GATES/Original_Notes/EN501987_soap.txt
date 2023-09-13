@@ -1,0 +1,49 @@
+SUBJECTIVE
+
+AGE
+55y
+
+Gender
+female
+
+Cheif Complaint
+Consultation 
+
+History of presenting Illness (HPI)
+Fever ,Catarrh and coughing 
+
+Medical History
+Others
+
+
+;Fall Risk Assessment
+Pain assessment Assessment
+Do you feel pain? (Yes), Which body site? (Head), Pain scale? (4), How long? (3 days)
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Vital Signs
+Blood pressure(117/89 mm[Hg])
+
+ASSESSMENT
+
+Diagnosis
+Allergic rhinitis, unspecified
+
+Differential Diagnosis
+
+
+
+PLAN
+
+Treatment plan
+Tabs citrizin 10mg dailyx5 days
+Tabs paracetamol 1g tdsxdays
+Tabs vitamin c 200mg tdsx3 days
+
+Exhaustive list of Medicine prescribed
+10mg Zirtek (Cetrizine 10mg) Tablets x 7 Once a day 5 days
+
+
+

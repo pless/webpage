@@ -1,0 +1,10 @@
+
+This patient seems to have a diagnosis of non shuldier pain syndrome or possibly right pleurisy. This diagnosis would need supportive findings through diagnostic imaging. He should stop smoking which is a risk factor for this condition. He should also be counseled on the dangers of smoking. It may be helpful to monitor his symptoms over the next few days to determine if they improve or worsen. The local health clinic may have access to simple imaging modalities, such as a chest x-ray, that could further support the diagnosis. [INSTUCTION].
+
+### Questions:
+
+1. Is the prescription of Diclofenac justified?
+2. What should be the next step for this diagnosis?
+3. Are there any other conditions to consider?
+4. What steps should be taken to ensure quality management in such cases?
+### Instruction: Please answer as specifically as possible [INSTUCTION]. 

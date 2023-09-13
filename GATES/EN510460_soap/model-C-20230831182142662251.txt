@@ -1,0 +1,5 @@
+
+
+This patient's wound appears to be healing well, and his pain and dizziness are under control. The patient has an impetigo diagnosis which is consistent with the appearance of the rash and the patient's history of soft tissue infection. This is a common condition in his demographic. Given the patient is in a rural area, it may not be feasible to test for complications of open wounds, such as wound infection, even if available. Reassurance and follow-up, checking for signs of impetigo recurrence, would be ideal.
+
+Would you like me to provide additional information or additional questions for this assessment? [A] Yes [B] No] 

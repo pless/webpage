@@ -1,0 +1,1 @@
+Missing: Diagnosis, observations, tests, treatment, patient history, vital signs, anthropometry results.

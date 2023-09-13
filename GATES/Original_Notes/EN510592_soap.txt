@@ -1,0 +1,61 @@
+SUBJECTIVE
+
+AGE
+18y
+
+Gender
+male
+
+Cheif Complaint
+Fever and headache 
+
+History of presenting Illness (HPI)
+Patient presented with fever and headache 
+
+Medical History
+Others
+
+
+;Fall Risk Assessment
+Pain assessment Assessment
+Do you feel pain? (Yes), Which body site? (Head), Pain scale? (6), How long? (2 days)
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Constitutional
+- General appearance (Normal )
+- Level of alertness (Active, No comment)
+- State of health (Acutely ill appearing, No comment)
+- State of comfort or distress (Moderate distress, No comment)
+
+Vital Signs
+Blood pressure(108/75 mm[Hg])
+
+Anthropometry
+Height(167 cm) Weight(50.9 kg) BMI(18.3 kg/m2)
+
+ASSESSMENT
+
+Diagnosis
+Plasmodium falciparum malaria
+
+Differential Diagnosis
+
+
+
+PLAN
+
+Treatment plan
+Tabs artemether lumefentrin 80/480mg bdx3days
+Tabs para 1g tdsx3days 
+
+Exhaustive list of Investigations Ordered
+Malaria Parasite - RDT (done)
+
+Exhaustive list of Medicine prescribed
+1g Emcap (Paracetamol 500mg) Caplets X10 3 times per day 3 days
+80480mg Falcither Forte( Artemether + Lumefantrine 80/480mg)Tablets x6 Twice daily 3 days
+
+
+

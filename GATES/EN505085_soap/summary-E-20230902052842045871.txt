@@ -1,0 +1,3 @@
+Missing: Diagnosis, Treatment plan
+
+Further tests: Complete blood count (CBC), Abdominal ultrasound, Urine test

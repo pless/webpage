@@ -1,0 +1,58 @@
+SUBJECTIVE
+
+AGE
+6y
+
+Gender
+male
+
+Cheif Complaint
+Skin rashes 
+
+History of presenting Illness (HPI)
+Skin rashes for 3 day
+
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Constitutional
+- Level of alertness (Awake, No comment)
+- State of health (Well appearing, No comment)
+- State of comfort or distress (Comfortable, No comment)
+
+Skin
+History of presenting Illness (HPI)
+Skin rashes for 3 day
+
+Review of system
+
+Physical Examination (All Physical Examination conducted)
+
+Vital Signs
+Blood pressure(0/0 mm[Hg])
+
+ASSESSMENT
+
+Diagnosis
+Tinea corporis, Rash and other nonspecific skin eruption
+
+Differential Diagnosis
+, 
+
+
+PLAN
+
+Treatment plan
+For 7 day, For 7 day
+
+Exhaustive list of Medicine prescribed
+5mL Erythrokid (Erythromycin 250mg/5ml) Syrup 100ml x 1 3 times per day 7 days
+1% HCORT (Hydrocortisone 1%) Cream 25g x1 Twice daily 5 days
+5mL Allergin (Chlorpheniramine 2mg/5mls) Syrup X60mls Twice daily 5 days
+
+
+Follow up appointment
+Home care(2023-05-30T08:08:00+01:00)
+
+

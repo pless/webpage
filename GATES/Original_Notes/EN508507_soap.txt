@@ -1,0 +1,53 @@
+SUBJECTIVE
+
+AGE
+60y
+
+Gender
+male
+
+Cheif Complaint
+Known Hypertensive/DM Patient
+Epigastric Pain  x3/7
+
+
+History of presenting Illness (HPI)
+A known Hypertensive patient with a history of High BP for 3years, Patient is also a known Diabetic patient (On Control).
+
+
+Review of system
+Current medication
+Losartan Potassium and Hydrochlorothiazide
+
+;Fall Risk Assessment
+Assisted (No)
+Pain assessment Assessment
+Do you feel pain? (Yes), Which body site? (Chest), Pain scale? (4), How long? (3 days)
+
+Nutrition Assessment
+Is the condition affecting eating, chewing and swallowing?(No), Diet? (), Recent weight change? (), Mucus membrane? (), Any other comments? ()
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Vital Signs
+Blood pressure(140/80 mm[Hg])
+
+Anthropometry
+Height(175 cm) Weight(74 kg) BMI(24.2 kg/m2)
+
+ASSESSMENT
+
+Diagnosis
+Examination of blood pressure
+
+Differential Diagnosis
+
+
+
+PLAN
+
+Treatment plan
+Continue Ongoing Medication, Advice patient on physiologic stress relief procedures to avoid having persistent blood pressure with no response to medication.
+
+
