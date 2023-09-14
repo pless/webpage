@@ -10,33 +10,42 @@
 }
 
 #myTable td, #myTable th {
-  width: 100px;  /* Add !important */
+  width: 80px; 
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-#displayText {
-  margin-top: 20px;
+
+
+#descriptionContainer {
+  width: 100%;
+  clear: both;
 }
 
-/* Container for the two divs */
-body {
+/* New style for the div that wraps tableContainer and displayText */
+#tableAndDisplay {
   display: flex;
   align-items: flex-start;
 }
 
-/* Styles for tableContainer */
 #tableContainer {
-  width: 50%; /* Or whatever width you want */
-  height: 600px; /* Set a fixed height */
-  overflow-y: auto; /* Enable vertical scrolling */
-  margin-right: 20px; /* Add right margin to create space between the divs */
+  width: 50%;
+  height: 600px;
+  overflow-y: auto;
+  margin-right: 20px;
 }
 
-/* Styles for displayText */
 #displayText {
-  width: 50%; /* Or whatever width you want */
+  width: 50%;
+  margin-top: 20px;
 }
+
+
+/* Container for the two divs */
+body {
+  align-items: flex-start;
+}
+
 
 /* Styles to color code the table */
 .serious {
