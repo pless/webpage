@@ -29,13 +29,18 @@ async function loadTable() {
     if (target.tagName === "TD") {
       const fileName = target.getAttribute("data-filename");
       const summaryText = target.innerText; // Get the text content of the clicked cell
+      const row = target.parentNode;
+      const cellIndex = target.cellIndex;  // Get the index of the clicked cell within its row
+      const firstColumnText = row.cells[0].innerText;
+      const firstRow = table.rows[0];
+      const columnHeader = firstRow.cells[cellIndex].innerText;
 
       try {
         const response = await fetch(`${fileName}`);
         if (response.ok) {
           let text = await response.text();
           text = text.replace(/\n/g, '<br>'); // Replace line feeds with <br>
-          displayText.innerHTML = `<strong>Summary:</strong> ${summaryText}<hr>${text}`;
+            displayText.innerHTML = `<strong>${firstColumnText}<br>Summary of ${columnHeader}:</strong> ${summaryText}<hr>${text}`;
         } else {
           displayText.innerHTML = "Failed to fetch text for this cell.";
         }
