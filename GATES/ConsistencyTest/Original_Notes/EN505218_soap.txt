@@ -1,0 +1,42 @@
+SUBJECTIVE
+
+AGE
+32y
+
+Gender
+female
+
+Cheif Complaint
+Cattarh 
+
+History of presenting Illness (HPI)
+Cattarh x4days
+Cough x3days
+Headache x3days 
+
+
+;Fall Risk Assessment
+Pain assessment Assessment
+Do you feel pain? (Yes), Which body site? (Head), Pain scale? (3), How long? (4 days)
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Vital Signs
+Blood pressure(100/70 mm[Hg])
+
+ASSESSMENT
+
+Diagnosis
+
+
+Differential Diagnosis
+
+
+
+PLAN
+
+Treatment plan
+
+
+

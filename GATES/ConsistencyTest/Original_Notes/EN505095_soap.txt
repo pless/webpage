@@ -1,0 +1,40 @@
+SUBJECTIVE
+
+AGE
+24y
+
+Gender
+female
+
+Cheif Complaint
+Lower abdominal pain
+
+History of presenting Illness (HPI)
+
+
+
+;Fall Risk Assessment
+Pain assessment Assessment
+Do you feel pain? (Yes), Which body site? (Other), Pain scale? (2), How long? (2 days)
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Vital Signs
+Blood pressure(120/80 mm[Hg])
+
+ASSESSMENT
+
+Diagnosis
+
+
+Differential Diagnosis
+
+
+
+PLAN
+
+Treatment plan
+
+
+

@@ -1,0 +1,41 @@
+SUBJECTIVE
+
+AGE
+30y
+
+Gender
+female
+
+Cheif Complaint
+Epigastric pain
+
+History of presenting Illness (HPI)
+Epigastric pain x2days
+Headache x2days 
+
+
+;Fall Risk Assessment
+Pain assessment Assessment
+Do you feel pain? (Yes), Which body site? (Chest), Pain scale? (4), How long? (2 days)
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Vital Signs
+Blood pressure(88/60 mm[Hg])
+
+ASSESSMENT
+
+Diagnosis
+
+
+Differential Diagnosis
+
+
+
+PLAN
+
+Treatment plan
+
+
+

@@ -1,0 +1,46 @@
+SUBJECTIVE
+
+AGE
+58y
+
+Gender
+male
+
+Chief Complaint
+Headache, Dizziness, and blurred vision 
+
+History of Presenting Illness (HPI)
+Dizziness and blurred vision for 2 days
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Constitutional
+- General appearance (Patient looks conscious)
+- Level of alertness (Awake, No comment)
+- State of health (Well appearing, No comment)
+- State of comfort or distress (Mild distress, No comment)
+
+Vital Signs
+Blood pressure(205/103 mm[Hg])
+
+ASSESSMENT
+
+Diagnosis
+Hypertension
+
+Differential Diagnosis
+Secondary hypertension, Migraine, Glaucoma, Stroke
+
+PLAN
+
+Treatment plan
+Antihypertensive medication
+
+Referral
+Hospital 
+
+1. Yes, the treatment is consistent with the diagnosis of hypertension.
+2. Yes, the diagnosis of hypertension is consistent with the observation of high blood pressure.
+3. A Urine analysis might be helpful to rule out kidney issues which can cause secondary hypertension.
+4. The patient's high blood pressure is dangerously high and could indicate a hypertensive crisis. Immediate referral to a hospital is appropriate.

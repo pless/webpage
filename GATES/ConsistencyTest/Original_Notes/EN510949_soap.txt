@@ -1,0 +1,55 @@
+SUBJECTIVE
+
+AGE
+1y
+
+Gender
+female
+
+Cheif Complaint
+follow up
+
+History of presenting Illness (HPI)
+A 2yr old girl presenting with complains of cough and catarrh of 4days duration, cough is said to be productive of mucoid sputum and non paroxysmal. no associated history of fever or vomiting. 
+patient is not a known HbSS.
+Patient is said to be fully immunised. 
+
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Constitutional
+- General appearance (general condition stable)
+- Level of alertness (Active, No comment)
+- State of health (Well appearing, No comment)
+- State of comfort or distress (Comfortable, No comment)
+
+Ear Nose Mouth & Nose
+- Left ear (Normal). No comment
+- right ear (Normal). No comment
+- Left middle ear (Normal). No comment
+- Left tympanic membrane: View (Adequate), Appearance (N/A), Reason for occlusion (N/A), Membrane intact? (N/A) Colour (N/A), Fluid level presence (N/A), Surface features (N/A), Position of tympanic membrane (N/A), Fluid level description (N/A)
+- Right tympanic membrane: View (Adequate), Appearance (N/A), Reason for occlusion (N/A), Membrane intact? (N/A) Colour (N/A), Fluid level presence (N/A), Surface features (N/A), Position of tympanic membrane (N/A), Fluid level description (N/A)
+- Nose (Discharge). No comment
+- Tooth (Normal). No comment
+- Tongue (Normal). No comment
+
+ASSESSMENT
+
+Diagnosis
+Acute upper respiratory infections of multiple and unspecified sites
+
+Differential Diagnosis
+
+
+
+PLAN
+
+Treatment plan
+susp cough syrup 5ml bd *5/7
+
+Exhaustive list of Medicine prescribed
+5mL Emzolyn Child (Diphenylhydramine + Menthol) Syrup 100mls x1 Twice daily 5 days
+
+
+

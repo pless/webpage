@@ -1,0 +1,1 @@
+Missing: Patient symptoms, diagnosis, and treatment plan.

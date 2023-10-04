@@ -1,0 +1,1 @@
+Missing: Diagnosis, Treatment plan, and Differential diagnosis. Impossible to determine consistency between treatment and diagnosis or diagnosis and observations. Additional tests like Urine analysis could be helpful.

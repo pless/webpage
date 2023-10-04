@@ -1,0 +1,74 @@
+SUBJECTIVE
+
+AGE
+40y
+
+Gender
+female
+
+Cheif Complaint
+Fever, headache,runny nose with generalised body pain
+
+History of presenting Illness (HPI)
+A 40 year old female patient seen.
+C/O fever x 3/7
+The fever is low grade, on and off, and mostly in the evening
+Associated frontal headache, dull arching, no known aggravating or relieving factor, score: 5
+Associated generalized body pain
+No neck stiffness, no vomiting or diarrhea, no change in urine frequency or appearance
+Not a known Hypertensive or Diabetic
+Has IUCD in situ for 2 years
+
+
+Review of system
+Abnormal weight loss (No), Fever(Yes)
+
+;Fall Risk Assessment
+Pain assessment Assessment
+Do you feel pain? (Yes), Which body site? (Head), Pain scale? (), How long? (3 days)
+
+Nutrition Assessment
+Is the condition affecting eating, chewing and swallowing?(Yes), Diet? (), Recent weight change? (Yes), Mucus membrane? (), Any other comments? (reduced Appetite )
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Constitutional
+- General appearance (Acutely ill looking)
+- Level of alertness (Awake, No comment)
+- State of health (Acutely ill appearing, No comment)
+- State of comfort or distress (Moderate distress, No comment)
+
+Vital Signs
+Blood pressure(), Blood pressure(130/92 mm[Hg])
+
+Anthropometry
+Height(189 cm) Weight(64 kg) BMI(17.9 kg/m2)
+
+ASSESSMENT
+
+Diagnosis
+Unspecified malaria
+
+Differential Diagnosis
+
+
+
+PLAN
+
+Treatment plan
+IM EMAL 150mg daily x 3/7
+Then, Tabs ACT IV BD x 3/7
+Tabs PCM 1g TDS x 3/7
+Encourage adequate fluid intake
+
+Exhaustive list of Investigations Ordered
+Malaria Parasite - RDT (done)
+
+Exhaustive list of Medicine prescribed
+150mg Emal (Α- Β Arteether 150mg/2ml) Injection x 3 Once a day 3 days
+80480mg Shalartem(Artemether,Lumefantrine 80/480) X 6 Twice daily 3 days
+1g Emcap (Paracetamol 500mg) Caplets X10 3 times per day 3 days
+
+
+

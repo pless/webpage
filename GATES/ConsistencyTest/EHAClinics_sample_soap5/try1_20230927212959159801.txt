@@ -1,0 +1,7 @@
+1) The treatment plan does not seem to be consistent with the diagnosis of Plasmodium falciparum malaria. The patient is given PCM (paracetamol) for symptom relief, but no antimalarial drugs are prescribed.
+ 
+2) The diagnosis of Plasmodium falciparum malaria can be consistent with the observed symptoms of headache, chills, and mild fevers. However, the test for malaria (MP) came back negative, indicating that the patient does not actually have malaria.
+
+3) A test for Malaria was already performed and was negative. Given the patient's symptoms and history, a test for Typhoid could be considered. Anemia test could be useful due to reported fever and abnormal weight loss. 
+
+4) Notable is the patient's known drug allergy to chloroquine, an antimalarial medication. It's also noteworthy that the patient is a known patient with PUD (Peptic Ulcer Disease) and his symptoms have recurred over the last 2 months.

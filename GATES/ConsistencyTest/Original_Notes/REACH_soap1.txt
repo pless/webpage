@@ -1,0 +1,65 @@
+SUBJECTIVE
+
+AGE
+23y
+
+Gender
+female
+
+Cheif Complaint
+Abdominal pain
+
+History of presenting Illness (HPI)
+Patients has been stable until 3 days ago she starting noticing some mild pain in her abdomen that makes her not feel like eating.
+
+Allergy
+
+
+Medical History
+
+
+Family History
+
+Review of system
+Abnormal weight loss (), Fever()
+
+Current medication
+
+
+Vaccination
+
+
+
+Physical Examination
+General appearance ()
+
+
+OBJECTIVE
+
+Vital Signs
+Blood pressure(126/78 mm[Hg])
+
+Anthropometry
+Height(140 cm) Weight(65 kg) BMI(33.2 kg/m2)
+
+
+ASSESSMENT
+
+Diagnosis
+Constipation
+
+Differential Diagnosis
+Other specified bacterial foodborne intoxications
+
+
+PLAN
+
+Treatment plan
+Tabs Bisacodyl 5 mg daily for 3 days
+Encourage regular water intake
+
+
+
+Follow up appointment
+Follow up consultation (2023-06-17T08:00:00+01:00)
+

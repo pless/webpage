@@ -1,0 +1,42 @@
+SUBJECTIVE
+
+AGE
+20y
+
+Gender
+male
+
+Cheif Complaint
+Cough x3
+Fever 
+
+History of presenting Illness (HPI)
+The patient presented with Productive cough for 3 days and then Fever set in 
+
+
+Review of system
+Abnormal weight loss (No), Fever(Yes)
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Vital Signs
+Blood pressure(115/71 mm[Hg])
+
+ASSESSMENT
+
+Diagnosis
+Cough
+
+Differential Diagnosis
+
+
+
+PLAN
+
+Treatment plan
+Syr Shaltoux 10 mg tds x 5 days
+Tab Paracetamol 1g tds x 3 days
+Tab Vitamin C 200mg tds x 7 days 
+
+

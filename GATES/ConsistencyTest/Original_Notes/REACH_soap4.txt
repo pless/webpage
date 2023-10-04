@@ -1,0 +1,61 @@
+SUBJECTIVE
+
+AGE
+28y
+
+Gender
+male
+
+Cheif Complaint
+Headache, cold, hotness of the body x 3 days 
+
+History of presenting Illness (HPI)
+Headache, cold x 3 
+
+Allergy
+
+
+Medical History
+
+
+Family History
+
+Review of system
+Abnormal weight loss (), Fever()
+
+Current medication
+
+
+Vaccination
+
+
+
+Physical Examination
+General appearance ()
+
+
+OBJECTIVE
+
+Vital Signs
+Blood pressure(223/75 mm[Hg])
+
+Anthropometry
+
+
+
+ASSESSMENT
+
+Diagnosis
+Plasmodium falciparum malaria
+
+Differential Diagnosis
+Plasmodium falciparum malaria
+
+
+PLAN
+
+Treatment plan
+Advise on personal hygiene, drink plenty of water,use of mosquito net.
+
+Follow up appointment
+

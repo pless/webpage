@@ -1,0 +1,52 @@
+SUBJECTIVE
+
+AGE
+50y
+
+Gender
+male
+
+Cheif Complaint
+Fever headache and general body pain
+
+History of presenting Illness (HPI)
+Headache and general body pain
+
+
+;Fall Risk Assessment
+Pain assessment Assessment
+Do you feel pain? (Yes), Which body site? (Head), Pain scale? (7), How long? (4 days)
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Vital Signs
+Blood pressure(126/90 mm[Hg])
+
+Anthropometry
+Height(171 cm) Weight(69 kg) BMI(23.6 kg/m2)
+
+ASSESSMENT
+
+Diagnosis
+Plasmodium falciparum malaria
+
+Differential Diagnosis
+
+
+
+PLAN
+
+Treatment plan
+Tabs artemether lumefentrin 80/480mg bdx3days
+Tabs paracetamol 1g tdsx3days 
+
+Exhaustive list of Investigations Ordered
+Malaria Parasite - RDT (done)
+
+Exhaustive list of Medicine prescribed
+1g Emcap (Paracetamol 500mg) Caplets X10 3 times per day 3 days
+1mg Falcither Forte( Artemether + Lumefantrine 80/480mg)Tablets x6 Twice daily 3 days
+
+
+

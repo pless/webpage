@@ -1,0 +1,52 @@
+SUBJECTIVE
+
+AGE
+7y
+
+Gender
+male
+
+Cheif Complaint
+Fever and catarrh 
+
+History of presenting Illness (HPI)
+Fever for 3 days
+Catarrh for 2days
+
+
+;Fall Risk Assessment
+Pain assessment Assessment
+Do you feel pain? (Yes), Which body site? (Head), Pain scale? (7), How long? (3 days)
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Vital Signs
+Blood pressure(0/0 mm[Hg])
+
+Anthropometry
+Height(116 cm) Weight(19.7 kg) BMI(14.6 kg/m2)
+
+ASSESSMENT
+
+Diagnosis
+Allergic rhinitis, unspecified
+
+Differential Diagnosis
+Allergic rhinitis, unspecified
+
+
+PLAN
+
+Treatment plan
+Syrup chlorpheniramine 5mls tdsx3days
+Syrup paracetamol 7mls tdsx3days
+Step vitamin c 5mls tdsx3days 
+
+Exhaustive list of Medicine prescribed
+5mL Emvit C (Vitamin C 100mg/5mls) Syrup 100mls 3 times per day 3 days
+7mg Avipol (Paracetamol 120mg /5ml)  Suspension 60ml x 1 3 times per day 3 days
+5mL Allergin (Chlorpheniramine 2mg/5mls) Syrup X60mls X 1 3 times per day 3 days
+
+
+

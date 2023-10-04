@@ -1,0 +1,40 @@
+SUBJECTIVE
+
+AGE
+0y
+
+Gender
+female
+
+Cheif Complaint
+Complain of fever
+
+History of presenting Illness (HPI)
+Fever 
+
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Vital Signs
+Blood pressure(0/0 mm[Hg])
+
+ASSESSMENT
+
+Diagnosis
+Fever, unspecified
+
+Differential Diagnosis
+
+
+
+PLAN
+
+Treatment plan
+Paracetamol drop 0.3 drops tdsx3days
+
+Exhaustive list of Medicine prescribed
+0.3mL Panda (Paracetamol 100mg) Drops 15mls 3 times per day 3 days, 8 hours
+
+
+

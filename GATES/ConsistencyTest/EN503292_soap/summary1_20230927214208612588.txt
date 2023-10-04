@@ -1,0 +1,1 @@
+Missing: blood pressure value in vital signs section.

@@ -1,0 +1,52 @@
+SUBJECTIVE
+
+AGE
+0y
+
+Gender
+female
+
+Cheif Complaint
+Fever and headache for 1week
+
+History of presenting Illness (HPI)
+
+
+
+;Fall Risk Assessment
+Pain assessment Assessment
+Do you feel pain? (Yes), Which body site? (Head), Pain scale? (6), How long? (1 week)
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Vital Signs
+Blood pressure(107/72 mm[Hg])
+
+Anthropometry
+Height(160 cm) Weight(45.9 kg) BMI(17.9 kg/m2)
+
+ASSESSMENT
+
+Diagnosis
+Plasmodium malariae malaria without complication
+
+Differential Diagnosis
+
+
+
+PLAN
+
+Treatment plan
+Tabs artemether lumefentrin tabs 80/480mg bdx3days
+Tabs vitamin 1g tdsx3days 
+
+Exhaustive list of Investigations Ordered
+Malaria Parasite RDT (done)
+
+Exhaustive list of Medicine prescribed
+1mg Emcap (Paracetamol 500mg) Caplets X10 3 times per day 3 days
+1mg Alefer80/480 (Artemether + Lumenfantrine 80/480mg) Tablets x 6 Twice daily 3 days
+
+
+

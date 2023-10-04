@@ -1,0 +1,53 @@
+SUBJECTIVE
+
+AGE
+70y
+
+Gender
+female
+
+Cheif Complaint
+Headache and dizziness 
+
+History of presenting Illness (HPI)
+Patient presented with headache and dizziness for 2/7
+
+
+;Fall Risk Assessment
+Pain assessment Assessment
+Do you feel pain? (Yes), Which body site? (Head), Pain scale? (4), How long? (2 days)
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Constitutional
+- General appearance (Normal )
+- Level of alertness (Active, No comment)
+- State of health (Acutely ill appearing, No comment)
+- State of comfort or distress (Mild distress, No comment)
+
+Vital Signs
+Blood pressure(164/87 mm[Hg])
+
+Anthropometry
+Height(169 cm) Weight(61.4 kg) BMI(21.5 kg/m2)
+
+ASSESSMENT
+
+Diagnosis
+Essential (primary) hypertension
+
+Differential Diagnosis
+
+
+
+PLAN
+
+Treatment plan
+Tabs Amlodiphine5mg daily x28days 
+
+Exhaustive list of Medicine prescribed
+5mg Amedin (Amlodipine 5mg) Tablets x 30 Once a day 28 days
+
+
+
