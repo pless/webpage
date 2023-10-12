@@ -1,0 +1,3 @@
+Missing: treatment plan, diagnosis and differential diagnosis.
+Serious problem: missing information to rule out serious conditions.
+Additional information needed: urine analysis, assessment for meningitis symptoms, additional history from patient.

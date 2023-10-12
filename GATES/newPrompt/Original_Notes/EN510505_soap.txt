@@ -1,0 +1,49 @@
+SUBJECTIVE
+
+AGE
+3y
+
+Gender
+female
+
+Cheif Complaint
+Gum iching,mild swelling
+
+History of presenting Illness (HPI)
+itching of gums for 7 days
+un able to eat food
+
+
+;Fall Risk Assessment
+Assisted (No)
+Pain assessment Assessment
+Do you feel pain? (Yes), Which body site? (Other), Pain scale? (2), How long? (2 weeks)
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Vital Signs
+Blood pressure(0/0 mm[Hg])
+
+Anthropometry
+Height(34.5 cm) Weight(22 kg) BMI(184.8 kg/m2)
+
+ASSESSMENT
+
+Diagnosis
+Others
+
+Differential Diagnosis
+
+
+
+PLAN
+
+Treatment plan
+Syr ibuprofen 5ml tds for 5 days
+Syr  paracetamol 5ml tds for 5days
+Sus amoxicillin 5ml tds for 5 days
+Advice for profer mouth cleaning
+
+
+

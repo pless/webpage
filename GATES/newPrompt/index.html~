@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SOAP Note Review</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+  <div id="descriptionContainer">
+    <h3>LLM response comparison table</h3>
+    <p>In the table below there is a cell for each model reviewing each of our current set of test notes.  Click on the cell to see the note.  Additionally, each LLM soap analysis was coded as identifying "serious" problems, slight problems, having no problems or missing important data.  The prompt for that coding needs more work, but this table gives some sense of how the different models are working.</p>
+  </div>
+
+  <div id="tableAndDisplay">  <!-- New div to wrap tableContainer and displayText -->
+    <div id="tableContainer">
+      <!-- Table will be loaded here -->
+    </div>
+
+    <div id="displayText">Mouse-over a cell to see the text change.</div>
+  </div>
+  <br><br>
+  Page and analysis created by Robert Pless and Grady McPeak
+  <script src="tableScript.js"></script>
+
+</body>
+</html>

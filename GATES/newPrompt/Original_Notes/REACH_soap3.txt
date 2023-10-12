@@ -1,0 +1,61 @@
+SUBJECTIVE
+
+AGE
+29y
+
+Gender
+female
+
+Cheif Complaint
+General body pain
+
+History of presenting Illness (HPI)
+General body pain 2 dYS
+
+Allergy
+
+
+Medical History
+
+
+Family History
+
+Review of system
+Abnormal weight loss (), Fever()
+
+Current medication
+
+
+Vaccination
+
+
+
+Physical Examination
+General appearance ()
+
+
+OBJECTIVE
+
+Vital Signs
+
+
+Anthropometry
+
+
+
+ASSESSMENT
+
+Diagnosis
+
+
+Differential Diagnosis
+
+
+
+PLAN
+
+Treatment plan
+
+
+Follow up appointment
+

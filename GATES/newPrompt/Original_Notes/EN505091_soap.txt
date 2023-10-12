@@ -1,0 +1,40 @@
+SUBJECTIVE
+
+AGE
+20y
+
+Gender
+female
+
+Cheif Complaint
+Dairrhoea 
+
+History of presenting Illness (HPI)
+
+
+
+;Fall Risk Assessment
+Pain assessment Assessment
+Do you feel pain? (Yes), Which body site? (Abdomen), Pain scale? (5), How long? (1 day)
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Vital Signs
+Blood pressure(110/80 mm[Hg])
+
+ASSESSMENT
+
+Diagnosis
+
+
+Differential Diagnosis
+
+
+
+PLAN
+
+Treatment plan
+
+
+

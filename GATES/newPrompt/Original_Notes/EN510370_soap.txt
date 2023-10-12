@@ -1,0 +1,53 @@
+SUBJECTIVE
+
+AGE
+57y
+
+Gender
+female
+
+Cheif Complaint
+Hypertensive follow up 
+
+History of presenting Illness (HPI)
+Known hypertensive patient
+Follow up 
+
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Constitutional
+- General appearance (Normal )
+- Level of alertness (Active, No comment)
+- State of health (Well appearing, No comment)
+- State of comfort or distress (Comfortable, No comment)
+
+Vital Signs
+Blood pressure(146/101 mm[Hg])
+
+Anthropometry
+Height(170 cm) Weight(68.5 kg) BMI(23.7 kg/m2)
+
+ASSESSMENT
+
+Diagnosis
+Essential (primary) hypertension
+
+Differential Diagnosis
+
+
+
+PLAN
+
+Treatment plan
+Tabs Amlodiphine5mg daily x28days 
+
+Exhaustive list of Medicine prescribed
+5mg Amlosam (Amlodipine 5mg)Tablets x28 Once a day 28 days
+
+
+Follow up appointment
+Home care(2023-09-01T00:00:00+01:00)
+
+

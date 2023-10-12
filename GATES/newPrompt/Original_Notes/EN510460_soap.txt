@@ -1,0 +1,77 @@
+SUBJECTIVE
+
+AGE
+25y
+
+Gender
+male
+
+Cheif Complaint
+For Wound Dressing
+
+History of presenting Illness (HPI)
+Patient seen for wound dressing.
+Being managed for Impetigo KIV soft tissue infection.
+Wound is better today with minimal dried serous discharge, no active bleeding, swelling is less.
+No fresh complaint
+History as previously documented
+
+
+Review of system
+Current medication
+Diclofenac Sodium
+
+;Fall Risk Assessment
+Assisted (No)
+Pain assessment Assessment
+Do you feel pain? (Yes), Which body site? (Head), Pain scale? (5), How long? (3 days)
+
+Nutrition Assessment
+Is the condition affecting eating, chewing and swallowing?(No), Diet? (), Recent weight change? (), Mucus membrane? (), Any other comments? ()
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Constitutional
+- General appearance (stable with dressing on the forehead)
+- Level of alertness (Awake, No comment)
+- State of health (Well appearing, No comment)
+- State of comfort or distress (Comfortable, No comment)
+
+Skin
+- Rash: Presence (Present), Rash location (forehead), Rash color (both reddish and dark areas), Rash size (N/A). with open areas and minimum dried discharge
+- Macules (Absent). No comment
+- Papules (Present). No comment
+- Plaques (Absent). No comment
+- Nodules, Vesicles, Bullae (Present). No comment
+- Pustules, Urticaria, Scales (Absent). No comment
+- Crust, Scabs, Ulcers (Absent). No comment
+- Petechiae, Purpura, Scar (Absent). No comment
+- Burn: Presence (Absent), Rash location (N/A), Rash color (N/A), Rash size (N/A). No comment
+- Skin tags (Absent). No comment
+
+Vital Signs
+Blood pressure(110/80 mm[Hg])
+
+Anthropometry
+Height(164 cm) Weight(56 kg) BMI(20.8 kg/m2)
+
+ASSESSMENT
+
+Diagnosis
+Impetigo
+
+Differential Diagnosis
+
+
+
+PLAN
+
+Treatment plan
+Continue alternate day dressing
+Continue ongoing treatment
+
+Follow up appointment
+Follow up consultation (2023-08-18T10:00:00+01:00)
+
+

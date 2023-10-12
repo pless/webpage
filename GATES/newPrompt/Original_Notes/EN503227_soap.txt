@@ -1,0 +1,41 @@
+SUBJECTIVE
+
+AGE
+32y
+
+Gender
+female
+
+Cheif Complaint
+Chest pain
+
+History of presenting Illness (HPI)
+Chest pain x2days
+Backaches x2days 
+
+
+;Fall Risk Assessment
+Pain assessment Assessment
+Do you feel pain? (Yes), Which body site? (Chest), Pain scale? (4), How long? (2 days)
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Vital Signs
+Blood pressure(110/90 mm[Hg])
+
+ASSESSMENT
+
+Diagnosis
+
+
+Differential Diagnosis
+
+
+
+PLAN
+
+Treatment plan
+
+
+

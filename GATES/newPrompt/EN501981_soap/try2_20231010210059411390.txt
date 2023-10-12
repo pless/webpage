@@ -1,0 +1,9 @@
+1. Yes, the treatment of chlopheniramine syrup is consistent with the diagnosis of allergic rhinitis.
+2. Yes, the diagnosis of allergic rhinitis is consistent with the symptoms of runny nose and sneezing.
+3. No additional tests seem necessary based on the given symptoms and diagnosis.
+4. Notable is the absence of blood pressure reading. This should ideally be recorded.
+5. These symptoms can be signs of other respiratory diseases, but given the patient's age and symptoms, allergic rhinitis is a likely diagnosis. If symptoms persist or worsen, consider tests for Malaria or Typhoid.
+6. Questions: 
+   a) Have you been around any allergens like dust, pollen, or pets? (Yes can confirm allergic rhinitis)
+   b) Have you had a fever or body aches? (Yes could indicate something more serious like Malaria or Typhoid) 
+   c) Have these symptoms occurred before? If yes, when and how often? (Frequent occurrence can indicate chronic allergic rhinitis)

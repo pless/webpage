@@ -1,0 +1,6 @@
+Missing: Treatment plan
+Missing: Diagnosis
+Slight problem: Possible need for malaria test
+Slight problem: Lack of information on other symptoms
+Serious problem: Potential for a more serious condition like Meningitis or Malaria
+Slight problem: Additional questions needed about fever and living conditions

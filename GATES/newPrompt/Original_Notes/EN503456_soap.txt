@@ -1,0 +1,55 @@
+SUBJECTIVE
+
+AGE
+62y
+
+Gender
+male
+
+Cheif Complaint
+Blood pressure monitoring 
+
+History of presenting Illness (HPI)
+Patient is know hypertensive, recently having trouble with sleeping that he wakes up at night for two days now.
+
+Medical History
+Secondary hypertension
+
+
+Review of system
+Current medication
+Lisinopril
+
+Nutrition Assessment
+Is the condition affecting eating, chewing and swallowing?(No), Diet? (), Recent weight change? (), Mucus membrane? (), Any other comments? ()
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Pulse/Heart beat
+- Cardiovascular system: S2 (Normal), S1 (Normal), Murmur (Absent), Gallop (Absent), Jugular venous distension (Absent). No comment
+
+Vital Signs
+Blood pressure(), Blood pressure(130/90 mm[Hg])
+
+Anthropometry
+Height(160 cm) Weight(65 kg) BMI(25.4 kg/m2)
+
+ASSESSMENT
+
+Diagnosis
+Secondary hypertension
+
+Differential Diagnosis
+
+
+
+PLAN
+
+Treatment plan
+1. Continue ongoing medication
+2. Having an exercise regularly
+3. Avoid salt in take
+4. Be entertained before going to bed
+
+

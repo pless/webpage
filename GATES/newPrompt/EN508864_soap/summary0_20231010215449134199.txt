@@ -1,0 +1,1 @@
+Slight problem: The patient's high blood pressure and low BMI indicate possible hypertension and malnutrition.

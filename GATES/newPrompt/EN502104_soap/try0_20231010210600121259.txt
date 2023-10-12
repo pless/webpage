@@ -1,0 +1,10 @@
+1. Treatment isn't provided so it can't be assessed if it's consistent with the diagnosis.
+2. There isn't any diagnosis provided to compare with the observations.
+3. A test for Typhoid could be beneficial as the symptoms can be similar to Malaria. 
+4. Patient's fever and headache are the only symptoms provided, further information is needed. 
+5. Yes, these symptoms could indicate a serious problem such as meningitis. However, without a lumbar puncture, it can't be ruled out. If possible, refer to a facility that can perform this test.
+6. Questions: 
+   a. Have you noticed any rashes or spots on your body?
+  Be attentive to: Any affirmative answer, could indicate meningococcal disease.
+   b. Have you had any neck stiffness or light sensitivity?
+  Be attentive to: Yes, these are symptoms of meningitis.

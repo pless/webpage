@@ -1,0 +1,6 @@
+Missing: Treatment plan.
+Serious problem: Missing specific diagnosis.
+Slight problem: Missing blood pressure measurement.
+No problems found.
+No problems found.
+No problems found.

@@ -1,0 +1,1 @@
+Missing: Patient complaints, diagnosis, treatment plan, and differential diagnoses.

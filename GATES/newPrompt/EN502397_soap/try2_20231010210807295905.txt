@@ -1,0 +1,9 @@
+1. The treatment is not specified, but the patient has been tested for Malaria which is inconsistent with the diagnosis of Allergic Rhinitis.
+2. The diagnosis of Allergic Rhinitis is consistent with the symptoms of fever, catarrh, and headache.
+3. A test for Typhoid could be helpful as it can also cause fever and headache. 
+4. Notable is that the patient has a pain scale of 5, indicating moderate pain.
+5. These symptoms could be from a more serious problem like Typhoid or Meningitis. Typhoid can be ruled out with a test, Meningitis cannot with available resources.
+6. Ask the patient: 
+   a) "Have you had contact with anyone sick recently?" - Look for yes.
+   b) "Have you noticed any rashes or stiff neck?" - Look for yes. 
+   c) "Have you travelled recently?" - Look for travel to endemic areas.

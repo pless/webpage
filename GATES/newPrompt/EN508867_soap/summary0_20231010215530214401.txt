@@ -1,0 +1,2 @@
+Missing: Treatment plan and diagnosis.
+Serious problem: Missing diagnosis.

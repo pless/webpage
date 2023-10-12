@@ -1,0 +1,46 @@
+SUBJECTIVE
+
+AGE
+44y
+
+Gender
+male
+
+Cheif Complaint
+Family history of diabetes 
+
+History of presenting Illness (HPI)
+Patient requested for fasting blood sugar test 
+
+
+;Fall Risk Assessment
+Pain assessment Assessment
+Do you feel pain? (Yes), Which body site? (Head), Pain scale? (3), How long? (2 days)
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Vital Signs
+Blood pressure(117/71 mm[Hg])
+
+Anthropometry
+Height(170 cm) Weight(89.7 kg) BMI(31 kg/m2)
+
+ASSESSMENT
+
+Diagnosis
+Family history of diabetes mellitus
+
+Differential Diagnosis
+Family history of diabetes mellitus
+
+
+PLAN
+
+Treatment plan
+Counselling on dietary.
+
+Exhaustive list of Investigations Ordered
+Fasting Blood Glucose (done)
+
+

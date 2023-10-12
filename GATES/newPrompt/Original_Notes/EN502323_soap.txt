@@ -1,0 +1,39 @@
+SUBJECTIVE
+
+AGE
+40y
+
+Gender
+female
+
+Cheif Complaint
+Patient needed family planning 
+
+History of presenting Illness (HPI)
+Patient needed a family planning injection 
+
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Vital Signs
+Blood pressure(122/89 mm[Hg])
+
+Anthropometry
+Height(160 cm) Weight(55.4 kg) BMI(21.6 kg/m2)
+
+ASSESSMENT
+
+Diagnosis
+Other contraceptive management
+
+Differential Diagnosis
+Contraceptive management
+
+
+PLAN
+
+Treatment plan
+I.m noristerant injection once repeat in two months 
+
+

@@ -1,0 +1,44 @@
+SUBJECTIVE
+
+AGE
+35y
+
+Gender
+female
+
+Cheif Complaint
+Heartburn 
+
+History of presenting Illness (HPI)
+Pt said to be having discomforting and burning sensation around chest 
+
+
+;Fall Risk Assessment
+Assisted (No)
+Pain assessment Assessment
+Do you feel pain? (Yes), Which body site? (Chest), Pain scale? (5), How long? (2 hours)
+
+Nutrition Assessment
+Is the condition affecting eating, chewing and swallowing?(No), Diet? (), Recent weight change? (), Mucus membrane? (), Any other comments? ()
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Vital Signs
+Blood pressure(120/80 mm[Hg])
+
+ASSESSMENT
+
+Diagnosis
+
+
+Differential Diagnosis
+
+
+
+PLAN
+
+Treatment plan
+
+
+

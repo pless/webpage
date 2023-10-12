@@ -1,0 +1,43 @@
+SUBJECTIVE
+
+AGE
+62y
+
+Gender
+female
+
+Cheif Complaint
+Follow up visit 
+
+History of presenting Illness (HPI)
+Known hypertensive follow up visit 
+
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Vital Signs
+Blood pressure(136/76 mm[Hg])
+
+ASSESSMENT
+
+Diagnosis
+Primary pulmonary hypertension
+
+Differential Diagnosis
+Hypertensive heart disease
+
+
+PLAN
+
+Treatment plan
+Tabs Amlodiphine5mg dailyx14 
+
+Exhaustive list of Medicine prescribed
+5mg Amlosam (Amlodipine 5mg)Tablets x28 Once a day 14 days
+
+
+Follow up appointment
+Next visit(2023-05-31T00:00:00+01:00)
+
+

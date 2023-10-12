@@ -1,0 +1,41 @@
+SUBJECTIVE
+
+AGE
+18y
+
+Gender
+female
+
+Cheif Complaint
+Chronic Headache 
+
+History of presenting Illness (HPI)
+Patients noticed a mild pain with a rate of 4 on the pain scale, said it to be recurrent mostly after 3 - 3 days of about two weeks now. Pt has not trouble sleeping and no any history of head injury
+
+
+;Fall Risk Assessment
+Pain assessment Assessment
+Do you feel pain? (Yes), Which body site? (Head), Pain scale? (4), How long? (2 weeks)
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Vital Signs
+Blood pressure(135/85 mm[Hg])
+
+ASSESSMENT
+
+Diagnosis
+Other headache syndromes
+
+Differential Diagnosis
+Headache
+
+
+PLAN
+
+Treatment plan
+Tab. Paracetamol 500mg tds
+See a doctor for further review
+
+

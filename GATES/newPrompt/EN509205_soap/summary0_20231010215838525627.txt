@@ -1,0 +1,3 @@
+Missing: Specific diagnosis
+
+The SOAP note is missing a specific diagnosis for the patient's symptoms.

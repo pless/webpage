@@ -1,0 +1,77 @@
+SUBJECTIVE
+
+AGE
+2y
+
+Gender
+male
+
+Cheif Complaint
+Right ear pain x 3/7
+Cough & cattarh x3/7
+
+History of presenting Illness (HPI)
+A 2 year old boy brought with c/o right ear pain x 3/7
+He started complaining to the mother about right ear pain 3 days ago and frequently pulling the ear, it was sudden, gradually worsening, no known aggravating or relieving factor. patient could not sleep last night due to the pain.
+There is associated runny nose and occasional mild cough.
+No ear discharge or fever.
+He is eating well and is said to be fully immunized for age.
+
+
+
+;Fall Risk Assessment
+Pain assessment Assessment
+Do you feel pain? (Yes), Which body site? (Face/Jaw/temple), Pain scale? (4), How long? (3 days)
+
+Nutrition Assessment
+Is the condition affecting eating, chewing and swallowing?(No), Diet? (), Recent weight change? (), Mucus membrane? (), Any other comments? ()
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Constitutional
+- General appearance (stable and playing)
+- Level of alertness (Awake, No comment)
+- State of health (Well appearing, No comment)
+- State of comfort or distress (Comfortable, No comment)
+
+Ear Nose Mouth & Nose
+- Left ear (Normal). No comment
+- right ear (Discharge). scanty discharge seen
+- Left middle ear (Discharge). scanty discharge seen
+- Left tympanic membrane: View (Adequate), Appearance (Translucent), Reason for occlusion (N/A), Membrane intact? (Intact) Colour (N/A), Fluid level presence (Absent), Surface features (N/A), Position of tympanic membrane (Neutral), Fluid level description (N/A)
+- Right tympanic membrane: View (Adequate), Appearance (Translucent), Reason for occlusion (N/A), Membrane intact? (Intact) Colour (N/A), Fluid level presence (Present), Surface features (N/A), Position of tympanic membrane (Neutral), Fluid level description (N/A)
+- Nose (Discharge). No comment
+- Tooth (Normal). No comment
+- Tongue (Normal). No comment
+
+Vital Signs
+Blood pressure(0/0 mm[Hg])
+
+Anthropometry
+Height(81 cm) Weight(12 kg) BMI(18.3 kg/m2)
+
+ASSESSMENT
+
+Diagnosis
+Acute serous otitis media
+
+Differential Diagnosis
+Acute upper respiratory infection, unspecified
+
+
+PLAN
+
+Treatment plan
+Suspension Ibuprofen 100mg TDS x 5/7
+Counsel mother on home care
+To review in 5/7
+
+Exhaustive list of Medicine prescribed
+5mL Tabufen (Ibuprofen 100mg/5ml) Suspension100ml  X 1 3 times per day 5 days
+
+
+Follow up appointment
+Follow up consultation (2023-08-21T10:00:00+01:00)
+
+

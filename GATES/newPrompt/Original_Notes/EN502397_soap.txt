@@ -1,0 +1,44 @@
+SUBJECTIVE
+
+AGE
+40y
+
+Gender
+female
+
+Cheif Complaint
+Patient is having fever, headache Catarrh and coughing
+for 3days
+
+History of presenting Illness (HPI)
+Fever started 3days ago with Catarrh 
+
+
+;Fall Risk Assessment
+Pain assessment Assessment
+Do you feel pain? (Yes), Which body site? (Head), Pain scale? (5), How long? (3 days)
+
+OBJECTIVE
+Physical Examination (All Physical Examination conducted)
+
+Vital Signs
+Blood pressure(113/76 mm[Hg])
+
+ASSESSMENT
+
+Diagnosis
+Allergic rhinitis, unspecified
+
+Differential Diagnosis
+Allergic rhinitis, unspecified
+
+
+PLAN
+
+Treatment plan
+Malaria RDT is negative 
+
+Exhaustive list of Investigations Ordered
+Malaria Parasite RDT (done)
+
+

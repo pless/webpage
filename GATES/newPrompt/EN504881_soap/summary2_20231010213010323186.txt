@@ -1,0 +1,3 @@
+Missing: treatment plan, diagnosis, patient's history of presenting illness.
+Normal: slight problem with lack of vital information and incomplete history.
+Possible serious problem: persistent headaches could be a sign of serious conditions like meningitis or brain tumors.

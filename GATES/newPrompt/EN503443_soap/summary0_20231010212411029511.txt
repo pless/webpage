@@ -1,0 +1,3 @@
+Missing: Treatment plan, diagnosis, detailed symptoms, medical history. 
+Serious problem: Chest pain might not be consistent with the observations. 
+Slight problem: Urine analysis could be helpful to rule out urinary tract infection.
