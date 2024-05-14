@@ -72,7 +72,7 @@ most outstanding students I have ever known.  Students I am currently working wi
    <A onmouseover="swap('webImages/people.jpg');changetext('Morgan Redding, Washington University, Class of 2017')">Morgan Redding</a><br>
    <A onmouseover="swap('webImages/people.jpg');changetext('Daniel Gordon, Washington University, Class of 2014, now at Google')">Daniel Gordon</a><br>
    <A onmouseover="swap('webImages/people.jpg');changetext('Micah Goodman, Washington University, Class of 2017')">Micah Goodman</a><br>
-   <A onmouseover="swap('webImages/people.jpg');changetext('Ali Bukys, Washington University, Class of 2016')">Ali Bukys</a><br>
+   <A onmouseover="swap('webImages/people.jpg');changetext('Avi Bukys, Washington University, Class of 2016')">Ali Bukys</a><br>
    <A onmouseover="swap('webImages/people.jpg');changetext('Hannah Siebers, Washington University, Class of 2014')">Hannah Siebers</a><br>
    <A onmouseover="swap('webImages/hawley.jpg');changetext('Chris Hawley, Washington University, Class of 2013 (Dec.), now at Amazon/A9')">Christopher Hawley</a><br>
    <A onmouseover="swap('webImages/people.jpg');changetext('Calvin Murdock, Washington University, Class of 2013, now PhD student at CMU')">Calvin Murdock</a><br>
