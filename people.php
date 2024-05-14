@@ -104,6 +104,7 @@ most outstanding students I have ever known.  Students I am currently working wi
       <A onmouseover="swap('webImages/people.jpg');changetext('Yu Wu, George Washington University, MS Dec. 2024')">Yu Wu</a><br>
 <br>
 <br>
+<br>
 <!-- ALUMNI MS -->
 <i>   
     <A onmouseover="swap('webImages/people.jpg');changetext('Maya Shende, George Washington University MS 2020')">Maya Shende</A><br>
