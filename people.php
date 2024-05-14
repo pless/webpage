@@ -144,20 +144,22 @@ https://plus.google.com/105258061927639811990/about">Jacob Perkins</a><br>
 </TD>
     <TD valign="top" align=center><h4>Doctoral Students/ <br> Research Scientists</h4><BR>
 <!-- CURRENT -->
-    <A onmouseover="swap('webImages/people.jpg');changetext('Zeyu Zhang, George Washington University, Expected Graduation 2023')">Zeyu Zhang</A><br>
-    <A onmouseover="swap('webImages/people.jpg');changetext('Xiaotong Liu, George Washington University, Expected Graduation 2023')">Xiaotong Liu</A><br>
-    <A onmouseover="swap('webImages/people.jpg');changetext('Justine Manning, George Washington University, Expected Graduation 2025')">Justine Manning</A><br>
+    <A onmouseover="swap('webImages/people.jpg');changetext('Justine Manning, George Washington University, Expected Graduation 2026')">Justine Manning</A><br>
+    <A onmouseover="swap('webImages/people.jpg');changetext('Grady McPeak, George Washington University, Expected Graduation 2027')">Grady McPeak</A><br>
+    <A onmouseover="swap('webImages/people.jpg');changetext('Kevin Robbins, George Washington University, Expected Graduation 2027')">Kevin Robbins</A><br>
     <!-- ALUMNI -->
  <br>
     <i> 
-    <A onmouseover="swap('webImages/people.jpg');changetext('Hong Xuan, George Washington University, PhD 2021.  Now on Bing Image Search Team @ Microsoft')">Hong Xuan</A><br>
-    <A onmouseover="swap('webImages/abby.jpg');changetext('Abby Stylianou, PhD, Assistant Professor, Saint Louis University')" href="http://www2.seas.wustl.edu/~astylianou/">Abby Stylianou, PhD</A><br>
+    <A onmouseover="swap('webImages/people.jpg');changetext('Zeyu Zhang, George Washington University, Graduated Dec. 2023')">Zeyu Zhang, PhD</A><br>
+    <A onmouseover="swap('webImages/people.jpg');changetext('Xiaotong Liu, George Washington University, Graduated May. 2024 2023')">Xiaotong Liu, PhD</A><br>
+    <A onmouseover="swap('webImages/people.jpg');changetext('Hong Xuan, George Washington University, PhD 2021.  Machine Learning Engineer, TikTok (previously Bing Image Search Team @ Microsoft)')">Hong Xuan, PhD</A><br>
+    <A onmouseover="swap('webImages/abby.jpg');changetext('Abby Stylianou, PhD, Associate Professor, Saint Louis University')" href="http://www2.seas.wustl.edu/~astylianou/">Abby Stylianou, PhD</A><br>
     <A onmouseover="swap('webImages/people.jpg');changetext('Zongyang Li, now a research Scientist at the Donald Danforth Plant Science Center')"> 
     Zongyang Li</A><br>
    <A onmouseover="swap('webImages/Ian.jpg'); changetext('Ian Schillebeeckx')"
 href="http://www.cse.wustl.edu/~schillebeeckxi/">
 Ian Schillebeeckx, PhD</A><br>
-    <A onmouseover="swap('webImages/austin.jpg');changetext('Now at Google Research')"  
+    <A onmouseover="swap('webImages/austin.jpg');changetext('Now at the Waymo team @ Google')"  
 href="http://research.engineering.wustl.edu/~abramsa/">Austin Abrams, PhD</A><br>
    <A onmouseover="swap('webImages/david.jpg'); 
 changetext('David Lu PhD, jointly advised with Bill Smart.  Now at Bossa Nova Robotics.')"
@@ -168,8 +170,8 @@ href="https://www.linkedin.com/pub/zachary-freudenburg/6a/a92/993">
     <A onmouseover="swap('webImages/tucek.jpg');changetext('Jayne Tucek, staff scientist, now at NestLabs/Google')" href="https://www.linkedin.com/in/jayne-tucek/">Jayne Tucek</A><br>
     <A onmouseover="swap('webImages/dixon.jpg');changetext('Michael Dixon, BS/MS 2003, staff scientist until 2011, Willow Garage, Reflektion, Nest Labs/Google')" href="http://www.cs.wustl.edu/~msd2/">Michael Dixon</A><br>
     <A onmouseover="swap('webImages/manfred.jpg');changetext('Manfred Georg, PhD 2010, now at Google')" href="http://www.cse.wustl.edu/~mgeorg/index.html">Manfred Georg, PhD</A><br>
-    <A onmouseover="swap('webImages/nathan_jacobs.jpg');changetext('Nathan Jacobs, PhD 2010, now Associate Professor at University of Kentucky')"href="http://cs.uky.edu/~jacobs/">Nathan Jacobs, PhD</A><br>
-    <A onmouseover="swap('webImages/richard.jpg');changetext('Richard Souvenir, PhD 2006, now Professor/Associate Dean @ Temple')">Richard Souvenir, PhD</A><br>
+    <A onmouseover="swap('webImages/nathan_jacobs.jpg');changetext('Nathan Jacobs, PhD 2010, now Full Professor at Washington University in St. Louis')"href="http://cs.uky.edu/~jacobs/">Nathan Jacobs, PhD</A><br>
+    <A onmouseover="swap('webImages/richard.jpg');changetext('Richard Souvenir, PhD 2006, now Professor/ Vice Provost @ Temple')">Richard Souvenir, PhD</A><br>
     <A onmouseover="swap('webImages/qilong.jpg');changetext('Qilong Zhang, PhD 2006, now at Nomura')" href="http://www.cs.wustl.edu/~zql">Qilong Zhang, PhD</A><br>
 </i>
 <br><br>
