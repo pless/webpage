@@ -57,6 +57,10 @@ most outstanding students I have ever known.  Students I am currently working wi
   <TBODY><TR>
     <TD valign="top" align=center><h4>Undergraduate Students</h4><BR>
 <!-- CURRENT Ugrad -->
+      <br>
+      <br>
+      <br>
+      <br>
 <!-- ALUMNI Ugrad -->
 <br>  <i>
 <A onmouseover="swap('webImages/people.jpg');changetext('Rishiraj Kanungo, George Washington University, GWU Class of 2022')">Rishiraj Kanungo</a><br>
@@ -98,8 +102,6 @@ most outstanding students I have ever known.  Students I am currently working wi
 <!-- CURRENT MS -->
       <br>
       <A onmouseover="swap('webImages/people.jpg');changetext('Yu Wu, George Washington University, MS Dec. 2024')">Yu Wu</a><br>
-<br>
-<br>
 <br>
 <br>
 <!-- ALUMNI MS -->
